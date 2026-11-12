@@ -1,96 +1,120 @@
 {
  "hijab-premium-jersey/01.jpg": {
-  "width": 612,
-  "height": 614,
+  "width": 1224,
+  "height": 1228,
   "widths": [
    160,
    320,
    480,
-   612
+   640,
+   800,
+   1000,
+   1224
   ],
   "base": "hijab-premium-jersey/01"
  },
  "khimar-one-layer/01.jpg": {
-  "width": 800,
-  "height": 1200,
+  "width": 1600,
+  "height": 2400,
   "widths": [
    160,
    320,
    480,
    640,
-   800
+   800,
+   1000,
+   1200,
+   1600
   ],
   "base": "khimar-one-layer/01"
  },
  "open-abaya-linen/01.jpg": {
-  "width": 650,
-  "height": 613,
+  "width": 1300,
+  "height": 1225,
   "widths": [
    160,
    320,
    480,
    640,
-   650
+   800,
+   1000,
+   1200,
+   1300
   ],
   "base": "open-abaya-linen/01"
  },
  "khimar-two-layer/01.jpg": {
-  "width": 753,
-  "height": 729,
+  "width": 1506,
+  "height": 1458,
   "widths": [
    160,
    320,
    480,
    640,
-   753
+   800,
+   1000,
+   1200,
+   1506
   ],
   "base": "khimar-two-layer/01"
  },
  "closed-dress-linen/01.jpg": {
-  "width": 662,
-  "height": 631,
+  "width": 1324,
+  "height": 1261,
   "widths": [
    160,
    320,
    480,
    640,
-   662
+   800,
+   1000,
+   1200,
+   1324
   ],
   "base": "closed-dress-linen/01"
  },
  "abaya-hooded-nida/01.jpg": {
-  "width": 800,
-  "height": 804,
+  "width": 1600,
+  "height": 1609,
   "widths": [
    160,
    320,
    480,
    640,
-   800
+   800,
+   1000,
+   1200,
+   1600
   ],
   "base": "abaya-hooded-nida/01"
  },
  "abaya-wrinkle-polyester/01.jpg": {
-  "width": 800,
-  "height": 1200,
+  "width": 1600,
+  "height": 2400,
   "widths": [
    160,
    320,
    480,
    640,
-   800
+   800,
+   1000,
+   1200,
+   1600
   ],
   "base": "abaya-wrinkle-polyester/01"
  },
  "abaya-nida/01.jpg": {
-  "width": 800,
-  "height": 1177,
+  "width": 1600,
+  "height": 2358,
   "widths": [
    160,
    320,
    480,
    640,
-   800
+   800,
+   1000,
+   1200,
+   1600
   ],
   "base": "abaya-nida/01"
  }

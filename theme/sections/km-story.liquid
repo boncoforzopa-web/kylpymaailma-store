@@ -7,7 +7,7 @@
     </div>
     {%- assign p = section.settings.product -%}
     {%- if p and p.featured_image -%}
-      <div class="km-story__media">{{ p.featured_image | image_url: width: 800 | image_tag: loading: 'eager', widths: '480, 640, 800', sizes: '(min-width: 990px) 38vw, 100vw', alt: p.title }}</div>
+      <div class="km-story__media">{{ p.featured_image | image_url: width: 1200 | image_tag: loading: 'eager', widths: '480, 640, 800, 1000, 1200', sizes: '(min-width: 990px) 38vw, 100vw', alt: p.title }}</div>
     {%- endif -%}
   </div>
 </section>

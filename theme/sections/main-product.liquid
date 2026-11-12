@@ -25,9 +25,9 @@
                 {%- if forloop.first -%}{%- assign ld = 'eager' -%}{%- else -%}{%- assign ld = 'lazy' -%}{%- endif -%}
                 <button type="button" class="tw-gallery__zoom" data-zoom="{{ media | image_url: width: 2400 }}" aria-label="Suurenna kuva {{ forloop.index }}">
                   <span class="tw-gallery__frame">
-                    {{ media | image_url: width: 1400 | image_tag:
+                    {{ media | image_url: width: 1600 | image_tag:
                       loading: ld,
-                      widths: '480, 640, 800',
+                      widths: '480, 640, 800, 1000, 1200, 1600',
                       sizes: '(min-width: 990px) 46vw, 100vw',
                       alt: media.alt | default: product.title
                     }}

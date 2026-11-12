@@ -13,13 +13,13 @@
     <div class="km-hero__media">
       {%- if p1 and p1.featured_image -%}
         <a href="{{ p1.url }}" class="km-hero__img km-hero__img--a">
-          {{ p1.featured_image | image_url: width: 800 | image_tag: loading: 'eager', fetchpriority: 'high', widths: '480, 640, 800', sizes: '(min-width: 990px) 34vw, 62vw', alt: p1.title }}
+          {{ p1.featured_image | image_url: width: 1200 | image_tag: loading: 'eager', fetchpriority: 'high', widths: '480, 640, 800, 1000, 1200', sizes: '(min-width: 990px) 34vw, 62vw', alt: p1.title }}
           <span class="km-hero__cap">{{ p1.title }} · {{ p1.price | money_without_currency | strip | append: ' €' }}</span>
         </a>
       {%- endif -%}
       {%- if p2 and p2.featured_image -%}
         <a href="{{ p2.url }}" class="km-hero__img km-hero__img--b">
-          {{ p2.featured_image | image_url: width: 640 | image_tag: loading: 'eager', widths: '320, 480, 640', sizes: '(min-width: 990px) 20vw, 36vw', alt: p2.title }}
+          {{ p2.featured_image | image_url: width: 800 | image_tag: loading: 'eager', widths: '320, 480, 640, 800', sizes: '(min-width: 990px) 20vw, 36vw', alt: p2.title }}
           <span class="km-hero__cap">{{ p2.title }} · {{ p2.price | money_without_currency | strip | append: ' €' }}</span>
         </a>
       {%- endif -%}

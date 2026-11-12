@@ -9,7 +9,7 @@
         {%- unless pimg -%}{%- for p in c.products -%}{%- if p.featured_image -%}{%- assign pimg = p.featured_image -%}{%- break -%}{%- endif -%}{%- endfor -%}{%- endunless -%}
         <li>
           <a href="{{ c.url }}" class="km-cat">
-            <span class="km-cat__media">{%- if pimg -%}{{ pimg | image_url: width: 640 | image_tag: loading: 'lazy', widths: '320, 480, 640', sizes: '(min-width: 990px) 24vw, 46vw', alt: '' }}{%- endif -%}</span>
+            <span class="km-cat__media">{%- if pimg -%}{{ pimg | image_url: width: 800 | image_tag: loading: 'lazy', widths: '320, 480, 640, 800, 1000', sizes: '(min-width: 990px) 24vw, 46vw', alt: '' }}{%- endif -%}</span>
             <span class="km-cat__name">{{ c.title }}</span>
             <span class="km-cat__n">{{ c.all_products_count }} {% if c.all_products_count == 1 %}tuote{% else %}tuotetta{% endif %}</span>
           </a>

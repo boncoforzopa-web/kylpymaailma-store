@@ -17,7 +17,7 @@ DATA = os.path.join(ROOT, 'data')
 IMG_OUT = os.path.join(ROOT, 'public', 'images')
 VENDOR = 'Kylpymaailma'
 NOW = '2026-11-12T12:00:00Z'
-WIDTHS = [160, 320, 480, 640, 800]
+WIDTHS = [160, 320, 480, 640, 800, 1000, 1200, 1600]
 
 # colour name in the CSV -> (Finnish name, fallback swatch hex when variants.csv has no Colour_Hex)
 COLOURS = {
@@ -169,12 +169,14 @@ def build_images(handle):
         return None
     im = Image.open(src).convert('RGB')
     im = trim_bands(im)
+    if im.size[0] > WIDTHS[-1]:  # nothing on the site needs more than the largest step
+        im = im.resize((WIDTHS[-1], round(im.size[1] * WIDTHS[-1] / im.size[0])), Image.LANCZOS)
     w, h = im.size
-    widths = sorted(set([x for x in WIDTHS if x < w] + [w]))
+    widths = sorted(set([x for x in WIDTHS if x < w * 0.93] + [w]))
     out_dir = os.path.join(IMG_OUT, handle)
     os.makedirs(out_dir, exist_ok=True)
     for x in widths:
-        im.resize((x, round(h * x / w)), Image.LANCZOS).save(os.path.join(out_dir, f'01-{x}.webp'), 'WEBP', quality=84, method=6)
+        im.resize((x, round(h * x / w)), Image.LANCZOS).save(os.path.join(out_dir, f'01-{x}.webp'), 'WEBP', quality=86 if x >= 800 else 84, method=6)
     return {'width': w, 'height': h, 'widths': widths, 'base': f'{handle}/01'}
 
 

@@ -58,8 +58,8 @@
     "src": "",
     "local": "images/hijab-premium-jersey/01.jpg",
     "alt": "Premium-jerseyhijab",
-    "width": 612,
-    "height": 614
+    "width": 1224,
+    "height": 1228
    }
   ],
   "variants": [
@@ -251,8 +251,8 @@
     "src": "",
     "local": "images/khimar-one-layer/01.jpg",
     "alt": "Yksikerroksinen khimar",
-    "width": 800,
-    "height": 1200
+    "width": 1600,
+    "height": 2400
    }
   ],
   "variants": [
@@ -449,8 +449,8 @@
     "src": "",
     "local": "images/open-abaya-linen/01.jpg",
     "alt": "Avoin pellava-abaya",
-    "width": 650,
-    "height": 613
+    "width": 1300,
+    "height": 1225
    }
   ],
   "variants": [
@@ -892,8 +892,8 @@
     "src": "",
     "local": "images/khimar-two-layer/01.jpg",
     "alt": "Kaksikerroksinen khimar",
-    "width": 753,
-    "height": 729
+    "width": 1506,
+    "height": 1458
    }
   ],
   "variants": [
@@ -1054,8 +1054,8 @@
     "src": "",
     "local": "images/closed-dress-linen/01.jpg",
     "alt": "Pitkähihainen pellavamekko",
-    "width": 662,
-    "height": 631
+    "width": 1324,
+    "height": 1261
    }
   ],
   "variants": [
@@ -1506,8 +1506,8 @@
     "src": "",
     "local": "images/abaya-hooded-nida/01.jpg",
     "alt": "Nida-abaya kiinteällä hijabilla",
-    "width": 800,
-    "height": 804
+    "width": 1600,
+    "height": 1609
    }
   ],
   "variants": [
@@ -1808,8 +1808,8 @@
     "src": "",
     "local": "images/abaya-wrinkle-polyester/01.jpg",
     "alt": "Avoin abaya rypytetystä polyesteristä",
-    "width": 800,
-    "height": 1200
+    "width": 1600,
+    "height": 2400
    }
   ],
   "variants": [
@@ -2334,8 +2334,8 @@
     "src": "",
     "local": "images/abaya-nida/01.jpg",
     "alt": "Avoin nida-abaya",
-    "width": 800,
-    "height": 1177
+    "width": 1600,
+    "height": 2358
    }
   ],
   "variants": [
