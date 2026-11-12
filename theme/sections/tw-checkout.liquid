@@ -62,8 +62,8 @@
         <ul class="tw-co__items" role="list">
           {%- for item in cart.items -%}
             <li class="tw-co__item">
-              <span class="tw-co__thumb">{% if item.image %}{{ item.image | image_url: width: 160 | image_tag: alt: '', widths: '160, 320', sizes: '64px' }}{% endif %}<b class="tw-co__qty">{{ item.quantity }}</b></span>
-              <span class="tw-co__item-body"><a href="{{ item.product.url }}" class="tw-co__item-title">{{ item.product.title }}</a>
+              <span class="tw-co__thumb">{% if item.image %}{{ item.image | image_url: width: 160 | image_tag: alt: '', widths: '160, 320', sizes: '64px' }}{% endif %}{%- if item.variant.colour_hex != blank -%}<span class="km-thumbdot" style="--c: {{ item.variant.colour_hex }}" title="{{ item.variant.option1 | escape }}"></span>{%- endif -%}<b class="tw-co__qty">{{ item.quantity }}</b></span>
+              <span class="tw-co__item-body"><a href="{{ item.url }}" class="tw-co__item-title">{{ item.product.title }}</a>
                 {%- unless item.product.has_only_default_variant -%}<span class="tw-small tw-muted">{{ item.variant.title }}</span>{%- endunless -%}
                 {%- if item.quantity > 1 -%}<span class="tw-small tw-muted">{{ item.quantity }} × {{ item.price | money_without_currency | strip | append: ' €' }}</span>{%- endif -%}
               </span>

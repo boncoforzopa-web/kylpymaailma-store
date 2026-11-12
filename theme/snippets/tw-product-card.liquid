@@ -1,10 +1,34 @@
-{%- comment -%} Params: product, index, heading_level ('h3') {%- endcomment -%}
+{%- comment -%}
+  Params: product, index, heading_level ('h3'), colour (optional colour name: the card then
+  links to that colour's variant, shows its price and stock, and names the colour)
+{%- endcomment -%}
 {%- liquid
   assign hl = heading_level | default: 'h3'
-  assign v = product.selected_or_first_available_variant
+  assign cv = false
+  if colour != blank
+    for vv in product.variants
+      if vv.option1 == colour
+        if cv == false
+          assign cv = vv
+        elsif cv.available == false and vv.available
+          assign cv = vv
+        endif
+      endif
+    endfor
+  endif
+  assign card_url = product.url
+  assign sold_out = false
+  if cv
+    assign card_url = cv.url
+    if cv.available == false
+      assign sold_out = true
+    endif
+  elsif product.available == false
+    assign sold_out = true
+  endif
 -%}
 <article class="km-card">
-  <a href="{{ product.url }}" class="km-card__media" tabindex="-1" aria-hidden="true">
+  <a href="{{ card_url }}" class="km-card__media" tabindex="-1" aria-hidden="true">
     {%- if product.featured_media -%}
       {{ product.featured_media | image_url: width: 800 | image_tag:
         loading: 'lazy',
@@ -14,17 +38,22 @@
         class: 'km-card__img'
       }}
     {%- endif -%}
-    {%- if product.available == false -%}
-      <span class="km-card__flag">Loppu varastosta</span>
+    {%- if sold_out -%}
+      <span class="km-card__flag">{% if cv %}{{ colour }} loppu varastosta{% else %}Loppu varastosta{% endif %}</span>
     {%- elsif product.compare_at_price > product.price -%}
       <span class="km-card__flag km-card__flag--sale">−{{ product.compare_at_price | minus: product.price | times: 100 | divided_by: product.compare_at_price }} %</span>
     {%- endif -%}
   </a>
   <div class="km-card__body">
-    <{{ hl }} class="km-card__title"><a href="{{ product.url }}" class="tw-card__link">{{ product.title }}</a></{{ hl }}>
+    <{{ hl }} class="km-card__title"><a href="{{ card_url }}" class="tw-card__link">{{ product.title }}</a></{{ hl }}>
     <div class="km-card__row">
-      {% render 'tw-price', product: product %}
-      {% render 'km-swatches', product: product, limit: 6 %}
+      {%- if cv -%}
+        {% render 'tw-price', product: product, variant: cv %}
+        <span class="km-card__colour"><span class="km-dot" style="--c: {{ cv.colour_hex }}" aria-hidden="true"></span>{{ colour }}</span>
+      {%- else -%}
+        {% render 'tw-price', product: product %}
+        {% render 'km-swatches', product: product, limit: 6 %}
+      {%- endif -%}
     </div>
   </div>
 </article>

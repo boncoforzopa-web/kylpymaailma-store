@@ -392,3 +392,13 @@ a:hover { color: var(--km-spruce); }
 .tw-co__pay { border: 1px solid var(--line); border-radius: var(--r); box-shadow: none; }
 .tw-line .tw-linkbtn { justify-self: start; }
 .tw-line__info > a.tw-linkbtn { justify-self: start; }
+
+/* ---------- Variant colour cues ---------- */
+.km-shade { display: grid; grid-template-columns: 56px 1fr; gap: 14px; align-items: center; margin-top: 12px; padding: 10px; background: #fff; border: 1px solid var(--line); border-radius: var(--r); }
+.km-shade__chip { display: block; width: 56px; height: 56px; border-radius: var(--r-sm); background: var(--c); background-image: repeating-linear-gradient(115deg, rgba(255, 255, 255, .07) 0 2px, transparent 2px 9px); box-shadow: inset 0 0 0 1px rgba(23, 33, 31, .12); transition: background-color .2s; }
+.km-shade p { margin: 0; line-height: 1.4; }
+.km-shade b { font-weight: 600; }
+.km-card__colour { display: inline-flex; align-items: center; gap: 6px; font-size: .88rem; color: var(--muted); }
+.tw-line__media, .tw-co__thumb { position: relative; }
+.km-thumbdot { position: absolute; right: 4px; bottom: 4px; width: 16px; height: 16px; border-radius: 50%; background: var(--c); box-shadow: 0 0 0 2px #fff; z-index: 2; }
+.tw-co__thumb .km-thumbdot { right: -5px; bottom: -5px; }

@@ -332,6 +332,8 @@
         if (st) st.textContent = !v.available ? 'Tämä vaihtoehto on loppunut varastosta' : isLow ? 'Varastossa enää ' + q + ' kpl' : 'Varastossa · toimitus ' + stock.dataset.delivery;
       }
       const sku = root.querySelector('[data-pdp-sku]'); if (sku && v.sku) sku.textContent = v.sku;
+      const shade = root.querySelector('[data-shade]');
+      if (shade && v.colour_hex) { shade.style.setProperty('--c', v.colour_hex); const sn = shade.querySelector('[data-shade-name]'); if (sn) sn.textContent = v.option1; }
       const qty = root.querySelector('input[name="quantity"]');
       if (qty) { const cap = v.inventory_management && v.inventory_policy !== 'continue' ? Math.max(1, Math.min(10, Number(v.inventory_quantity) || 1)) : 10; qty.max = cap; if (Number(qty.value) > cap) qty.value = cap; }
       const bis = root.querySelector('[data-bis-wrap]');

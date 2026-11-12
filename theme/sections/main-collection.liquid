@@ -96,7 +96,7 @@
       {%- if collection.products.size > 0 -%}
         <div class="tw-grid tw-grid--3" data-results>
           {%- for product in collection.products -%}
-            {% render 'tw-product-card', product: product, index: forloop.index0 %}
+            {% render 'tw-product-card', product: product, index: forloop.index0, colour: current_tags.first %}
           {%- endfor -%}
         </div>
       {%- else -%}

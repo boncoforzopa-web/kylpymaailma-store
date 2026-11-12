@@ -37,6 +37,12 @@
             {%- endfor -%}
           </ul>
         </div>
+        {%- if current.colour_hex != blank -%}
+          <div class="km-shade" data-shade style="--c: {{ current.colour_hex }}">
+            <span class="km-shade__chip" aria-hidden="true"></span>
+            <p><b>Valitsemasi väri: <span data-shade-name>{{ current.option1 }}</span></b><br><span class="tw-muted tw-small">Tuotekuva on mallikuva, ja siinä voi näkyä myös muita värejä.</span></p>
+          </div>
+        {%- endif -%}
         {%- if product.media.size > 1 -%}
           <ul class="tw-gallery__thumbs" role="list">
             {%- for media in product.media -%}

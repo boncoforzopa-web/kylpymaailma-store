@@ -17,6 +17,7 @@
             <li class="tw-line">
               <a href="{{ item.url }}" class="tw-line__media">
                 {%- if item.image -%}{{ item.image | image_url: width: 320 | image_tag: loading: 'lazy', alt: item.product.title, widths: '160, 320' }}{%- endif -%}
+                {%- if item.variant.colour_hex != blank -%}<span class="km-thumbdot" style="--c: {{ item.variant.colour_hex }}" title="{{ item.variant.option1 | escape }}"></span>{%- endif -%}
               </a>
               <div class="tw-line__info">
                 <a href="{{ item.url }}" class="tw-line__title">{{ item.product.title }}</a>
