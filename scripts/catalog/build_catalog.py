@@ -19,7 +19,7 @@ VENDOR = 'Kylpymaailma'
 NOW = '2026-11-12T12:00:00Z'
 WIDTHS = [160, 320, 480, 640, 800]
 
-# colour name in the CSV -> (Finnish name, swatch hex)
+# colour name in the CSV -> (Finnish name, fallback swatch hex when variants.csv has no Colour_Hex)
 COLOURS = {
     'Mocha': ('Mokka', '#8B6F5E'), 'Sand': ('Hiekka', '#D2C0A5'), 'Dusty Bone': ('Luunvalkoinen', '#E3DACB'),
     'Sage': ('Salvia', '#A3AD95'), 'Espresso': ('Espresso', '#4A372E'), 'Cloud': ('Pilvi', '#D9DBDD'),
@@ -99,6 +99,11 @@ COLLECTIONS = [
 
 MEASURE_FI = {'bust': 'Rinnanympärys', 'waist': 'Vyötärö', 'length': 'Pituus', 'sleeve': 'Hiha', 'shoulder': 'Olkapäät',
               'shoulder_sleeve': 'Olka + hiha', 'width': 'Leveys', 'back_length': 'Pituus takaa'}
+
+
+def hex_of(v):
+    """Swatch colour: the Colour_Hex column of variants.csv, else the default from COLOURS."""
+    return (v.get('Colour_Hex') or '').strip().upper() or COLOURS[v['Colour']][1]
 
 
 def esc(s):
@@ -206,7 +211,7 @@ def main():
                 'price': f"{float(v['Price_EUR']):.2f}", 'compare_at_price': None, 'taxable': True,
                 'inventory_quantity': int(v['Stock']), 'inventory_tracked': True, 'inventory_policy': 'DENY',
                 'requires_shipping': True, 'weight': int(row['Weight_g'] or 0), 'weight_unit': 'GRAMS', 'options': opts,
-                'colour_hex': COLOURS[v['Colour']][1],
+                'colour_hex': hex_of(v),
             })
         options = [{'name': 'Väri', 'values': colours}]
         if has_length:
@@ -218,7 +223,7 @@ def main():
         if img:
             manifest[f'{handle}/01.jpg'] = img
             images.append({'position': 1, 'src': '', 'local': f'images/{handle}/01.jpg', 'alt': fi['title'], 'width': img['width'], 'height': img['height']})
-        swatches = ';'.join(f"{COLOURS[c][0]}|{COLOURS[c][1]}" for c in dict.fromkeys(v['Colour'] for v in vs))
+        swatches = ';'.join(f"{COLOURS[c][0]}|{h}" for c, h in dict.fromkeys((v['Colour'], hex_of(v)) for v in vs))
         out.append({
             'id': str(pid), 'handle': handle, 'title': fi['title'], 'status': 'active', 'vendor': VENDOR, 'product_type': fi['type'],
             'category': 'Apparel & Accessories > Clothing', 'tags': [fi['type']] + colours, 'description_html': desc,

@@ -49,7 +49,7 @@
    "custom.care": "Konepesu 40 °C, kuivaus ilmassa",
    "custom.origin": "Suunniteltu Alankomaissa, kudottu Turkissa",
    "custom.size_guide": "<table class=\"km-sizes\"><thead><tr><th scope=\"col\">Koko</th><th scope=\"col\">Leveys</th><th scope=\"col\">Pituus</th></tr></thead><tbody><tr><th scope=\"row\">Yksi koko</th><td>75 cm</td><td>180 cm</td></tr></tbody></table>",
-   "custom.swatches": "Mokka|#8B6F5E;Hiekka|#D2C0A5;Luunvalkoinen|#E3DACB;Salvia|#A3AD95;Espresso|#4A372E;Pilvi|#D9DBDD;Myrsky|#6C7480",
+   "custom.swatches": "Mokka|#8B7365;Hiekka|#C7AE8B;Luunvalkoinen|#DED3C4;Salvia|#A6AB99;Espresso|#3B2B24;Pilvi|#D3D5D8;Myrsky|#4F545A",
    "global.title_tag": "Premium-jerseyhijab, 180 × 75 cm, 7 väriä"
   },
   "images": [
@@ -79,7 +79,7 @@
     "options": {
      "Väri": "Mokka"
     },
-    "colour_hex": "#8B6F5E"
+    "colour_hex": "#8B7365"
    },
    {
     "id": "4200000001002",
@@ -97,7 +97,7 @@
     "options": {
      "Väri": "Hiekka"
     },
-    "colour_hex": "#D2C0A5"
+    "colour_hex": "#C7AE8B"
    },
    {
     "id": "4200000001003",
@@ -115,7 +115,7 @@
     "options": {
      "Väri": "Luunvalkoinen"
     },
-    "colour_hex": "#E3DACB"
+    "colour_hex": "#DED3C4"
    },
    {
     "id": "4200000001004",
@@ -133,7 +133,7 @@
     "options": {
      "Väri": "Salvia"
     },
-    "colour_hex": "#A3AD95"
+    "colour_hex": "#A6AB99"
    },
    {
     "id": "4200000001005",
@@ -151,7 +151,7 @@
     "options": {
      "Väri": "Espresso"
     },
-    "colour_hex": "#4A372E"
+    "colour_hex": "#3B2B24"
    },
    {
     "id": "4200000001006",
@@ -169,7 +169,7 @@
     "options": {
      "Väri": "Pilvi"
     },
-    "colour_hex": "#D9DBDD"
+    "colour_hex": "#D3D5D8"
    },
    {
     "id": "4200000001007",
@@ -187,7 +187,7 @@
     "options": {
      "Väri": "Myrsky"
     },
-    "colour_hex": "#6C7480"
+    "colour_hex": "#4F545A"
    }
   ]
  },
@@ -242,7 +242,7 @@
    "custom.care": "Pesu 30 °C, kuivaus ripustettuna",
    "custom.origin": "Valmistettu Kiinassa",
    "custom.size_guide": "<table class=\"km-sizes\"><thead><tr><th scope=\"col\">Koko</th><th scope=\"col\">Pituus</th><th scope=\"col\">Pituus takaa</th></tr></thead><tbody><tr><th scope=\"row\">Yksi koko</th><td>115 cm</td><td>135 cm</td></tr></tbody></table>",
-   "custom.swatches": "Musta|#1B1B1D;Kahvi|#6F4E37;Kameli|#B98B5E;Tumma kahvi|#3F2B22;Tummansininen|#1F2A44;Vaaleanharmaa|#C9CBCD;Valkoinen|#F6F5F1",
+   "custom.swatches": "Musta|#2A2A2A;Kahvi|#75503C;Kameli|#AF8157;Tumma kahvi|#4B3537;Tummansininen|#092955;Vaaleanharmaa|#A1A1AE;Valkoinen|#E6E6E7",
    "global.title_tag": "Yksikerroksinen khimar, silittämätön, 7 väriä"
   },
   "images": [
@@ -272,7 +272,7 @@
     "options": {
      "Väri": "Musta"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000002002",
@@ -290,7 +290,7 @@
     "options": {
      "Väri": "Kahvi"
     },
-    "colour_hex": "#6F4E37"
+    "colour_hex": "#75503C"
    },
    {
     "id": "4200000002003",
@@ -308,7 +308,7 @@
     "options": {
      "Väri": "Kameli"
     },
-    "colour_hex": "#B98B5E"
+    "colour_hex": "#AF8157"
    },
    {
     "id": "4200000002004",
@@ -326,7 +326,7 @@
     "options": {
      "Väri": "Tumma kahvi"
     },
-    "colour_hex": "#3F2B22"
+    "colour_hex": "#4B3537"
    },
    {
     "id": "4200000002005",
@@ -344,7 +344,7 @@
     "options": {
      "Väri": "Tummansininen"
     },
-    "colour_hex": "#1F2A44"
+    "colour_hex": "#092955"
    },
    {
     "id": "4200000002006",
@@ -362,7 +362,7 @@
     "options": {
      "Väri": "Vaaleanharmaa"
     },
-    "colour_hex": "#C9CBCD"
+    "colour_hex": "#A1A1AE"
    },
    {
     "id": "4200000002007",
@@ -380,7 +380,7 @@
     "options": {
      "Väri": "Valkoinen"
     },
-    "colour_hex": "#F6F5F1"
+    "colour_hex": "#E6E6E7"
    }
   ]
  },
@@ -440,7 +440,7 @@
    "custom.care": "Pesu 30 °C, kuivaus ripustettuna",
    "custom.origin": "Valmistettu Kiinassa",
    "custom.size_guide": "<table class=\"km-sizes\"><thead><tr><th scope=\"col\">Koko</th><th scope=\"col\">Rinnanympärys</th><th scope=\"col\">Pituus</th><th scope=\"col\">Hiha</th><th scope=\"col\">Olkapäät</th><th scope=\"col\">Sopii pituudelle</th></tr></thead><tbody><tr><th scope=\"row\">138 cm</th><td>113 cm</td><td>138 cm</td><td>60 cm</td><td>43 cm</td><td>158–163 cm</td></tr><tr><th scope=\"row\">143 cm</th><td>118 cm</td><td>143 cm</td><td>61 cm</td><td>45 cm</td><td>164–169 cm</td></tr><tr><th scope=\"row\">148 cm</th><td>123 cm</td><td>148 cm</td><td>62 cm</td><td>47 cm</td><td>170–175 cm</td></tr><tr><th scope=\"row\">153 cm</th><td>128 cm</td><td>153 cm</td><td>63 cm</td><td>49 cm</td><td>176 cm tai pidempi</td></tr></tbody></table>",
-   "custom.swatches": "Musta|#1B1B1D;Ruskea|#6B4A3A;Beige|#D9C7AE;Tummansininen|#1F2A44;Tumma kahvi|#3F2B22",
+   "custom.swatches": "Musta|#2A2A2A;Ruskea|#564335;Beige|#C2B3A9;Tummansininen|#092955;Tumma kahvi|#4B3537",
    "global.title_tag": "Avoin pellava-abaya, pituudet 138–153 cm"
   },
   "images": [
@@ -471,7 +471,7 @@
      "Väri": "Musta",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000003002",
@@ -490,7 +490,7 @@
      "Väri": "Musta",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000003003",
@@ -509,7 +509,7 @@
      "Väri": "Musta",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000003004",
@@ -528,7 +528,7 @@
      "Väri": "Musta",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000003005",
@@ -547,7 +547,7 @@
      "Väri": "Ruskea",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#6B4A3A"
+    "colour_hex": "#564335"
    },
    {
     "id": "4200000003006",
@@ -566,7 +566,7 @@
      "Väri": "Ruskea",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#6B4A3A"
+    "colour_hex": "#564335"
    },
    {
     "id": "4200000003007",
@@ -585,7 +585,7 @@
      "Väri": "Ruskea",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#6B4A3A"
+    "colour_hex": "#564335"
    },
    {
     "id": "4200000003008",
@@ -604,7 +604,7 @@
      "Väri": "Ruskea",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#6B4A3A"
+    "colour_hex": "#564335"
    },
    {
     "id": "4200000003009",
@@ -623,7 +623,7 @@
      "Väri": "Beige",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#D9C7AE"
+    "colour_hex": "#C2B3A9"
    },
    {
     "id": "4200000003010",
@@ -642,7 +642,7 @@
      "Väri": "Beige",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#D9C7AE"
+    "colour_hex": "#C2B3A9"
    },
    {
     "id": "4200000003011",
@@ -661,7 +661,7 @@
      "Väri": "Beige",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#D9C7AE"
+    "colour_hex": "#C2B3A9"
    },
    {
     "id": "4200000003012",
@@ -680,7 +680,7 @@
      "Väri": "Beige",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#D9C7AE"
+    "colour_hex": "#C2B3A9"
    },
    {
     "id": "4200000003013",
@@ -699,7 +699,7 @@
      "Väri": "Tummansininen",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#1F2A44"
+    "colour_hex": "#092955"
    },
    {
     "id": "4200000003014",
@@ -718,7 +718,7 @@
      "Väri": "Tummansininen",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#1F2A44"
+    "colour_hex": "#092955"
    },
    {
     "id": "4200000003015",
@@ -737,7 +737,7 @@
      "Väri": "Tummansininen",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#1F2A44"
+    "colour_hex": "#092955"
    },
    {
     "id": "4200000003016",
@@ -756,7 +756,7 @@
      "Väri": "Tummansininen",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#1F2A44"
+    "colour_hex": "#092955"
    },
    {
     "id": "4200000003017",
@@ -775,7 +775,7 @@
      "Väri": "Tumma kahvi",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#3F2B22"
+    "colour_hex": "#4B3537"
    },
    {
     "id": "4200000003018",
@@ -794,7 +794,7 @@
      "Väri": "Tumma kahvi",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#3F2B22"
+    "colour_hex": "#4B3537"
    },
    {
     "id": "4200000003019",
@@ -813,7 +813,7 @@
      "Väri": "Tumma kahvi",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#3F2B22"
+    "colour_hex": "#4B3537"
    },
    {
     "id": "4200000003020",
@@ -832,7 +832,7 @@
      "Väri": "Tumma kahvi",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#3F2B22"
+    "colour_hex": "#4B3537"
    }
   ]
  },
@@ -883,7 +883,7 @@
    "custom.care": "Pesu 30 °C, kuivaus ripustettuna",
    "custom.origin": "Valmistettu Kiinassa",
    "custom.size_guide": "<table class=\"km-sizes\"><thead><tr><th scope=\"col\">Koko</th><th scope=\"col\">Pituus</th><th scope=\"col\">Pituus takaa</th></tr></thead><tbody><tr><th scope=\"row\">Yksi koko</th><td>100 cm</td><td>130 cm</td></tr></tbody></table>",
-   "custom.swatches": "Musta|#1B1B1D;Kahvi|#6F4E37;Kameli|#B98B5E;Tumma kahvi|#3F2B22;Tummansininen|#1F2A44",
+   "custom.swatches": "Musta|#2A2A2A;Kahvi|#75503C;Kameli|#AF8157;Tumma kahvi|#4B3537;Tummansininen|#092955",
    "global.title_tag": "Kaksikerroksinen khimar, silittämätön, 5 väriä"
   },
   "images": [
@@ -913,7 +913,7 @@
     "options": {
      "Väri": "Musta"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000004002",
@@ -931,7 +931,7 @@
     "options": {
      "Väri": "Kahvi"
     },
-    "colour_hex": "#6F4E37"
+    "colour_hex": "#75503C"
    },
    {
     "id": "4200000004003",
@@ -949,7 +949,7 @@
     "options": {
      "Väri": "Kameli"
     },
-    "colour_hex": "#B98B5E"
+    "colour_hex": "#AF8157"
    },
    {
     "id": "4200000004004",
@@ -967,7 +967,7 @@
     "options": {
      "Väri": "Tumma kahvi"
     },
-    "colour_hex": "#3F2B22"
+    "colour_hex": "#4B3537"
    },
    {
     "id": "4200000004005",
@@ -985,7 +985,7 @@
     "options": {
      "Väri": "Tummansininen"
     },
-    "colour_hex": "#1F2A44"
+    "colour_hex": "#092955"
    }
   ]
  },
@@ -1045,7 +1045,7 @@
    "custom.care": "Pesu 30 °C, kuivaus ripustettuna",
    "custom.origin": "Valmistettu Kiinassa",
    "custom.size_guide": "<table class=\"km-sizes\"><thead><tr><th scope=\"col\">Koko</th><th scope=\"col\">Rinnanympärys</th><th scope=\"col\">Pituus</th><th scope=\"col\">Hiha</th><th scope=\"col\">Olkapäät</th><th scope=\"col\">Sopii pituudelle</th></tr></thead><tbody><tr><th scope=\"row\">138 cm</th><td>113 cm</td><td>138 cm</td><td>58 cm</td><td>47 cm</td><td>158–163 cm</td></tr><tr><th scope=\"row\">143 cm</th><td>118 cm</td><td>143 cm</td><td>59 cm</td><td>49 cm</td><td>164–169 cm</td></tr><tr><th scope=\"row\">148 cm</th><td>123 cm</td><td>148 cm</td><td>60 cm</td><td>51 cm</td><td>170–175 cm</td></tr><tr><th scope=\"row\">153 cm</th><td>128 cm</td><td>153 cm</td><td>61 cm</td><td>53 cm</td><td>176 cm tai pidempi</td></tr></tbody></table>",
-   "custom.swatches": "Musta|#1B1B1D;Ruskea|#6B4A3A;Beige|#D9C7AE;Tummansininen|#1F2A44;Tumma kahvi|#3F2B22",
+   "custom.swatches": "Musta|#2A2A2A;Ruskea|#564335;Beige|#C2B3A9;Tummansininen|#092955;Tumma kahvi|#4B3537",
    "global.title_tag": "Pitkähihainen pellavamekko, pituudet 138–153 cm"
   },
   "images": [
@@ -1076,7 +1076,7 @@
      "Väri": "Musta",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000005002",
@@ -1095,7 +1095,7 @@
      "Väri": "Musta",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000005003",
@@ -1114,7 +1114,7 @@
      "Väri": "Musta",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000005004",
@@ -1133,7 +1133,7 @@
      "Väri": "Musta",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000005005",
@@ -1152,7 +1152,7 @@
      "Väri": "Ruskea",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#6B4A3A"
+    "colour_hex": "#564335"
    },
    {
     "id": "4200000005006",
@@ -1171,7 +1171,7 @@
      "Väri": "Ruskea",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#6B4A3A"
+    "colour_hex": "#564335"
    },
    {
     "id": "4200000005007",
@@ -1190,7 +1190,7 @@
      "Väri": "Ruskea",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#6B4A3A"
+    "colour_hex": "#564335"
    },
    {
     "id": "4200000005008",
@@ -1209,7 +1209,7 @@
      "Väri": "Ruskea",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#6B4A3A"
+    "colour_hex": "#564335"
    },
    {
     "id": "4200000005009",
@@ -1228,7 +1228,7 @@
      "Väri": "Beige",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#D9C7AE"
+    "colour_hex": "#C2B3A9"
    },
    {
     "id": "4200000005010",
@@ -1247,7 +1247,7 @@
      "Väri": "Beige",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#D9C7AE"
+    "colour_hex": "#C2B3A9"
    },
    {
     "id": "4200000005011",
@@ -1266,7 +1266,7 @@
      "Väri": "Beige",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#D9C7AE"
+    "colour_hex": "#C2B3A9"
    },
    {
     "id": "4200000005012",
@@ -1285,7 +1285,7 @@
      "Väri": "Beige",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#D9C7AE"
+    "colour_hex": "#C2B3A9"
    },
    {
     "id": "4200000005013",
@@ -1304,7 +1304,7 @@
      "Väri": "Tummansininen",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#1F2A44"
+    "colour_hex": "#092955"
    },
    {
     "id": "4200000005014",
@@ -1323,7 +1323,7 @@
      "Väri": "Tummansininen",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#1F2A44"
+    "colour_hex": "#092955"
    },
    {
     "id": "4200000005015",
@@ -1342,7 +1342,7 @@
      "Väri": "Tummansininen",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#1F2A44"
+    "colour_hex": "#092955"
    },
    {
     "id": "4200000005016",
@@ -1361,7 +1361,7 @@
      "Väri": "Tummansininen",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#1F2A44"
+    "colour_hex": "#092955"
    },
    {
     "id": "4200000005017",
@@ -1380,7 +1380,7 @@
      "Väri": "Tumma kahvi",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#3F2B22"
+    "colour_hex": "#4B3537"
    },
    {
     "id": "4200000005018",
@@ -1399,7 +1399,7 @@
      "Väri": "Tumma kahvi",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#3F2B22"
+    "colour_hex": "#4B3537"
    },
    {
     "id": "4200000005019",
@@ -1418,7 +1418,7 @@
      "Väri": "Tumma kahvi",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#3F2B22"
+    "colour_hex": "#4B3537"
    },
    {
     "id": "4200000005020",
@@ -1437,7 +1437,7 @@
      "Väri": "Tumma kahvi",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#3F2B22"
+    "colour_hex": "#4B3537"
    }
   ]
  },
@@ -1497,7 +1497,7 @@
    "custom.care": "Pesu 30 °C, kuivaus ripustettuna",
    "custom.origin": "Valmistettu Kiinassa",
    "custom.size_guide": "<table class=\"km-sizes\"><thead><tr><th scope=\"col\">Koko</th><th scope=\"col\">Vyötärö</th><th scope=\"col\">Pituus</th><th scope=\"col\">Olka + hiha</th></tr></thead><tbody><tr><th scope=\"row\">140 cm</th><td>137 cm</td><td>140 cm</td><td>70 cm</td></tr><tr><th scope=\"row\">148 cm</th><td>147 cm</td><td>148 cm</td><td>72 cm</td></tr></tbody></table>",
-   "custom.swatches": "Musta|#1B1B1D;Kahvi|#6F4E37;Beige|#D9C7AE;Kameli|#B98B5E;Tummansininen|#1F2A44;Harmaa|#8C8F93",
+   "custom.swatches": "Musta|#2A2A2A;Kahvi|#75503C;Beige|#C2B3A9;Kameli|#AF8157;Tummansininen|#092955;Harmaa|#5C545C",
    "global.title_tag": "Nida-abaya kiinteällä hijabilla, 6 väriä"
   },
   "images": [
@@ -1528,7 +1528,7 @@
      "Väri": "Musta",
      "Pituus": "140 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000006002",
@@ -1547,7 +1547,7 @@
      "Väri": "Musta",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000006003",
@@ -1566,7 +1566,7 @@
      "Väri": "Kahvi",
      "Pituus": "140 cm"
     },
-    "colour_hex": "#6F4E37"
+    "colour_hex": "#75503C"
    },
    {
     "id": "4200000006004",
@@ -1585,7 +1585,7 @@
      "Väri": "Kahvi",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#6F4E37"
+    "colour_hex": "#75503C"
    },
    {
     "id": "4200000006005",
@@ -1604,7 +1604,7 @@
      "Väri": "Beige",
      "Pituus": "140 cm"
     },
-    "colour_hex": "#D9C7AE"
+    "colour_hex": "#C2B3A9"
    },
    {
     "id": "4200000006006",
@@ -1623,7 +1623,7 @@
      "Väri": "Beige",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#D9C7AE"
+    "colour_hex": "#C2B3A9"
    },
    {
     "id": "4200000006007",
@@ -1642,7 +1642,7 @@
      "Väri": "Kameli",
      "Pituus": "140 cm"
     },
-    "colour_hex": "#B98B5E"
+    "colour_hex": "#AF8157"
    },
    {
     "id": "4200000006008",
@@ -1661,7 +1661,7 @@
      "Väri": "Kameli",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#B98B5E"
+    "colour_hex": "#AF8157"
    },
    {
     "id": "4200000006009",
@@ -1680,7 +1680,7 @@
      "Väri": "Tummansininen",
      "Pituus": "140 cm"
     },
-    "colour_hex": "#1F2A44"
+    "colour_hex": "#092955"
    },
    {
     "id": "4200000006010",
@@ -1699,7 +1699,7 @@
      "Väri": "Tummansininen",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#1F2A44"
+    "colour_hex": "#092955"
    },
    {
     "id": "4200000006011",
@@ -1718,7 +1718,7 @@
      "Väri": "Harmaa",
      "Pituus": "140 cm"
     },
-    "colour_hex": "#8C8F93"
+    "colour_hex": "#5C545C"
    },
    {
     "id": "4200000006012",
@@ -1737,7 +1737,7 @@
      "Väri": "Harmaa",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#8C8F93"
+    "colour_hex": "#5C545C"
    }
   ]
  },
@@ -1799,7 +1799,7 @@
    "custom.care": "Pesu 30 °C, kuivaus ripustettuna",
    "custom.origin": "Valmistettu Kiinassa",
    "custom.size_guide": "<table class=\"km-sizes\"><thead><tr><th scope=\"col\">Koko</th><th scope=\"col\">Rinnanympärys</th><th scope=\"col\">Vyötärö</th><th scope=\"col\">Pituus</th><th scope=\"col\">Hiha</th><th scope=\"col\">Olkapäät</th><th scope=\"col\">Sopii pituudelle</th></tr></thead><tbody><tr><th scope=\"row\">138 cm</th><td>105 cm</td><td>99 cm</td><td>138 cm</td><td>57 cm</td><td>41,5 cm</td><td>158–163 cm</td></tr><tr><th scope=\"row\">143 cm</th><td>110 cm</td><td>104 cm</td><td>143 cm</td><td>58 cm</td><td>43 cm</td><td>164–169 cm</td></tr><tr><th scope=\"row\">148 cm</th><td>115 cm</td><td>109 cm</td><td>148 cm</td><td>59 cm</td><td>44,5 cm</td><td>170–175 cm</td></tr><tr><th scope=\"row\">153 cm</th><td>120 cm</td><td>114 cm</td><td>153 cm</td><td>60 cm</td><td>46 cm</td><td>176 cm tai pidempi</td></tr></tbody></table>",
-   "custom.swatches": "Musta|#1B1B1D;Kahvi|#6F4E37;Kameli|#B98B5E;Tumma kahvi|#3F2B22;Tummansininen|#1F2A44;Vaaleanharmaa|#C9CBCD",
+   "custom.swatches": "Musta|#2A2A2A;Kahvi|#75503C;Kameli|#AF8157;Tumma kahvi|#4B3537;Tummansininen|#092955;Vaaleanharmaa|#A1A1AE",
    "global.title_tag": "Avoin abaya rypytetystä polyesteristä, 6 väriä"
   },
   "images": [
@@ -1830,7 +1830,7 @@
      "Väri": "Musta",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000007002",
@@ -1849,7 +1849,7 @@
      "Väri": "Musta",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000007003",
@@ -1868,7 +1868,7 @@
      "Väri": "Musta",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000007004",
@@ -1887,7 +1887,7 @@
      "Väri": "Musta",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000007005",
@@ -1906,7 +1906,7 @@
      "Väri": "Kahvi",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#6F4E37"
+    "colour_hex": "#75503C"
    },
    {
     "id": "4200000007006",
@@ -1925,7 +1925,7 @@
      "Väri": "Kahvi",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#6F4E37"
+    "colour_hex": "#75503C"
    },
    {
     "id": "4200000007007",
@@ -1944,7 +1944,7 @@
      "Väri": "Kahvi",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#6F4E37"
+    "colour_hex": "#75503C"
    },
    {
     "id": "4200000007008",
@@ -1963,7 +1963,7 @@
      "Väri": "Kahvi",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#6F4E37"
+    "colour_hex": "#75503C"
    },
    {
     "id": "4200000007009",
@@ -1982,7 +1982,7 @@
      "Väri": "Kameli",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#B98B5E"
+    "colour_hex": "#AF8157"
    },
    {
     "id": "4200000007010",
@@ -2001,7 +2001,7 @@
      "Väri": "Kameli",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#B98B5E"
+    "colour_hex": "#AF8157"
    },
    {
     "id": "4200000007011",
@@ -2020,7 +2020,7 @@
      "Väri": "Kameli",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#B98B5E"
+    "colour_hex": "#AF8157"
    },
    {
     "id": "4200000007012",
@@ -2039,7 +2039,7 @@
      "Väri": "Kameli",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#B98B5E"
+    "colour_hex": "#AF8157"
    },
    {
     "id": "4200000007013",
@@ -2058,7 +2058,7 @@
      "Väri": "Tumma kahvi",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#3F2B22"
+    "colour_hex": "#4B3537"
    },
    {
     "id": "4200000007014",
@@ -2077,7 +2077,7 @@
      "Väri": "Tumma kahvi",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#3F2B22"
+    "colour_hex": "#4B3537"
    },
    {
     "id": "4200000007015",
@@ -2096,7 +2096,7 @@
      "Väri": "Tumma kahvi",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#3F2B22"
+    "colour_hex": "#4B3537"
    },
    {
     "id": "4200000007016",
@@ -2115,7 +2115,7 @@
      "Väri": "Tumma kahvi",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#3F2B22"
+    "colour_hex": "#4B3537"
    },
    {
     "id": "4200000007017",
@@ -2134,7 +2134,7 @@
      "Väri": "Tummansininen",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#1F2A44"
+    "colour_hex": "#092955"
    },
    {
     "id": "4200000007018",
@@ -2153,7 +2153,7 @@
      "Väri": "Tummansininen",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#1F2A44"
+    "colour_hex": "#092955"
    },
    {
     "id": "4200000007019",
@@ -2172,7 +2172,7 @@
      "Väri": "Tummansininen",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#1F2A44"
+    "colour_hex": "#092955"
    },
    {
     "id": "4200000007020",
@@ -2191,7 +2191,7 @@
      "Väri": "Tummansininen",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#1F2A44"
+    "colour_hex": "#092955"
    },
    {
     "id": "4200000007021",
@@ -2210,7 +2210,7 @@
      "Väri": "Vaaleanharmaa",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#C9CBCD"
+    "colour_hex": "#A1A1AE"
    },
    {
     "id": "4200000007022",
@@ -2229,7 +2229,7 @@
      "Väri": "Vaaleanharmaa",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#C9CBCD"
+    "colour_hex": "#A1A1AE"
    },
    {
     "id": "4200000007023",
@@ -2248,7 +2248,7 @@
      "Väri": "Vaaleanharmaa",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#C9CBCD"
+    "colour_hex": "#A1A1AE"
    },
    {
     "id": "4200000007024",
@@ -2267,7 +2267,7 @@
      "Väri": "Vaaleanharmaa",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#C9CBCD"
+    "colour_hex": "#A1A1AE"
    }
   ]
  },
@@ -2325,7 +2325,7 @@
    "custom.care": "Pesu 30 °C, kuivaus ripustettuna",
    "custom.origin": "Valmistettu Kiinassa",
    "custom.size_guide": "<table class=\"km-sizes\"><thead><tr><th scope=\"col\">Koko</th><th scope=\"col\">Rinnanympärys</th><th scope=\"col\">Pituus</th><th scope=\"col\">Hiha</th><th scope=\"col\">Sopii pituudelle</th></tr></thead><tbody><tr><th scope=\"row\">138 cm</th><td>107 cm</td><td>138 cm</td><td>62 cm</td><td>158–163 cm</td></tr><tr><th scope=\"row\">143 cm</th><td>112 cm</td><td>143 cm</td><td>62 cm</td><td>164–169 cm</td></tr><tr><th scope=\"row\">148 cm</th><td>117 cm</td><td>148 cm</td><td>62 cm</td><td>170–175 cm</td></tr><tr><th scope=\"row\">153 cm</th><td>122 cm</td><td>153 cm</td><td>62 cm</td><td>176 cm tai pidempi</td></tr></tbody></table>",
-   "custom.swatches": "Musta|#1B1B1D;Ruskea|#6B4A3A;Beige|#D9C7AE;Harmaa|#8C8F93",
+   "custom.swatches": "Musta|#2A2A2A;Ruskea|#564335;Beige|#C2B3A9;Harmaa|#5C545C",
    "global.title_tag": "Avoin nida-abaya, pituudet 138–153 cm"
   },
   "images": [
@@ -2356,7 +2356,7 @@
      "Väri": "Musta",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000008002",
@@ -2375,7 +2375,7 @@
      "Väri": "Musta",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000008003",
@@ -2394,7 +2394,7 @@
      "Väri": "Musta",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000008004",
@@ -2413,7 +2413,7 @@
      "Väri": "Musta",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#1B1B1D"
+    "colour_hex": "#2A2A2A"
    },
    {
     "id": "4200000008005",
@@ -2432,7 +2432,7 @@
      "Väri": "Ruskea",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#6B4A3A"
+    "colour_hex": "#564335"
    },
    {
     "id": "4200000008006",
@@ -2451,7 +2451,7 @@
      "Väri": "Ruskea",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#6B4A3A"
+    "colour_hex": "#564335"
    },
    {
     "id": "4200000008007",
@@ -2470,7 +2470,7 @@
      "Väri": "Ruskea",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#6B4A3A"
+    "colour_hex": "#564335"
    },
    {
     "id": "4200000008008",
@@ -2489,7 +2489,7 @@
      "Väri": "Ruskea",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#6B4A3A"
+    "colour_hex": "#564335"
    },
    {
     "id": "4200000008009",
@@ -2508,7 +2508,7 @@
      "Väri": "Beige",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#D9C7AE"
+    "colour_hex": "#C2B3A9"
    },
    {
     "id": "4200000008010",
@@ -2527,7 +2527,7 @@
      "Väri": "Beige",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#D9C7AE"
+    "colour_hex": "#C2B3A9"
    },
    {
     "id": "4200000008011",
@@ -2546,7 +2546,7 @@
      "Väri": "Beige",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#D9C7AE"
+    "colour_hex": "#C2B3A9"
    },
    {
     "id": "4200000008012",
@@ -2565,7 +2565,7 @@
      "Väri": "Beige",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#D9C7AE"
+    "colour_hex": "#C2B3A9"
    },
    {
     "id": "4200000008013",
@@ -2584,7 +2584,7 @@
      "Väri": "Harmaa",
      "Pituus": "138 cm"
     },
-    "colour_hex": "#8C8F93"
+    "colour_hex": "#5C545C"
    },
    {
     "id": "4200000008014",
@@ -2603,7 +2603,7 @@
      "Väri": "Harmaa",
      "Pituus": "143 cm"
     },
-    "colour_hex": "#8C8F93"
+    "colour_hex": "#5C545C"
    },
    {
     "id": "4200000008015",
@@ -2622,7 +2622,7 @@
      "Väri": "Harmaa",
      "Pituus": "148 cm"
     },
-    "colour_hex": "#8C8F93"
+    "colour_hex": "#5C545C"
    },
    {
     "id": "4200000008016",
@@ -2641,7 +2641,7 @@
      "Väri": "Harmaa",
      "Pituus": "153 cm"
     },
-    "colour_hex": "#8C8F93"
+    "colour_hex": "#5C545C"
    }
   ]
  }
