@@ -1,6 +1,7 @@
 {%- comment -%}
   Fills the [[TOKENS]] in the legal pages (data/pages.json) from the company details in
-  theme/config/settings_data.json. Anything not filled in yet is shown as a highlighted note.
+  theme/config/settings_data.json. Without a legal name the shop name is used; the Y-tunnus
+  line only appears once vat_number is filled in. A missing address or e-mail shows a highlighted note.
 {%- endcomment -%}
 {%- liquid
   assign m1 = '<mark class="tw-missing">[Tieto puuttuu: '
@@ -9,7 +10,7 @@
   if settings.legal_name != blank
     assign v_firma = settings.legal_name | escape
   else
-    assign v_firma = m1 | append: 'yrityksen nimi' | append: m2
+    assign v_firma = settings.brand_name | escape
   endif
   if settings.business_address != blank
     assign v_adresse = settings.business_address | escape | newline_to_br
@@ -26,10 +27,11 @@
   else
     assign v_ruecksende = v_adresse
   endif
+  assign v_ytunnus_p = ''
+  assign v_ytunnus_inline = ''
   if settings.vat_number != blank
-    assign v_ytunnus = settings.vat_number | escape
-  else
-    assign v_ytunnus = m1 | append: 'Y-tunnus' | append: m2
+    assign v_ytunnus_p = '<p>Y-tunnus: ' | append: settings.vat_number | escape | append: '</p>'
+    assign v_ytunnus_inline = ', Y-tunnus ' | append: settings.vat_number | escape
   endif
   assign v_tel_line = ''
   if settings.contact_phone != blank
@@ -48,11 +50,14 @@
   assign out = content
   assign out = out | replace: '[[FIRMA]]', v_firma
   assign out = out | replace: '[[VERTRETER]]', v_vertreter
+  assign v_adresse_inline = settings.business_address | escape | newline_to_br | replace: '<br />', ', ' | strip_newlines
+  assign out = out | replace: '[[ADRESSE_INLINE]]', v_adresse_inline
   assign out = out | replace: '[[ADRESSE]]', v_adresse
   assign out = out | replace: '[[EMAIL]]', v_email
   assign out = out | replace: '[[RUECKSENDEADRESSE]]', v_ruecksende
   assign out = out | replace: '[[TELEFON_LINE]]', v_tel_line
-  assign out = out | replace: '[[YTUNNUS]]', v_ytunnus
+  assign out = out | replace: '[[YTUNNUS_P]]', v_ytunnus_p
+  assign out = out | replace: '[[YTUNNUS_INLINE]]', v_ytunnus_inline
   assign out = out | replace: '[[REGISTER_BLOCK]]', v_reg_line
   assign out = out | replace: '[[FRIST]]', v_frist
   assign out = out | replace: '[[SHOP]]', settings.brand_name

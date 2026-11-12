@@ -27,7 +27,7 @@
           "type": "qa",
           "settings": {
             "question": "Kuinka nopeasti tilaus toimitetaan?",
-            "answer": "<p>Arvioitu toimitusaika on 3–7 arkipäivää. Saat seurantakoodin sähköpostiisi, kun paketti lähtee matkaan. Toimitus on ilmainen.</p>"
+            "answer": "<p>Lähetämme tilaukset Suomesta, ja arvioitu toimitusaika on 2–5 arkipäivää. Saat seurantakoodin sähköpostiisi, kun paketti lähtee matkaan. Toimitus on ilmainen.</p>"
           }
         },
         "q4": {
