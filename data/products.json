@@ -259,7 +259,7 @@
    {
     "id": "4200000002001",
     "title": "Musta",
-    "sku": "ALS-HJ907-BLACK-OS",
+    "sku": "KM-HJ907-BLACK-OS",
     "price": "24.95",
     "compare_at_price": null,
     "taxable": true,
@@ -277,7 +277,7 @@
    {
     "id": "4200000002002",
     "title": "Kahvi",
-    "sku": "ALS-HJ907-COFFEE-OS",
+    "sku": "KM-HJ907-COFFEE-OS",
     "price": "24.95",
     "compare_at_price": null,
     "taxable": true,
@@ -295,7 +295,7 @@
    {
     "id": "4200000002003",
     "title": "Kameli",
-    "sku": "ALS-HJ907-KHAKI-OS",
+    "sku": "KM-HJ907-KHAKI-OS",
     "price": "24.95",
     "compare_at_price": null,
     "taxable": true,
@@ -313,7 +313,7 @@
    {
     "id": "4200000002004",
     "title": "Tumma kahvi",
-    "sku": "ALS-HJ907-DKCOFFEE-OS",
+    "sku": "KM-HJ907-DKCOFFEE-OS",
     "price": "24.95",
     "compare_at_price": null,
     "taxable": true,
@@ -331,7 +331,7 @@
    {
     "id": "4200000002005",
     "title": "Tummansininen",
-    "sku": "ALS-HJ907-NAVY-OS",
+    "sku": "KM-HJ907-NAVY-OS",
     "price": "24.95",
     "compare_at_price": null,
     "taxable": true,
@@ -349,7 +349,7 @@
    {
     "id": "4200000002006",
     "title": "Vaaleanharmaa",
-    "sku": "ALS-HJ907-LTGRAY-OS",
+    "sku": "KM-HJ907-LTGRAY-OS",
     "price": "24.95",
     "compare_at_price": null,
     "taxable": true,
@@ -367,7 +367,7 @@
    {
     "id": "4200000002007",
     "title": "Valkoinen",
-    "sku": "ALS-HJ907-WHITE-OS",
+    "sku": "KM-HJ907-WHITE-OS",
     "price": "24.95",
     "compare_at_price": null,
     "taxable": true,
@@ -457,7 +457,7 @@
    {
     "id": "4200000003001",
     "title": "Musta / 138 cm",
-    "sku": "ALS-LR573-BLACK-M",
+    "sku": "KM-LR573-BLACK-M",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -476,7 +476,7 @@
    {
     "id": "4200000003002",
     "title": "Musta / 143 cm",
-    "sku": "ALS-LR573-BLACK-L",
+    "sku": "KM-LR573-BLACK-L",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -495,7 +495,7 @@
    {
     "id": "4200000003003",
     "title": "Musta / 148 cm",
-    "sku": "ALS-LR573-BLACK-XL",
+    "sku": "KM-LR573-BLACK-XL",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -514,7 +514,7 @@
    {
     "id": "4200000003004",
     "title": "Musta / 153 cm",
-    "sku": "ALS-LR573-BLACK-2XL",
+    "sku": "KM-LR573-BLACK-2XL",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -533,7 +533,7 @@
    {
     "id": "4200000003005",
     "title": "Ruskea / 138 cm",
-    "sku": "ALS-LR573-BROWN-M",
+    "sku": "KM-LR573-BROWN-M",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -552,7 +552,7 @@
    {
     "id": "4200000003006",
     "title": "Ruskea / 143 cm",
-    "sku": "ALS-LR573-BROWN-L",
+    "sku": "KM-LR573-BROWN-L",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -571,7 +571,7 @@
    {
     "id": "4200000003007",
     "title": "Ruskea / 148 cm",
-    "sku": "ALS-LR573-BROWN-XL",
+    "sku": "KM-LR573-BROWN-XL",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -590,7 +590,7 @@
    {
     "id": "4200000003008",
     "title": "Ruskea / 153 cm",
-    "sku": "ALS-LR573-BROWN-2XL",
+    "sku": "KM-LR573-BROWN-2XL",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -609,7 +609,7 @@
    {
     "id": "4200000003009",
     "title": "Beige / 138 cm",
-    "sku": "ALS-LR573-BEIGE-M",
+    "sku": "KM-LR573-BEIGE-M",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -628,7 +628,7 @@
    {
     "id": "4200000003010",
     "title": "Beige / 143 cm",
-    "sku": "ALS-LR573-BEIGE-L",
+    "sku": "KM-LR573-BEIGE-L",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -647,7 +647,7 @@
    {
     "id": "4200000003011",
     "title": "Beige / 148 cm",
-    "sku": "ALS-LR573-BEIGE-XL",
+    "sku": "KM-LR573-BEIGE-XL",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -666,7 +666,7 @@
    {
     "id": "4200000003012",
     "title": "Beige / 153 cm",
-    "sku": "ALS-LR573-BEIGE-2XL",
+    "sku": "KM-LR573-BEIGE-2XL",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -685,7 +685,7 @@
    {
     "id": "4200000003013",
     "title": "Tummansininen / 138 cm",
-    "sku": "ALS-LR573-NAVY-M",
+    "sku": "KM-LR573-NAVY-M",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -704,7 +704,7 @@
    {
     "id": "4200000003014",
     "title": "Tummansininen / 143 cm",
-    "sku": "ALS-LR573-NAVY-L",
+    "sku": "KM-LR573-NAVY-L",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -723,7 +723,7 @@
    {
     "id": "4200000003015",
     "title": "Tummansininen / 148 cm",
-    "sku": "ALS-LR573-NAVY-XL",
+    "sku": "KM-LR573-NAVY-XL",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -742,7 +742,7 @@
    {
     "id": "4200000003016",
     "title": "Tummansininen / 153 cm",
-    "sku": "ALS-LR573-NAVY-2XL",
+    "sku": "KM-LR573-NAVY-2XL",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -761,7 +761,7 @@
    {
     "id": "4200000003017",
     "title": "Tumma kahvi / 138 cm",
-    "sku": "ALS-LR573-DKCOFFEE-M",
+    "sku": "KM-LR573-DKCOFFEE-M",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -780,7 +780,7 @@
    {
     "id": "4200000003018",
     "title": "Tumma kahvi / 143 cm",
-    "sku": "ALS-LR573-DKCOFFEE-L",
+    "sku": "KM-LR573-DKCOFFEE-L",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -799,7 +799,7 @@
    {
     "id": "4200000003019",
     "title": "Tumma kahvi / 148 cm",
-    "sku": "ALS-LR573-DKCOFFEE-XL",
+    "sku": "KM-LR573-DKCOFFEE-XL",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -818,7 +818,7 @@
    {
     "id": "4200000003020",
     "title": "Tumma kahvi / 153 cm",
-    "sku": "ALS-LR573-DKCOFFEE-2XL",
+    "sku": "KM-LR573-DKCOFFEE-2XL",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -900,7 +900,7 @@
    {
     "id": "4200000004001",
     "title": "Musta",
-    "sku": "ALS-HJ908-BLACK-OS",
+    "sku": "KM-HJ908-BLACK-OS",
     "price": "29.95",
     "compare_at_price": null,
     "taxable": true,
@@ -918,7 +918,7 @@
    {
     "id": "4200000004002",
     "title": "Kahvi",
-    "sku": "ALS-HJ908-COFFEE-OS",
+    "sku": "KM-HJ908-COFFEE-OS",
     "price": "29.95",
     "compare_at_price": null,
     "taxable": true,
@@ -936,7 +936,7 @@
    {
     "id": "4200000004003",
     "title": "Kameli",
-    "sku": "ALS-HJ908-KHAKI-OS",
+    "sku": "KM-HJ908-KHAKI-OS",
     "price": "29.95",
     "compare_at_price": null,
     "taxable": true,
@@ -954,7 +954,7 @@
    {
     "id": "4200000004004",
     "title": "Tumma kahvi",
-    "sku": "ALS-HJ908-DKCOFFEE-OS",
+    "sku": "KM-HJ908-DKCOFFEE-OS",
     "price": "29.95",
     "compare_at_price": null,
     "taxable": true,
@@ -972,7 +972,7 @@
    {
     "id": "4200000004005",
     "title": "Tummansininen",
-    "sku": "ALS-HJ908-NAVY-OS",
+    "sku": "KM-HJ908-NAVY-OS",
     "price": "29.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1062,7 +1062,7 @@
    {
     "id": "4200000005001",
     "title": "Musta / 138 cm",
-    "sku": "ALS-LR574-BLACK-M",
+    "sku": "KM-LR574-BLACK-M",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1081,7 +1081,7 @@
    {
     "id": "4200000005002",
     "title": "Musta / 143 cm",
-    "sku": "ALS-LR574-BLACK-L",
+    "sku": "KM-LR574-BLACK-L",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1100,7 +1100,7 @@
    {
     "id": "4200000005003",
     "title": "Musta / 148 cm",
-    "sku": "ALS-LR574-BLACK-XL",
+    "sku": "KM-LR574-BLACK-XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1119,7 +1119,7 @@
    {
     "id": "4200000005004",
     "title": "Musta / 153 cm",
-    "sku": "ALS-LR574-BLACK-2XL",
+    "sku": "KM-LR574-BLACK-2XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1138,7 +1138,7 @@
    {
     "id": "4200000005005",
     "title": "Ruskea / 138 cm",
-    "sku": "ALS-LR574-BROWN-M",
+    "sku": "KM-LR574-BROWN-M",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1157,7 +1157,7 @@
    {
     "id": "4200000005006",
     "title": "Ruskea / 143 cm",
-    "sku": "ALS-LR574-BROWN-L",
+    "sku": "KM-LR574-BROWN-L",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1176,7 +1176,7 @@
    {
     "id": "4200000005007",
     "title": "Ruskea / 148 cm",
-    "sku": "ALS-LR574-BROWN-XL",
+    "sku": "KM-LR574-BROWN-XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1195,7 +1195,7 @@
    {
     "id": "4200000005008",
     "title": "Ruskea / 153 cm",
-    "sku": "ALS-LR574-BROWN-2XL",
+    "sku": "KM-LR574-BROWN-2XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1214,7 +1214,7 @@
    {
     "id": "4200000005009",
     "title": "Beige / 138 cm",
-    "sku": "ALS-LR574-BEIGE-M",
+    "sku": "KM-LR574-BEIGE-M",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1233,7 +1233,7 @@
    {
     "id": "4200000005010",
     "title": "Beige / 143 cm",
-    "sku": "ALS-LR574-BEIGE-L",
+    "sku": "KM-LR574-BEIGE-L",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1252,7 +1252,7 @@
    {
     "id": "4200000005011",
     "title": "Beige / 148 cm",
-    "sku": "ALS-LR574-BEIGE-XL",
+    "sku": "KM-LR574-BEIGE-XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1271,7 +1271,7 @@
    {
     "id": "4200000005012",
     "title": "Beige / 153 cm",
-    "sku": "ALS-LR574-BEIGE-2XL",
+    "sku": "KM-LR574-BEIGE-2XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1290,7 +1290,7 @@
    {
     "id": "4200000005013",
     "title": "Tummansininen / 138 cm",
-    "sku": "ALS-LR574-NAVY-M",
+    "sku": "KM-LR574-NAVY-M",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1309,7 +1309,7 @@
    {
     "id": "4200000005014",
     "title": "Tummansininen / 143 cm",
-    "sku": "ALS-LR574-NAVY-L",
+    "sku": "KM-LR574-NAVY-L",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1328,7 +1328,7 @@
    {
     "id": "4200000005015",
     "title": "Tummansininen / 148 cm",
-    "sku": "ALS-LR574-NAVY-XL",
+    "sku": "KM-LR574-NAVY-XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1347,7 +1347,7 @@
    {
     "id": "4200000005016",
     "title": "Tummansininen / 153 cm",
-    "sku": "ALS-LR574-NAVY-2XL",
+    "sku": "KM-LR574-NAVY-2XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1366,7 +1366,7 @@
    {
     "id": "4200000005017",
     "title": "Tumma kahvi / 138 cm",
-    "sku": "ALS-LR574-DKCOFFEE-M",
+    "sku": "KM-LR574-DKCOFFEE-M",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1385,7 +1385,7 @@
    {
     "id": "4200000005018",
     "title": "Tumma kahvi / 143 cm",
-    "sku": "ALS-LR574-DKCOFFEE-L",
+    "sku": "KM-LR574-DKCOFFEE-L",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1404,7 +1404,7 @@
    {
     "id": "4200000005019",
     "title": "Tumma kahvi / 148 cm",
-    "sku": "ALS-LR574-DKCOFFEE-XL",
+    "sku": "KM-LR574-DKCOFFEE-XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1423,7 +1423,7 @@
    {
     "id": "4200000005020",
     "title": "Tumma kahvi / 153 cm",
-    "sku": "ALS-LR574-DKCOFFEE-2XL",
+    "sku": "KM-LR574-DKCOFFEE-2XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1514,7 +1514,7 @@
    {
     "id": "4200000006001",
     "title": "Musta / 140 cm",
-    "sku": "ALS-LR499-BLACK-SIZE1",
+    "sku": "KM-LR499-BLACK-SIZE1",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1533,7 +1533,7 @@
    {
     "id": "4200000006002",
     "title": "Musta / 148 cm",
-    "sku": "ALS-LR499-BLACK-SIZE2",
+    "sku": "KM-LR499-BLACK-SIZE2",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1552,7 +1552,7 @@
    {
     "id": "4200000006003",
     "title": "Kahvi / 140 cm",
-    "sku": "ALS-LR499-COFFEE-SIZE1",
+    "sku": "KM-LR499-COFFEE-SIZE1",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1571,7 +1571,7 @@
    {
     "id": "4200000006004",
     "title": "Kahvi / 148 cm",
-    "sku": "ALS-LR499-COFFEE-SIZE2",
+    "sku": "KM-LR499-COFFEE-SIZE2",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1590,7 +1590,7 @@
    {
     "id": "4200000006005",
     "title": "Beige / 140 cm",
-    "sku": "ALS-LR499-BEIGE-SIZE1",
+    "sku": "KM-LR499-BEIGE-SIZE1",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1609,7 +1609,7 @@
    {
     "id": "4200000006006",
     "title": "Beige / 148 cm",
-    "sku": "ALS-LR499-BEIGE-SIZE2",
+    "sku": "KM-LR499-BEIGE-SIZE2",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1628,7 +1628,7 @@
    {
     "id": "4200000006007",
     "title": "Kameli / 140 cm",
-    "sku": "ALS-LR499-KHAKI-SIZE1",
+    "sku": "KM-LR499-KHAKI-SIZE1",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1647,7 +1647,7 @@
    {
     "id": "4200000006008",
     "title": "Kameli / 148 cm",
-    "sku": "ALS-LR499-KHAKI-SIZE2",
+    "sku": "KM-LR499-KHAKI-SIZE2",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1666,7 +1666,7 @@
    {
     "id": "4200000006009",
     "title": "Tummansininen / 140 cm",
-    "sku": "ALS-LR499-NAVY-SIZE1",
+    "sku": "KM-LR499-NAVY-SIZE1",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1685,7 +1685,7 @@
    {
     "id": "4200000006010",
     "title": "Tummansininen / 148 cm",
-    "sku": "ALS-LR499-NAVY-SIZE2",
+    "sku": "KM-LR499-NAVY-SIZE2",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1704,7 +1704,7 @@
    {
     "id": "4200000006011",
     "title": "Harmaa / 140 cm",
-    "sku": "ALS-LR499-GRAY-SIZE1",
+    "sku": "KM-LR499-GRAY-SIZE1",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1723,7 +1723,7 @@
    {
     "id": "4200000006012",
     "title": "Harmaa / 148 cm",
-    "sku": "ALS-LR499-GRAY-SIZE2",
+    "sku": "KM-LR499-GRAY-SIZE2",
     "price": "59.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1816,7 +1816,7 @@
    {
     "id": "4200000007001",
     "title": "Musta / 138 cm",
-    "sku": "ALS-LR593-BLACK-M",
+    "sku": "KM-LR593-BLACK-M",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1835,7 +1835,7 @@
    {
     "id": "4200000007002",
     "title": "Musta / 143 cm",
-    "sku": "ALS-LR593-BLACK-L",
+    "sku": "KM-LR593-BLACK-L",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1854,7 +1854,7 @@
    {
     "id": "4200000007003",
     "title": "Musta / 148 cm",
-    "sku": "ALS-LR593-BLACK-XL",
+    "sku": "KM-LR593-BLACK-XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1873,7 +1873,7 @@
    {
     "id": "4200000007004",
     "title": "Musta / 153 cm",
-    "sku": "ALS-LR593-BLACK-2XL",
+    "sku": "KM-LR593-BLACK-2XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1892,7 +1892,7 @@
    {
     "id": "4200000007005",
     "title": "Kahvi / 138 cm",
-    "sku": "ALS-LR593-COFFEE-M",
+    "sku": "KM-LR593-COFFEE-M",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1911,7 +1911,7 @@
    {
     "id": "4200000007006",
     "title": "Kahvi / 143 cm",
-    "sku": "ALS-LR593-COFFEE-L",
+    "sku": "KM-LR593-COFFEE-L",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1930,7 +1930,7 @@
    {
     "id": "4200000007007",
     "title": "Kahvi / 148 cm",
-    "sku": "ALS-LR593-COFFEE-XL",
+    "sku": "KM-LR593-COFFEE-XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1949,7 +1949,7 @@
    {
     "id": "4200000007008",
     "title": "Kahvi / 153 cm",
-    "sku": "ALS-LR593-COFFEE-2XL",
+    "sku": "KM-LR593-COFFEE-2XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1968,7 +1968,7 @@
    {
     "id": "4200000007009",
     "title": "Kameli / 138 cm",
-    "sku": "ALS-LR593-KHAKI-M",
+    "sku": "KM-LR593-KHAKI-M",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -1987,7 +1987,7 @@
    {
     "id": "4200000007010",
     "title": "Kameli / 143 cm",
-    "sku": "ALS-LR593-KHAKI-L",
+    "sku": "KM-LR593-KHAKI-L",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2006,7 +2006,7 @@
    {
     "id": "4200000007011",
     "title": "Kameli / 148 cm",
-    "sku": "ALS-LR593-KHAKI-XL",
+    "sku": "KM-LR593-KHAKI-XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2025,7 +2025,7 @@
    {
     "id": "4200000007012",
     "title": "Kameli / 153 cm",
-    "sku": "ALS-LR593-KHAKI-2XL",
+    "sku": "KM-LR593-KHAKI-2XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2044,7 +2044,7 @@
    {
     "id": "4200000007013",
     "title": "Tumma kahvi / 138 cm",
-    "sku": "ALS-LR593-DKCOFFEE-M",
+    "sku": "KM-LR593-DKCOFFEE-M",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2063,7 +2063,7 @@
    {
     "id": "4200000007014",
     "title": "Tumma kahvi / 143 cm",
-    "sku": "ALS-LR593-DKCOFFEE-L",
+    "sku": "KM-LR593-DKCOFFEE-L",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2082,7 +2082,7 @@
    {
     "id": "4200000007015",
     "title": "Tumma kahvi / 148 cm",
-    "sku": "ALS-LR593-DKCOFFEE-XL",
+    "sku": "KM-LR593-DKCOFFEE-XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2101,7 +2101,7 @@
    {
     "id": "4200000007016",
     "title": "Tumma kahvi / 153 cm",
-    "sku": "ALS-LR593-DKCOFFEE-2XL",
+    "sku": "KM-LR593-DKCOFFEE-2XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2120,7 +2120,7 @@
    {
     "id": "4200000007017",
     "title": "Tummansininen / 138 cm",
-    "sku": "ALS-LR593-NAVY-M",
+    "sku": "KM-LR593-NAVY-M",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2139,7 +2139,7 @@
    {
     "id": "4200000007018",
     "title": "Tummansininen / 143 cm",
-    "sku": "ALS-LR593-NAVY-L",
+    "sku": "KM-LR593-NAVY-L",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2158,7 +2158,7 @@
    {
     "id": "4200000007019",
     "title": "Tummansininen / 148 cm",
-    "sku": "ALS-LR593-NAVY-XL",
+    "sku": "KM-LR593-NAVY-XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2177,7 +2177,7 @@
    {
     "id": "4200000007020",
     "title": "Tummansininen / 153 cm",
-    "sku": "ALS-LR593-NAVY-2XL",
+    "sku": "KM-LR593-NAVY-2XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2196,7 +2196,7 @@
    {
     "id": "4200000007021",
     "title": "Vaaleanharmaa / 138 cm",
-    "sku": "ALS-LR593-LTGRAY-M",
+    "sku": "KM-LR593-LTGRAY-M",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2215,7 +2215,7 @@
    {
     "id": "4200000007022",
     "title": "Vaaleanharmaa / 143 cm",
-    "sku": "ALS-LR593-LTGRAY-L",
+    "sku": "KM-LR593-LTGRAY-L",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2234,7 +2234,7 @@
    {
     "id": "4200000007023",
     "title": "Vaaleanharmaa / 148 cm",
-    "sku": "ALS-LR593-LTGRAY-XL",
+    "sku": "KM-LR593-LTGRAY-XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2253,7 +2253,7 @@
    {
     "id": "4200000007024",
     "title": "Vaaleanharmaa / 153 cm",
-    "sku": "ALS-LR593-LTGRAY-2XL",
+    "sku": "KM-LR593-LTGRAY-2XL",
     "price": "49.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2342,7 +2342,7 @@
    {
     "id": "4200000008001",
     "title": "Musta / 138 cm",
-    "sku": "ALS-SLT8883-BLACK-M",
+    "sku": "KM-SLT8883-BLACK-M",
     "price": "54.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2361,7 +2361,7 @@
    {
     "id": "4200000008002",
     "title": "Musta / 143 cm",
-    "sku": "ALS-SLT8883-BLACK-L",
+    "sku": "KM-SLT8883-BLACK-L",
     "price": "54.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2380,7 +2380,7 @@
    {
     "id": "4200000008003",
     "title": "Musta / 148 cm",
-    "sku": "ALS-SLT8883-BLACK-XL",
+    "sku": "KM-SLT8883-BLACK-XL",
     "price": "54.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2399,7 +2399,7 @@
    {
     "id": "4200000008004",
     "title": "Musta / 153 cm",
-    "sku": "ALS-SLT8883-BLACK-2XL",
+    "sku": "KM-SLT8883-BLACK-2XL",
     "price": "54.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2418,7 +2418,7 @@
    {
     "id": "4200000008005",
     "title": "Ruskea / 138 cm",
-    "sku": "ALS-SLT8883-BROWN-M",
+    "sku": "KM-SLT8883-BROWN-M",
     "price": "54.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2437,7 +2437,7 @@
    {
     "id": "4200000008006",
     "title": "Ruskea / 143 cm",
-    "sku": "ALS-SLT8883-BROWN-L",
+    "sku": "KM-SLT8883-BROWN-L",
     "price": "54.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2456,7 +2456,7 @@
    {
     "id": "4200000008007",
     "title": "Ruskea / 148 cm",
-    "sku": "ALS-SLT8883-BROWN-XL",
+    "sku": "KM-SLT8883-BROWN-XL",
     "price": "54.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2475,7 +2475,7 @@
    {
     "id": "4200000008008",
     "title": "Ruskea / 153 cm",
-    "sku": "ALS-SLT8883-BROWN-2XL",
+    "sku": "KM-SLT8883-BROWN-2XL",
     "price": "54.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2494,7 +2494,7 @@
    {
     "id": "4200000008009",
     "title": "Beige / 138 cm",
-    "sku": "ALS-SLT8883-BEIGE-M",
+    "sku": "KM-SLT8883-BEIGE-M",
     "price": "54.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2513,7 +2513,7 @@
    {
     "id": "4200000008010",
     "title": "Beige / 143 cm",
-    "sku": "ALS-SLT8883-BEIGE-L",
+    "sku": "KM-SLT8883-BEIGE-L",
     "price": "54.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2532,7 +2532,7 @@
    {
     "id": "4200000008011",
     "title": "Beige / 148 cm",
-    "sku": "ALS-SLT8883-BEIGE-XL",
+    "sku": "KM-SLT8883-BEIGE-XL",
     "price": "54.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2551,7 +2551,7 @@
    {
     "id": "4200000008012",
     "title": "Beige / 153 cm",
-    "sku": "ALS-SLT8883-BEIGE-2XL",
+    "sku": "KM-SLT8883-BEIGE-2XL",
     "price": "54.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2570,7 +2570,7 @@
    {
     "id": "4200000008013",
     "title": "Harmaa / 138 cm",
-    "sku": "ALS-SLT8883-GRAY-M",
+    "sku": "KM-SLT8883-GRAY-M",
     "price": "54.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2589,7 +2589,7 @@
    {
     "id": "4200000008014",
     "title": "Harmaa / 143 cm",
-    "sku": "ALS-SLT8883-GRAY-L",
+    "sku": "KM-SLT8883-GRAY-L",
     "price": "54.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2608,7 +2608,7 @@
    {
     "id": "4200000008015",
     "title": "Harmaa / 148 cm",
-    "sku": "ALS-SLT8883-GRAY-XL",
+    "sku": "KM-SLT8883-GRAY-XL",
     "price": "54.95",
     "compare_at_price": null,
     "taxable": true,
@@ -2627,7 +2627,7 @@
    {
     "id": "4200000008016",
     "title": "Harmaa / 153 cm",
-    "sku": "ALS-SLT8883-GRAY-2XL",
+    "sku": "KM-SLT8883-GRAY-2XL",
     "price": "54.95",
     "compare_at_price": null,
     "taxable": true,

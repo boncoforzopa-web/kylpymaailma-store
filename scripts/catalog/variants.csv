@@ -1,112 +1,112 @@
-﻿Handle,Product_Name_NL,Variant,Colour,Length,SKU,Price_EUR,Stock,Image_URL
-hijab-premium-jersey,Premium jersey hijab,Mocha,Mocha,One size,RIHA-PJ-MOCHA-OS,14.99,15,https://admin.alsouq.nl/static/catalogue/RIHA-jersey-main.jpg
-hijab-premium-jersey,Premium jersey hijab,Sand,Sand,One size,RIHA-PJ-SAND-OS,14.99,15,https://admin.alsouq.nl/static/catalogue/RIHA-jersey-main.jpg
-hijab-premium-jersey,Premium jersey hijab,Dusty Bone,Dusty Bone,One size,RIHA-PJ-DBONE-OS,14.99,15,https://admin.alsouq.nl/static/catalogue/RIHA-jersey-main.jpg
-hijab-premium-jersey,Premium jersey hijab,Sage,Sage,One size,RIHA-PJ-SAGE-OS,14.99,15,https://admin.alsouq.nl/static/catalogue/RIHA-jersey-main.jpg
-hijab-premium-jersey,Premium jersey hijab,Espresso,Espresso,One size,RIHA-PJ-ESPR-OS,14.99,15,https://admin.alsouq.nl/static/catalogue/RIHA-jersey-main.jpg
-hijab-premium-jersey,Premium jersey hijab,Cloud,Cloud,One size,RIHA-PJ-CLOUD-OS,14.99,15,https://admin.alsouq.nl/static/catalogue/RIHA-jersey-main.jpg
-hijab-premium-jersey,Premium jersey hijab,Storm,Storm,One size,RIHA-PJ-STORM-OS,14.99,15,https://admin.alsouq.nl/static/catalogue/RIHA-jersey-main.jpg
-khimar-one-layer,Eenlaagse khimar,Black,Black,One size,ALS-HJ907-BLACK-OS,24.95,13,https://admin.alsouq.nl/static/catalogue/HJ907-p70-main.jpg
-khimar-one-layer,Eenlaagse khimar,Coffee,Coffee,One size,ALS-HJ907-COFFEE-OS,24.95,12,https://admin.alsouq.nl/static/catalogue/HJ907-p70-main.jpg
-khimar-one-layer,Eenlaagse khimar,Camel,Camel,One size,ALS-HJ907-KHAKI-OS,24.95,10,https://admin.alsouq.nl/static/catalogue/HJ907-p70-main.jpg
-khimar-one-layer,Eenlaagse khimar,Dark Coffee,Dark Coffee,One size,ALS-HJ907-DKCOFFEE-OS,24.95,8,https://admin.alsouq.nl/static/catalogue/HJ907-p70-main.jpg
-khimar-one-layer,Eenlaagse khimar,Navy,Navy,One size,ALS-HJ907-NAVY-OS,24.95,8,https://admin.alsouq.nl/static/catalogue/HJ907-p70-main.jpg
-khimar-one-layer,Eenlaagse khimar,Light Gray,Light Gray,One size,ALS-HJ907-LTGRAY-OS,24.95,6,https://admin.alsouq.nl/static/catalogue/HJ907-p70-main.jpg
-khimar-one-layer,Eenlaagse khimar,White,White,One size,ALS-HJ907-WHITE-OS,24.95,3,https://admin.alsouq.nl/static/catalogue/HJ907-p70-main.jpg
-open-abaya-linen,Linnen open abaya,Black / 138 cm,Black,138 cm,ALS-LR573-BLACK-M,59.95,1,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Black / 143 cm,Black,143 cm,ALS-LR573-BLACK-L,59.95,2,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Black / 148 cm,Black,148 cm,ALS-LR573-BLACK-XL,59.95,2,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Black / 153 cm,Black,153 cm,ALS-LR573-BLACK-2XL,59.95,1,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Brown / 138 cm,Brown,138 cm,ALS-LR573-BROWN-M,59.95,1,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Brown / 143 cm,Brown,143 cm,ALS-LR573-BROWN-L,59.95,1,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Brown / 148 cm,Brown,148 cm,ALS-LR573-BROWN-XL,59.95,1,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Brown / 153 cm,Brown,153 cm,ALS-LR573-BROWN-2XL,59.95,1,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Beige / 138 cm,Beige,138 cm,ALS-LR573-BEIGE-M,59.95,1,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Beige / 143 cm,Beige,143 cm,ALS-LR573-BEIGE-L,59.95,1,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Beige / 148 cm,Beige,148 cm,ALS-LR573-BEIGE-XL,59.95,1,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Beige / 153 cm,Beige,153 cm,ALS-LR573-BEIGE-2XL,59.95,1,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Navy / 138 cm,Navy,138 cm,ALS-LR573-NAVY-M,59.95,1,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Navy / 143 cm,Navy,143 cm,ALS-LR573-NAVY-L,59.95,1,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Navy / 148 cm,Navy,148 cm,ALS-LR573-NAVY-XL,59.95,1,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Navy / 153 cm,Navy,153 cm,ALS-LR573-NAVY-2XL,59.95,1,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Dark Coffee / 138 cm,Dark Coffee,138 cm,ALS-LR573-DKCOFFEE-M,59.95,0,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Dark Coffee / 143 cm,Dark Coffee,143 cm,ALS-LR573-DKCOFFEE-L,59.95,1,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Dark Coffee / 148 cm,Dark Coffee,148 cm,ALS-LR573-DKCOFFEE-XL,59.95,1,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-open-abaya-linen,Linnen open abaya,Dark Coffee / 153 cm,Dark Coffee,153 cm,ALS-LR573-DKCOFFEE-2XL,59.95,1,https://admin.alsouq.nl/static/catalogue/LR573-p69-main.jpg
-khimar-two-layer,Tweelaagse khimar,Black,Black,One size,ALS-HJ908-BLACK-OS,29.95,8,https://admin.alsouq.nl/static/catalogue/HJ908-p71-shown.jpg
-khimar-two-layer,Tweelaagse khimar,Coffee,Coffee,One size,ALS-HJ908-COFFEE-OS,29.95,7,https://admin.alsouq.nl/static/catalogue/HJ908-p71-shown.jpg
-khimar-two-layer,Tweelaagse khimar,Camel,Camel,One size,ALS-HJ908-KHAKI-OS,29.95,6,https://admin.alsouq.nl/static/catalogue/HJ908-p71-shown.jpg
-khimar-two-layer,Tweelaagse khimar,Dark Coffee,Dark Coffee,One size,ALS-HJ908-DKCOFFEE-OS,29.95,5,https://admin.alsouq.nl/static/catalogue/HJ908-p71-shown.jpg
-khimar-two-layer,Tweelaagse khimar,Navy,Navy,One size,ALS-HJ908-NAVY-OS,29.95,4,https://admin.alsouq.nl/static/catalogue/HJ908-p71-shown.jpg
-closed-dress-linen,Linnen gesloten jurk,Black / 138 cm,Black,138 cm,ALS-LR574-BLACK-M,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Black / 143 cm,Black,143 cm,ALS-LR574-BLACK-L,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Black / 148 cm,Black,148 cm,ALS-LR574-BLACK-XL,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Black / 153 cm,Black,153 cm,ALS-LR574-BLACK-2XL,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Brown / 138 cm,Brown,138 cm,ALS-LR574-BROWN-M,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Brown / 143 cm,Brown,143 cm,ALS-LR574-BROWN-L,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Brown / 148 cm,Brown,148 cm,ALS-LR574-BROWN-XL,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Brown / 153 cm,Brown,153 cm,ALS-LR574-BROWN-2XL,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Beige / 138 cm,Beige,138 cm,ALS-LR574-BEIGE-M,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Beige / 143 cm,Beige,143 cm,ALS-LR574-BEIGE-L,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Beige / 148 cm,Beige,148 cm,ALS-LR574-BEIGE-XL,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Beige / 153 cm,Beige,153 cm,ALS-LR574-BEIGE-2XL,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Navy / 138 cm,Navy,138 cm,ALS-LR574-NAVY-M,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Navy / 143 cm,Navy,143 cm,ALS-LR574-NAVY-L,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Navy / 148 cm,Navy,148 cm,ALS-LR574-NAVY-XL,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Navy / 153 cm,Navy,153 cm,ALS-LR574-NAVY-2XL,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Dark Coffee / 138 cm,Dark Coffee,138 cm,ALS-LR574-DKCOFFEE-M,49.95,0,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Dark Coffee / 143 cm,Dark Coffee,143 cm,ALS-LR574-DKCOFFEE-L,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Dark Coffee / 148 cm,Dark Coffee,148 cm,ALS-LR574-DKCOFFEE-XL,49.95,1,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-closed-dress-linen,Linnen gesloten jurk,Dark Coffee / 153 cm,Dark Coffee,153 cm,ALS-LR574-DKCOFFEE-2XL,49.95,0,https://admin.alsouq.nl/static/catalogue/LR574-p69-main.jpg
-abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Black / 140 cm,Black,140 cm,ALS-LR499-BLACK-SIZE1,59.95,7,https://admin.alsouq.nl/static/catalogue/LR499-p69-main.jpg
-abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Black / 148 cm,Black,148 cm,ALS-LR499-BLACK-SIZE2,59.95,7,https://admin.alsouq.nl/static/catalogue/LR499-p69-main.jpg
-abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Coffee / 140 cm,Coffee,140 cm,ALS-LR499-COFFEE-SIZE1,59.95,6,https://admin.alsouq.nl/static/catalogue/LR499-p69-main.jpg
-abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Coffee / 148 cm,Coffee,148 cm,ALS-LR499-COFFEE-SIZE2,59.95,6,https://admin.alsouq.nl/static/catalogue/LR499-p69-main.jpg
-abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Beige / 140 cm,Beige,140 cm,ALS-LR499-BEIGE-SIZE1,59.95,5,https://admin.alsouq.nl/static/catalogue/LR499-p69-main.jpg
-abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Beige / 148 cm,Beige,148 cm,ALS-LR499-BEIGE-SIZE2,59.95,5,https://admin.alsouq.nl/static/catalogue/LR499-p69-main.jpg
-abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Camel / 140 cm,Camel,140 cm,ALS-LR499-KHAKI-SIZE1,59.95,4,https://admin.alsouq.nl/static/catalogue/LR499-p69-main.jpg
-abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Camel / 148 cm,Camel,148 cm,ALS-LR499-KHAKI-SIZE2,59.95,4,https://admin.alsouq.nl/static/catalogue/LR499-p69-main.jpg
-abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Navy / 140 cm,Navy,140 cm,ALS-LR499-NAVY-SIZE1,59.95,4,https://admin.alsouq.nl/static/catalogue/LR499-p69-main.jpg
-abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Navy / 148 cm,Navy,148 cm,ALS-LR499-NAVY-SIZE2,59.95,4,https://admin.alsouq.nl/static/catalogue/LR499-p69-main.jpg
-abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Gray / 140 cm,Gray,140 cm,ALS-LR499-GRAY-SIZE1,59.95,3,https://admin.alsouq.nl/static/catalogue/LR499-p69-main.jpg
-abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Gray / 148 cm,Gray,148 cm,ALS-LR499-GRAY-SIZE2,59.95,3,https://admin.alsouq.nl/static/catalogue/LR499-p69-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Black / 138 cm,Black,138 cm,ALS-LR593-BLACK-M,49.95,1,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Black / 143 cm,Black,143 cm,ALS-LR593-BLACK-L,49.95,2,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Black / 148 cm,Black,148 cm,ALS-LR593-BLACK-XL,49.95,2,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Black / 153 cm,Black,153 cm,ALS-LR593-BLACK-2XL,49.95,2,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Coffee / 138 cm,Coffee,138 cm,ALS-LR593-COFFEE-M,49.95,1,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Coffee / 143 cm,Coffee,143 cm,ALS-LR593-COFFEE-L,49.95,2,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Coffee / 148 cm,Coffee,148 cm,ALS-LR593-COFFEE-XL,49.95,2,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Coffee / 153 cm,Coffee,153 cm,ALS-LR593-COFFEE-2XL,49.95,2,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Camel / 138 cm,Camel,138 cm,ALS-LR593-KHAKI-M,49.95,1,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Camel / 143 cm,Camel,143 cm,ALS-LR593-KHAKI-L,49.95,2,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Camel / 148 cm,Camel,148 cm,ALS-LR593-KHAKI-XL,49.95,2,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Camel / 153 cm,Camel,153 cm,ALS-LR593-KHAKI-2XL,49.95,2,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Dark Coffee / 138 cm,Dark Coffee,138 cm,ALS-LR593-DKCOFFEE-M,49.95,1,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Dark Coffee / 143 cm,Dark Coffee,143 cm,ALS-LR593-DKCOFFEE-L,49.95,1,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Dark Coffee / 148 cm,Dark Coffee,148 cm,ALS-LR593-DKCOFFEE-XL,49.95,1,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Dark Coffee / 153 cm,Dark Coffee,153 cm,ALS-LR593-DKCOFFEE-2XL,49.95,1,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Navy / 138 cm,Navy,138 cm,ALS-LR593-NAVY-M,49.95,1,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Navy / 143 cm,Navy,143 cm,ALS-LR593-NAVY-L,49.95,1,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Navy / 148 cm,Navy,148 cm,ALS-LR593-NAVY-XL,49.95,1,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Navy / 153 cm,Navy,153 cm,ALS-LR593-NAVY-2XL,49.95,1,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Light Gray / 138 cm,Light Gray,138 cm,ALS-LR593-LTGRAY-M,49.95,1,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Light Gray / 143 cm,Light Gray,143 cm,ALS-LR593-LTGRAY-L,49.95,1,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Light Gray / 148 cm,Light Gray,148 cm,ALS-LR593-LTGRAY-XL,49.95,1,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-wrinkle-polyester,Kreukpolyester open abaya,Light Gray / 153 cm,Light Gray,153 cm,ALS-LR593-LTGRAY-2XL,49.95,1,https://admin.alsouq.nl/static/catalogue/LR593-p70-main.jpg
-abaya-nida,Nida open abaya,Black / 138 cm,Black,138 cm,ALS-SLT8883-BLACK-M,54.95,1,https://admin.alsouq.nl/static/catalogue/SLT8883-p69-main.jpg
-abaya-nida,Nida open abaya,Black / 143 cm,Black,143 cm,ALS-SLT8883-BLACK-L,54.95,2,https://admin.alsouq.nl/static/catalogue/SLT8883-p69-main.jpg
-abaya-nida,Nida open abaya,Black / 148 cm,Black,148 cm,ALS-SLT8883-BLACK-XL,54.95,2,https://admin.alsouq.nl/static/catalogue/SLT8883-p69-main.jpg
-abaya-nida,Nida open abaya,Black / 153 cm,Black,153 cm,ALS-SLT8883-BLACK-2XL,54.95,1,https://admin.alsouq.nl/static/catalogue/SLT8883-p69-main.jpg
-abaya-nida,Nida open abaya,Brown / 138 cm,Brown,138 cm,ALS-SLT8883-BROWN-M,54.95,1,https://admin.alsouq.nl/static/catalogue/SLT8883-p69-main.jpg
-abaya-nida,Nida open abaya,Brown / 143 cm,Brown,143 cm,ALS-SLT8883-BROWN-L,54.95,2,https://admin.alsouq.nl/static/catalogue/SLT8883-p69-main.jpg
-abaya-nida,Nida open abaya,Brown / 148 cm,Brown,148 cm,ALS-SLT8883-BROWN-XL,54.95,2,https://admin.alsouq.nl/static/catalogue/SLT8883-p69-main.jpg
-abaya-nida,Nida open abaya,Brown / 153 cm,Brown,153 cm,ALS-SLT8883-BROWN-2XL,54.95,1,https://admin.alsouq.nl/static/catalogue/SLT8883-p69-main.jpg
-abaya-nida,Nida open abaya,Beige / 138 cm,Beige,138 cm,ALS-SLT8883-BEIGE-M,54.95,1,https://admin.alsouq.nl/static/catalogue/SLT8883-p69-main.jpg
-abaya-nida,Nida open abaya,Beige / 143 cm,Beige,143 cm,ALS-SLT8883-BEIGE-L,54.95,2,https://admin.alsouq.nl/static/catalogue/SLT8883-p69-main.jpg
-abaya-nida,Nida open abaya,Beige / 148 cm,Beige,148 cm,ALS-SLT8883-BEIGE-XL,54.95,2,https://admin.alsouq.nl/static/catalogue/SLT8883-p69-main.jpg
-abaya-nida,Nida open abaya,Beige / 153 cm,Beige,153 cm,ALS-SLT8883-BEIGE-2XL,54.95,1,https://admin.alsouq.nl/static/catalogue/SLT8883-p69-main.jpg
-abaya-nida,Nida open abaya,Gray / 138 cm,Gray,138 cm,ALS-SLT8883-GRAY-M,54.95,1,https://admin.alsouq.nl/static/catalogue/SLT8883-p69-main.jpg
-abaya-nida,Nida open abaya,Gray / 143 cm,Gray,143 cm,ALS-SLT8883-GRAY-L,54.95,1,https://admin.alsouq.nl/static/catalogue/SLT8883-p69-main.jpg
-abaya-nida,Nida open abaya,Gray / 148 cm,Gray,148 cm,ALS-SLT8883-GRAY-XL,54.95,1,https://admin.alsouq.nl/static/catalogue/SLT8883-p69-main.jpg
-abaya-nida,Nida open abaya,Gray / 153 cm,Gray,153 cm,ALS-SLT8883-GRAY-2XL,54.95,1,https://admin.alsouq.nl/static/catalogue/SLT8883-p69-main.jpg
+Handle,Product_Name_NL,Variant,Colour,Length,SKU,Price_EUR,Stock,Image_URL
+hijab-premium-jersey,Premium jersey hijab,Mocha,Mocha,One size,RIHA-PJ-MOCHA-OS,14.99,15,https://kylpymaailma.com/images/hijab-premium-jersey/01-612.webp
+hijab-premium-jersey,Premium jersey hijab,Sand,Sand,One size,RIHA-PJ-SAND-OS,14.99,15,https://kylpymaailma.com/images/hijab-premium-jersey/01-612.webp
+hijab-premium-jersey,Premium jersey hijab,Dusty Bone,Dusty Bone,One size,RIHA-PJ-DBONE-OS,14.99,15,https://kylpymaailma.com/images/hijab-premium-jersey/01-612.webp
+hijab-premium-jersey,Premium jersey hijab,Sage,Sage,One size,RIHA-PJ-SAGE-OS,14.99,15,https://kylpymaailma.com/images/hijab-premium-jersey/01-612.webp
+hijab-premium-jersey,Premium jersey hijab,Espresso,Espresso,One size,RIHA-PJ-ESPR-OS,14.99,15,https://kylpymaailma.com/images/hijab-premium-jersey/01-612.webp
+hijab-premium-jersey,Premium jersey hijab,Cloud,Cloud,One size,RIHA-PJ-CLOUD-OS,14.99,15,https://kylpymaailma.com/images/hijab-premium-jersey/01-612.webp
+hijab-premium-jersey,Premium jersey hijab,Storm,Storm,One size,RIHA-PJ-STORM-OS,14.99,15,https://kylpymaailma.com/images/hijab-premium-jersey/01-612.webp
+khimar-one-layer,Eenlaagse khimar,Black,Black,One size,KM-HJ907-BLACK-OS,24.95,13,https://kylpymaailma.com/images/khimar-one-layer/01-800.webp
+khimar-one-layer,Eenlaagse khimar,Coffee,Coffee,One size,KM-HJ907-COFFEE-OS,24.95,12,https://kylpymaailma.com/images/khimar-one-layer/01-800.webp
+khimar-one-layer,Eenlaagse khimar,Camel,Camel,One size,KM-HJ907-KHAKI-OS,24.95,10,https://kylpymaailma.com/images/khimar-one-layer/01-800.webp
+khimar-one-layer,Eenlaagse khimar,Dark Coffee,Dark Coffee,One size,KM-HJ907-DKCOFFEE-OS,24.95,8,https://kylpymaailma.com/images/khimar-one-layer/01-800.webp
+khimar-one-layer,Eenlaagse khimar,Navy,Navy,One size,KM-HJ907-NAVY-OS,24.95,8,https://kylpymaailma.com/images/khimar-one-layer/01-800.webp
+khimar-one-layer,Eenlaagse khimar,Light Gray,Light Gray,One size,KM-HJ907-LTGRAY-OS,24.95,6,https://kylpymaailma.com/images/khimar-one-layer/01-800.webp
+khimar-one-layer,Eenlaagse khimar,White,White,One size,KM-HJ907-WHITE-OS,24.95,3,https://kylpymaailma.com/images/khimar-one-layer/01-800.webp
+open-abaya-linen,Linnen open abaya,Black / 138 cm,Black,138 cm,KM-LR573-BLACK-M,59.95,1,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Black / 143 cm,Black,143 cm,KM-LR573-BLACK-L,59.95,2,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Black / 148 cm,Black,148 cm,KM-LR573-BLACK-XL,59.95,2,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Black / 153 cm,Black,153 cm,KM-LR573-BLACK-2XL,59.95,1,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Brown / 138 cm,Brown,138 cm,KM-LR573-BROWN-M,59.95,1,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Brown / 143 cm,Brown,143 cm,KM-LR573-BROWN-L,59.95,1,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Brown / 148 cm,Brown,148 cm,KM-LR573-BROWN-XL,59.95,1,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Brown / 153 cm,Brown,153 cm,KM-LR573-BROWN-2XL,59.95,1,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Beige / 138 cm,Beige,138 cm,KM-LR573-BEIGE-M,59.95,1,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Beige / 143 cm,Beige,143 cm,KM-LR573-BEIGE-L,59.95,1,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Beige / 148 cm,Beige,148 cm,KM-LR573-BEIGE-XL,59.95,1,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Beige / 153 cm,Beige,153 cm,KM-LR573-BEIGE-2XL,59.95,1,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Navy / 138 cm,Navy,138 cm,KM-LR573-NAVY-M,59.95,1,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Navy / 143 cm,Navy,143 cm,KM-LR573-NAVY-L,59.95,1,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Navy / 148 cm,Navy,148 cm,KM-LR573-NAVY-XL,59.95,1,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Navy / 153 cm,Navy,153 cm,KM-LR573-NAVY-2XL,59.95,1,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Dark Coffee / 138 cm,Dark Coffee,138 cm,KM-LR573-DKCOFFEE-M,59.95,0,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Dark Coffee / 143 cm,Dark Coffee,143 cm,KM-LR573-DKCOFFEE-L,59.95,1,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Dark Coffee / 148 cm,Dark Coffee,148 cm,KM-LR573-DKCOFFEE-XL,59.95,1,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+open-abaya-linen,Linnen open abaya,Dark Coffee / 153 cm,Dark Coffee,153 cm,KM-LR573-DKCOFFEE-2XL,59.95,1,https://kylpymaailma.com/images/open-abaya-linen/01-650.webp
+khimar-two-layer,Tweelaagse khimar,Black,Black,One size,KM-HJ908-BLACK-OS,29.95,8,https://kylpymaailma.com/images/khimar-two-layer/01-753.webp
+khimar-two-layer,Tweelaagse khimar,Coffee,Coffee,One size,KM-HJ908-COFFEE-OS,29.95,7,https://kylpymaailma.com/images/khimar-two-layer/01-753.webp
+khimar-two-layer,Tweelaagse khimar,Camel,Camel,One size,KM-HJ908-KHAKI-OS,29.95,6,https://kylpymaailma.com/images/khimar-two-layer/01-753.webp
+khimar-two-layer,Tweelaagse khimar,Dark Coffee,Dark Coffee,One size,KM-HJ908-DKCOFFEE-OS,29.95,5,https://kylpymaailma.com/images/khimar-two-layer/01-753.webp
+khimar-two-layer,Tweelaagse khimar,Navy,Navy,One size,KM-HJ908-NAVY-OS,29.95,4,https://kylpymaailma.com/images/khimar-two-layer/01-753.webp
+closed-dress-linen,Linnen gesloten jurk,Black / 138 cm,Black,138 cm,KM-LR574-BLACK-M,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Black / 143 cm,Black,143 cm,KM-LR574-BLACK-L,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Black / 148 cm,Black,148 cm,KM-LR574-BLACK-XL,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Black / 153 cm,Black,153 cm,KM-LR574-BLACK-2XL,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Brown / 138 cm,Brown,138 cm,KM-LR574-BROWN-M,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Brown / 143 cm,Brown,143 cm,KM-LR574-BROWN-L,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Brown / 148 cm,Brown,148 cm,KM-LR574-BROWN-XL,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Brown / 153 cm,Brown,153 cm,KM-LR574-BROWN-2XL,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Beige / 138 cm,Beige,138 cm,KM-LR574-BEIGE-M,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Beige / 143 cm,Beige,143 cm,KM-LR574-BEIGE-L,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Beige / 148 cm,Beige,148 cm,KM-LR574-BEIGE-XL,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Beige / 153 cm,Beige,153 cm,KM-LR574-BEIGE-2XL,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Navy / 138 cm,Navy,138 cm,KM-LR574-NAVY-M,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Navy / 143 cm,Navy,143 cm,KM-LR574-NAVY-L,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Navy / 148 cm,Navy,148 cm,KM-LR574-NAVY-XL,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Navy / 153 cm,Navy,153 cm,KM-LR574-NAVY-2XL,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Dark Coffee / 138 cm,Dark Coffee,138 cm,KM-LR574-DKCOFFEE-M,49.95,0,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Dark Coffee / 143 cm,Dark Coffee,143 cm,KM-LR574-DKCOFFEE-L,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Dark Coffee / 148 cm,Dark Coffee,148 cm,KM-LR574-DKCOFFEE-XL,49.95,1,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+closed-dress-linen,Linnen gesloten jurk,Dark Coffee / 153 cm,Dark Coffee,153 cm,KM-LR574-DKCOFFEE-2XL,49.95,0,https://kylpymaailma.com/images/closed-dress-linen/01-662.webp
+abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Black / 140 cm,Black,140 cm,KM-LR499-BLACK-SIZE1,59.95,7,https://kylpymaailma.com/images/abaya-hooded-nida/01-800.webp
+abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Black / 148 cm,Black,148 cm,KM-LR499-BLACK-SIZE2,59.95,7,https://kylpymaailma.com/images/abaya-hooded-nida/01-800.webp
+abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Coffee / 140 cm,Coffee,140 cm,KM-LR499-COFFEE-SIZE1,59.95,6,https://kylpymaailma.com/images/abaya-hooded-nida/01-800.webp
+abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Coffee / 148 cm,Coffee,148 cm,KM-LR499-COFFEE-SIZE2,59.95,6,https://kylpymaailma.com/images/abaya-hooded-nida/01-800.webp
+abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Beige / 140 cm,Beige,140 cm,KM-LR499-BEIGE-SIZE1,59.95,5,https://kylpymaailma.com/images/abaya-hooded-nida/01-800.webp
+abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Beige / 148 cm,Beige,148 cm,KM-LR499-BEIGE-SIZE2,59.95,5,https://kylpymaailma.com/images/abaya-hooded-nida/01-800.webp
+abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Camel / 140 cm,Camel,140 cm,KM-LR499-KHAKI-SIZE1,59.95,4,https://kylpymaailma.com/images/abaya-hooded-nida/01-800.webp
+abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Camel / 148 cm,Camel,148 cm,KM-LR499-KHAKI-SIZE2,59.95,4,https://kylpymaailma.com/images/abaya-hooded-nida/01-800.webp
+abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Navy / 140 cm,Navy,140 cm,KM-LR499-NAVY-SIZE1,59.95,4,https://kylpymaailma.com/images/abaya-hooded-nida/01-800.webp
+abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Navy / 148 cm,Navy,148 cm,KM-LR499-NAVY-SIZE2,59.95,4,https://kylpymaailma.com/images/abaya-hooded-nida/01-800.webp
+abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Gray / 140 cm,Gray,140 cm,KM-LR499-GRAY-SIZE1,59.95,3,https://kylpymaailma.com/images/abaya-hooded-nida/01-800.webp
+abaya-hooded-nida,Nida abaya met vastgemaakte hijab,Gray / 148 cm,Gray,148 cm,KM-LR499-GRAY-SIZE2,59.95,3,https://kylpymaailma.com/images/abaya-hooded-nida/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Black / 138 cm,Black,138 cm,KM-LR593-BLACK-M,49.95,1,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Black / 143 cm,Black,143 cm,KM-LR593-BLACK-L,49.95,2,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Black / 148 cm,Black,148 cm,KM-LR593-BLACK-XL,49.95,2,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Black / 153 cm,Black,153 cm,KM-LR593-BLACK-2XL,49.95,2,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Coffee / 138 cm,Coffee,138 cm,KM-LR593-COFFEE-M,49.95,1,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Coffee / 143 cm,Coffee,143 cm,KM-LR593-COFFEE-L,49.95,2,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Coffee / 148 cm,Coffee,148 cm,KM-LR593-COFFEE-XL,49.95,2,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Coffee / 153 cm,Coffee,153 cm,KM-LR593-COFFEE-2XL,49.95,2,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Camel / 138 cm,Camel,138 cm,KM-LR593-KHAKI-M,49.95,1,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Camel / 143 cm,Camel,143 cm,KM-LR593-KHAKI-L,49.95,2,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Camel / 148 cm,Camel,148 cm,KM-LR593-KHAKI-XL,49.95,2,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Camel / 153 cm,Camel,153 cm,KM-LR593-KHAKI-2XL,49.95,2,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Dark Coffee / 138 cm,Dark Coffee,138 cm,KM-LR593-DKCOFFEE-M,49.95,1,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Dark Coffee / 143 cm,Dark Coffee,143 cm,KM-LR593-DKCOFFEE-L,49.95,1,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Dark Coffee / 148 cm,Dark Coffee,148 cm,KM-LR593-DKCOFFEE-XL,49.95,1,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Dark Coffee / 153 cm,Dark Coffee,153 cm,KM-LR593-DKCOFFEE-2XL,49.95,1,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Navy / 138 cm,Navy,138 cm,KM-LR593-NAVY-M,49.95,1,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Navy / 143 cm,Navy,143 cm,KM-LR593-NAVY-L,49.95,1,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Navy / 148 cm,Navy,148 cm,KM-LR593-NAVY-XL,49.95,1,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Navy / 153 cm,Navy,153 cm,KM-LR593-NAVY-2XL,49.95,1,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Light Gray / 138 cm,Light Gray,138 cm,KM-LR593-LTGRAY-M,49.95,1,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Light Gray / 143 cm,Light Gray,143 cm,KM-LR593-LTGRAY-L,49.95,1,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Light Gray / 148 cm,Light Gray,148 cm,KM-LR593-LTGRAY-XL,49.95,1,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-wrinkle-polyester,Kreukpolyester open abaya,Light Gray / 153 cm,Light Gray,153 cm,KM-LR593-LTGRAY-2XL,49.95,1,https://kylpymaailma.com/images/abaya-wrinkle-polyester/01-800.webp
+abaya-nida,Nida open abaya,Black / 138 cm,Black,138 cm,KM-SLT8883-BLACK-M,54.95,1,https://kylpymaailma.com/images/abaya-nida/01-800.webp
+abaya-nida,Nida open abaya,Black / 143 cm,Black,143 cm,KM-SLT8883-BLACK-L,54.95,2,https://kylpymaailma.com/images/abaya-nida/01-800.webp
+abaya-nida,Nida open abaya,Black / 148 cm,Black,148 cm,KM-SLT8883-BLACK-XL,54.95,2,https://kylpymaailma.com/images/abaya-nida/01-800.webp
+abaya-nida,Nida open abaya,Black / 153 cm,Black,153 cm,KM-SLT8883-BLACK-2XL,54.95,1,https://kylpymaailma.com/images/abaya-nida/01-800.webp
+abaya-nida,Nida open abaya,Brown / 138 cm,Brown,138 cm,KM-SLT8883-BROWN-M,54.95,1,https://kylpymaailma.com/images/abaya-nida/01-800.webp
+abaya-nida,Nida open abaya,Brown / 143 cm,Brown,143 cm,KM-SLT8883-BROWN-L,54.95,2,https://kylpymaailma.com/images/abaya-nida/01-800.webp
+abaya-nida,Nida open abaya,Brown / 148 cm,Brown,148 cm,KM-SLT8883-BROWN-XL,54.95,2,https://kylpymaailma.com/images/abaya-nida/01-800.webp
+abaya-nida,Nida open abaya,Brown / 153 cm,Brown,153 cm,KM-SLT8883-BROWN-2XL,54.95,1,https://kylpymaailma.com/images/abaya-nida/01-800.webp
+abaya-nida,Nida open abaya,Beige / 138 cm,Beige,138 cm,KM-SLT8883-BEIGE-M,54.95,1,https://kylpymaailma.com/images/abaya-nida/01-800.webp
+abaya-nida,Nida open abaya,Beige / 143 cm,Beige,143 cm,KM-SLT8883-BEIGE-L,54.95,2,https://kylpymaailma.com/images/abaya-nida/01-800.webp
+abaya-nida,Nida open abaya,Beige / 148 cm,Beige,148 cm,KM-SLT8883-BEIGE-XL,54.95,2,https://kylpymaailma.com/images/abaya-nida/01-800.webp
+abaya-nida,Nida open abaya,Beige / 153 cm,Beige,153 cm,KM-SLT8883-BEIGE-2XL,54.95,1,https://kylpymaailma.com/images/abaya-nida/01-800.webp
+abaya-nida,Nida open abaya,Gray / 138 cm,Gray,138 cm,KM-SLT8883-GRAY-M,54.95,1,https://kylpymaailma.com/images/abaya-nida/01-800.webp
+abaya-nida,Nida open abaya,Gray / 143 cm,Gray,143 cm,KM-SLT8883-GRAY-L,54.95,1,https://kylpymaailma.com/images/abaya-nida/01-800.webp
+abaya-nida,Nida open abaya,Gray / 148 cm,Gray,148 cm,KM-SLT8883-GRAY-XL,54.95,1,https://kylpymaailma.com/images/abaya-nida/01-800.webp
+abaya-nida,Nida open abaya,Gray / 153 cm,Gray,153 cm,KM-SLT8883-GRAY-2XL,54.95,1,https://kylpymaailma.com/images/abaya-nida/01-800.webp
