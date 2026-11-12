@@ -5,6 +5,9 @@
   "outputDirectory": "public",
   "cleanUrls": false,
   "trailingSlash": false,
+  "regions": [
+    "fra1"
+  ],
   "functions": {
     "api/index.js": {
       "includeFiles": "{theme,data}/**",
