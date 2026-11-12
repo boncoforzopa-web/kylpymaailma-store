@@ -1,0 +1,124 @@
+{%- paginate collection.products by section.settings.per_page -%}
+{%- assign ctitle = collection.title -%}
+<section class="tw-collection" data-collection data-section="{{ section.id }}">
+  <div class="tw-collection__hero">
+    <div class="tw-wrap">
+      <nav class="tw-crumbs" aria-label="Murupolku"><a href="{{ routes.root_url }}">Etusivu</a><span aria-hidden="true">/</span>{% if current_tags %}<a href="{{ collection.url }}">{{ ctitle }}</a><span aria-hidden="true">/</span><span aria-current="page">{{ current_tags.first }}</span>{% else %}<span aria-current="page">{{ ctitle }}</span>{% endif %}</nav>
+      <h1 class="tw-h1">{% if current_tags %}{{ current_tags.first }}{% else %}{{ ctitle }}{% endif %}</h1>
+      {%- if current_tags -%}
+        <p class="tw-muted tw-collection__desc">Tuotteet, joita saa värissä {{ current_tags.first | downcase }}.</p>
+      {%- elsif collection.description != blank -%}
+        <div class="tw-rte tw-muted tw-collection__desc">{{ collection.description }}</div>
+      {%- endif -%}
+    </div>
+  </div>
+
+  <div class="tw-wrap tw-collection__layout" id="tw-collection-results">
+    <aside class="tw-filters" data-filters aria-label="Suodattimet">
+      <div class="tw-filters__head">
+        <p class="tw-drawer__title">Suodattimet</p>
+        <button type="button" class="tw-iconbtn tw-filters__close" data-filters-close aria-label="Sulje suodattimet">{% render 'tw-icon', name: 'close', size: 22 %}</button>
+      </div>
+      <form class="tw-filters__form" data-filter-form action="{{ collection.url }}{% if current_tags %}/{{ current_tags.first | handle }}{% endif %}" method="get">
+        {%- if collection.sort_by != blank -%}<input type="hidden" name="sort_by" value="{{ collection.sort_by }}">{%- endif -%}
+
+        {%- for filter in collection.filters -%}
+          <details class="tw-fgroup" open>
+            <summary>{{ filter.label }}{% if filter.active_values.size > 0 %} <span class="tw-chip tw-chip--gold tw-chip--sm">{{ filter.active_values.size }}</span>{% endif %} {% render 'tw-icon', name: 'chevron-down', size: 16 %}</summary>
+            {%- case filter.type -%}
+              {%- when 'price_range' -%}
+                <div class="tw-price-range">
+                  <label><span class="tw-small tw-muted">Alkaen (€)</span><input type="number" name="{{ filter.min_value.param_name }}" value="{{ filter.min_value.value | money_without_currency | replace: ',', '.' }}" placeholder="0" min="0" max="{{ filter.range_max | money_without_currency | replace: ',', '.' }}" inputmode="decimal"></label>
+                  <label><span class="tw-small tw-muted">Enintään (€)</span><input type="number" name="{{ filter.max_value.param_name }}" value="{{ filter.max_value.value | money_without_currency | replace: ',', '.' }}" placeholder="{{ filter.range_max | money_without_currency | replace: ',', '.' }}" min="0" max="{{ filter.range_max | money_without_currency | replace: ',', '.' }}" inputmode="decimal"></label>
+                </div>
+              {%- when 'boolean' or 'list' -%}
+                <ul class="tw-fgroup__list" role="list">
+                  {%- for value in filter.values -%}
+                    <li>
+                      <label class="tw-check{% if value.count == 0 and value.active == false %} is-disabled{% endif %}">
+                        <input type="checkbox" name="{{ value.param_name }}" value="{{ value.value }}"{% if value.active %} checked{% endif %}{% if value.count == 0 and value.active == false %} disabled{% endif %}>
+                        <span class="tw-check__box" aria-hidden="true">{% render 'tw-icon', name: 'check', size: 14 %}</span>
+                        <span>{{ value.label }} <span class="tw-muted">({{ value.count }})</span></span>
+                      </label>
+                    </li>
+                  {%- endfor -%}
+                </ul>
+            {%- endcase -%}
+          </details>
+        {%- endfor -%}
+        <noscript><button type="submit" class="tw-btn tw-btn--gold tw-btn--block">Käytä suodattimia</button></noscript>
+      </form>
+    </aside>
+
+    <div class="tw-collection__main">
+      <div class="tw-toolbar">
+        <button type="button" class="tw-btn tw-btn--glass tw-btn--sm tw-toolbar__filter" data-filters-open>{% render 'tw-icon', name: 'filter', size: 16 %} Suodattimet</button>
+        <span class="tw-small tw-muted">{{ collection.products_count }} {% if collection.products_count == 1 %}tuote{% else %}tuotetta{% endif %}</span>
+        <label class="tw-sort">
+          <span class="visually-hidden">Järjestys</span>
+          <select name="sort_by" form="tw-sort-form" data-sort>
+            {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
+            {%- for option in collection.sort_options -%}
+              <option value="{{ option.value }}"{% if option.value == sort_by %} selected{% endif %}>{{ option.name }}</option>
+            {%- endfor -%}
+          </select>
+          {% render 'tw-icon', name: 'chevron-down', size: 16 %}
+        </label>
+      </div>
+
+      {%- liquid
+        assign has_active = false
+        for filter in collection.filters
+          if filter.active_values.size > 0 or filter.min_value.value != nil or filter.max_value.value != nil
+            assign has_active = true
+          endif
+        endfor
+      -%}
+      {%- if has_active or current_tags -%}
+        <div class="tw-active-filters">
+          {%- if current_tags -%}<a class="tw-setchip" href="{{ collection.url }}">{{ current_tags.first }} {% render 'tw-icon', name: 'close', size: 14 %}</a>{%- endif -%}
+          {%- for filter in collection.filters -%}
+            {%- for value in filter.active_values -%}
+              <a class="tw-setchip" href="{{ value.url_to_remove }}" data-filter-link>{{ value.label }} {% render 'tw-icon', name: 'close', size: 14 %}</a>
+            {%- endfor -%}
+            {%- if filter.type == 'price_range' -%}
+              {%- if filter.min_value.value != nil or filter.max_value.value != nil -%}
+                <a class="tw-setchip" href="{{ filter.url_to_remove }}" data-filter-link>{{ filter.min_value.value | default: 0 | money_without_currency | strip | append: ' €' }} – {{ filter.max_value.value | default: filter.range_max | money_without_currency | strip | append: ' €' }} {% render 'tw-icon', name: 'close', size: 14 %}</a>
+              {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+          <a class="tw-linkbtn tw-small" href="{{ collection.url }}" data-filter-link>Tyhjennä kaikki</a>
+        </div>
+      {%- endif -%}
+
+      <form id="tw-sort-form" action="{{ collection.url }}" method="get" hidden></form>
+
+      {%- if collection.products.size > 0 -%}
+        <div class="tw-grid tw-grid--3" data-results>
+          {%- for product in collection.products -%}
+            {% render 'tw-product-card', product: product, index: forloop.index0 %}
+          {%- endfor -%}
+        </div>
+      {%- else -%}
+        <div class="tw-empty">
+          <p class="tw-h3">Näillä suodattimilla ei löytynyt tuotteita</p>
+          <p class="tw-muted">Muuta suodattimia tai tyhjennä ne.</p>
+          <a href="{{ collection.url }}" class="tw-btn tw-btn--glass" data-filter-link>Tyhjennä suodattimet</a>
+        </div>
+      {%- endif -%}
+
+      {%- if paginate.pages > 1 -%}
+        {% render 'tw-pagination', paginate: paginate %}
+      {%- endif -%}
+    </div>
+  </div>
+  <div class="tw-filters__backdrop" data-filters-close></div>
+</section>
+{%- endpaginate -%}
+
+{% schema %}
+{
+  "name": "Collection",
+  "settings": [ { "type": "range", "id": "per_page", "label": "Products per page", "min": 12, "max": 48, "step": 4, "default": 24 } ]
+}
+{% endschema %}

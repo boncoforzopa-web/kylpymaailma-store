@@ -1,0 +1,26 @@
+<section class="tw-section km-story">
+  <div class="tw-wrap km-story__inner">
+    <div class="km-story__copy">
+      <h1 class="tw-h1">{{ section.settings.heading }}</h1>
+      <div class="tw-rte">{{ section.settings.text }}</div>
+      {%- if section.settings.button_label != blank -%}<a href="{{ section.settings.button_link }}" class="tw-btn tw-btn--gold">{{ section.settings.button_label }}</a>{%- endif -%}
+    </div>
+    {%- assign p = section.settings.product -%}
+    {%- if p and p.featured_image -%}
+      <div class="km-story__media">{{ p.featured_image | image_url: width: 800 | image_tag: loading: 'eager', widths: '480, 640, 800', sizes: '(min-width: 990px) 38vw, 100vw', alt: p.title }}</div>
+    {%- endif -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Story",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading" },
+    { "type": "richtext", "id": "text", "label": "Text" },
+    { "type": "text", "id": "button_label", "label": "Button" },
+    { "type": "url", "id": "button_link", "label": "Button link" },
+    { "type": "product", "id": "product", "label": "Photo from product" }
+  ]
+}
+{% endschema %}

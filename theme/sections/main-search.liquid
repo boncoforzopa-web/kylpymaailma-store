@@ -1,0 +1,26 @@
+{%- paginate search.results by 24 -%}
+<section class="tw-section tw-searchpage">
+  <div class="tw-wrap">
+    <div class="tw-head"><div><h1 class="tw-h1">{% if search.performed %}Tulokset haulle ”{{ search.terms }}”{% else %}Haku{% endif %}</h1></div></div>
+    <form action="{{ routes.search_url }}" method="get" role="search" class="tw-search tw-search--lg tw-searchpage__form" data-predictive>
+      <label for="tw-search-page" class="visually-hidden">Haku</label>
+      <span class="tw-search__icon">{% render 'tw-icon', name: 'search', size: 20 %}</span>
+      <input id="tw-search-page" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Hae tuotetta, esim. abaya" autocomplete="off" role="combobox" aria-autocomplete="list" aria-controls="tw-predictive-page" aria-expanded="false">
+      <input type="hidden" name="options[prefix]" value="last">
+      <div class="tw-predictive" id="tw-predictive-page" data-predictive-results role="listbox" hidden></div>
+    </form>
+    {%- if search.performed -%}
+      {%- if search.results_count > 0 -%}
+        <div class="tw-grid tw-grid--4">
+          {%- for item in search.results -%}
+            {% render 'tw-product-card', product: item, index: forloop.index0 %}
+          {%- endfor -%}
+        </div>
+        {%- if paginate.pages > 1 -%}{% render 'tw-pagination', paginate: paginate %}{%- endif -%}
+      {%- else -%}
+        <div class="tw-empty"><p class="tw-h3">Haulla ei löytynyt tuotteita</p><p class="tw-muted">Tarkista kirjoitusasu tai kokeile yleisempää hakusanaa, esimerkiksi ”hijab” tai ”abaya”.</p><a href="{{ routes.all_products_collection_url }}" class="tw-btn tw-btn--gold">Katso kaikki tuotteet</a></div>
+      {%- endif -%}
+    {%- endif -%}
+  </div>
+</section>
+{%- endpaginate -%}

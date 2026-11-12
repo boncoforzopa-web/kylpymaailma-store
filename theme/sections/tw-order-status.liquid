@@ -1,0 +1,58 @@
+{%- assign os = order_status -%}
+<section class="tw-section tw-os">
+  <div class="tw-wrap tw-os__wrap">
+    {%- if os.order -%}
+      {%- assign o = os.order -%}
+      <div class="tw-head tw-head--center"><div><h1 class="tw-h2">Tilaus #{{ o.number }}</h1><p class="tw-muted">Tilattu {{ o.created | date: '%-d.%-m.%Y' }} · {{ o.total | money_without_currency | strip | append: ' €' }} · {{ o.paymentLabel }}</p></div></div>
+      <div class="tw-os__card">
+        {%- if o.status == 'refunded' or o.status == 'cancelled' -%}
+          <p class="tw-stock tw-stock--out"><span class="tw-stock__dot" aria-hidden="true"></span>{% if o.status == 'refunded' %}Tämä tilaus on hyvitetty.{% else %}Tämä tilaus on peruttu.{% endif %}</p>
+        {%- else -%}
+          {%- capture ck -%}{% render 'tw-icon', name: 'check', size: 20 %}{%- endcapture -%}
+          <div class="tw-os__status">
+            <span class="tw-os__status-ic">{% if o.step >= 3 %}{% render 'tw-icon', name: 'truck', size: 22 %}{% else %}{% render 'tw-icon', name: 'box', size: 22 %}{% endif %}</span>
+            <div>{% if o.step >= 3 %}<b>Pakettisi on matkalla</b><small>Lähetetty {{ o.shippedAt | date: '%-d.%-m.%Y' }}{% if o.carrier %} · {{ o.carrier }}{% endif %}</small>{% elsif o.step == 2 %}<b>Pakkaamme tilaustasi</b><small>Maksu vastaanotettu</small>{% else %}<b>Tilaus vastaanotettu</b><small>Odotamme maksun vahvistusta</small>{% endif %}</div>
+          </div>
+          <ol class="tw-os__steps" role="list">
+            <li class="is-done"><span>{{ ck }}</span><b>Tilattu</b><small>{{ o.created | date: '%-d.%-m.' }}</small></li>
+            <li class="{% if o.step >= 2 %}is-done{% else %}is-current{% endif %}"><span>{% if o.step >= 2 %}{{ ck }}{% else %}2{% endif %}</span><b>Maksettu</b><small>{% if o.paidAt %}{{ o.paidAt | date: '%-d.%-m.' }}{% elsif o.step >= 2 %}vahvistettu{% else %}odottaa{% endif %}</small></li>
+            <li class="{% if o.step >= 3 %}is-done{% elsif o.step == 2 %}is-current{% endif %}"><span>{% if o.step >= 3 %}{{ ck }}{% else %}{% render 'tw-icon', name: 'box', size: 20 %}{% endif %}</span><b>Lähetetty</b><small>{% if o.shippedAt %}{{ o.shippedAt | date: '%-d.%-m.' }}{% elsif o.step == 2 %}valmistellaan{% endif %}</small></li>
+            <li class="{% if o.step >= 3 %}is-current{% endif %}"><span>{% render 'tw-icon', name: 'truck', size: 20 %}</span><b>Toimitettu</b><small></small></li>
+          </ol>
+          {%- if o.tracking -%}
+            <div class="tw-os__track"><p>{% render 'tw-icon', name: 'truck', size: 18 %} Kuljetus: <b>{{ o.carrier }}</b> · seurantakoodi <code>{{ o.tracking }}</code></p>{% if o.tracking_url %}<a class="tw-btn tw-btn--gold" href="{{ o.tracking_url }}" target="_blank" rel="noopener">Seuraa lähetystä</a>{% endif %}</div>
+          {%- elsif o.status == 'paid' -%}
+            <p class="tw-os__note">{% render 'tw-icon', name: 'mail', size: 18 %} <span>Kun paketti lähtee matkaan, saat <b>seurantakoodin sähköpostiisi</b> ja voit seurata lähetystä täällä.</span></p>
+          {%- endif -%}
+        {%- endif -%}
+      </div>
+      <div class="tw-os__grid">
+        <div class="tw-os__card">
+          <p class="tw-small tw-muted">Tuotteet</p>
+          <ul class="tw-co__items" role="list">
+            {%- for l in o.lines -%}
+              <li class="tw-co__item"><span class="tw-co__thumb">{% if l.image %}<img src="{{ l.image }}" alt="" width="64" height="64" loading="lazy">{% endif %}<b class="tw-co__qty">{{ l.quantity }}</b></span><span class="tw-co__item-body"><a href="/products/{{ l.handle }}" class="tw-co__item-title">{{ l.title }}</a></span><strong class="tw-co__item-price">{{ l.line_total | money_without_currency | strip | append: ' €' }}</strong></li>
+            {%- endfor -%}
+          </ul>
+          <div class="tw-sumrow tw-co__total"><span>Yhteensä</span><strong>{{ o.total | money_without_currency | strip | append: ' €' }}</strong></div>
+        </div>
+        <div class="tw-os__card">
+          <p class="tw-small tw-muted">Toimitusosoite</p>
+          <p class="tw-os__addr">{{ o.shipName | default: o.name }}<br>{{ o.address.line1 }}{% if o.address.line2 != blank %}<br>{{ o.address.line2 }}{% endif %}<br>{{ o.address.postal_code }} {{ o.address.city }}<br>Suomi</p>
+          {%- if o.events.size > 0 -%}<p class="tw-small tw-muted">Tapahtumat</p><ul class="tw-os__events" role="list">{%- for e in o.events -%}<li><span>{{ e.at | date: '%-d.%-m.%Y klo %H.%M' }}</span>{{ e.text }}</li>{%- endfor -%}</ul>{%- endif -%}
+          <p class="tw-small tw-muted">Kysyttävää tilauksesta? <a href="mailto:{{ settings.contact_email }}?subject=Tilaus%20%23{{ o.number }}">{{ settings.contact_email }}</a></p>
+        </div>
+      </div>
+      <p class="tw-os__again"><a href="{{ paths.orderStatus }}">Hae toinen tilaus</a></p>
+    {%- else -%}
+      <div class="tw-head tw-head--center"><div><h1 class="tw-h2">Tilauksen seuranta</h1><p class="tw-muted">Anna tilausnumero ja tilauksessa käyttämäsi sähköpostiosoite.</p></div></div>
+      <form class="tw-os__form" method="post" action="{{ paths.orderStatus }}">
+        {%- if os.error != blank -%}<p class="tw-error" role="alert">{{ os.error }}</p>{%- endif -%}
+        <div class="tw-field"><label for="os-nr">Tilausnumero</label><input id="os-nr" name="number" value="{{ os.number }}" placeholder="esim. 1104" inputmode="numeric" required autocomplete="off"></div>
+        <div class="tw-field"><label for="os-email">Sähköpostiosoite</label><input id="os-email" name="email" type="email" value="{{ os.email }}" placeholder="nimi@esimerkki.fi" required autocomplete="email"></div>
+        <button type="submit" class="tw-btn tw-btn--gold tw-btn--lg tw-btn--block"><span>Näytä tilauksen tila</span></button>
+        <p class="tw-small tw-muted">Tilausnumero on tilausvahvistuksessa. Jos vahvistusta ei näy, tarkista roskapostikansio tai kirjoita osoitteeseen <a href="mailto:{{ settings.contact_email }}">{{ settings.contact_email }}</a>.</p>
+      </form>
+    {%- endif -%}
+  </div>
+</section>

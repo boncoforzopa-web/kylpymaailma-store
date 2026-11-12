@@ -1,0 +1,19 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "tw-footer",
+      "settings": {
+        "menu_shop": "footer-kauppa",
+        "menu_help": "footer-apu",
+        "menu_legal": "footer-ehdot",
+        "title_shop": "Kauppa",
+        "title_help": "Asiakaspalvelu",
+        "title_legal": "Ehdot",
+        "about": "Hijabit, khimarit ja abayat. Pituus valitaan senttimetreinä, ja toimitus Suomeen on ilmainen."
+      }
+    }
+  },
+  "order": ["footer"]
+}

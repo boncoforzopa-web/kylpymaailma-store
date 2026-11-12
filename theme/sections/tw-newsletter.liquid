@@ -1,0 +1,43 @@
+<section class="tw-section tw-newsletter km-newsletter" id="uutiskirje">
+  <div class="tw-wrap">
+    <div class="tw-newsletter__card">
+      <div class="tw-newsletter__copy">
+        <h2 class="tw-h2">{{ section.settings.heading }}</h2>
+        <p class="tw-muted">{{ section.settings.text }}</p>
+      </div>
+      {%- form 'customer', class: 'tw-newsletter__form', id: 'tw-newsletter-form' -%}
+        <input type="hidden" name="contact[tags]" value="newsletter">
+        {%- if form.posted_successfully? -%}
+          <p class="tw-success" role="status">{% render 'tw-icon', name: 'check', size: 18 %} {{ section.settings.success }}</p>
+        {%- else -%}
+          {%- if form.errors -%}
+            <p class="tw-error" role="alert">Anna toimiva sähköpostiosoite.</p>
+          {%- endif -%}
+          <div class="tw-newsletter__field">
+            <label for="tw-nl-email" class="visually-hidden">Sähköpostiosoite</label>
+            <input id="tw-nl-email" type="email" name="contact[email]" required autocomplete="email" placeholder="nimi@esimerkki.fi" value="{{ form.email }}">
+            <button type="submit" class="tw-btn tw-btn--gold">{{ section.settings.button }}</button>
+          </div>
+          <label class="tw-check">
+            <input type="checkbox" name="contact[accepts_marketing]" value="true" required>
+            <span class="tw-check__box" aria-hidden="true">{% render 'tw-icon', name: 'check', size: 14 %}</span>
+            <span class="tw-small tw-muted">{{ section.settings.consent }}{% if settings.privacy_page != blank %} <a href="{{ settings.privacy_page.url }}">Tietosuojaseloste</a>{% endif %}</span>
+          </label>
+        {%- endif -%}
+      {%- endform -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Newsletter",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Uudet värit ja täydennykset sähköpostiisi" },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Kerromme, kun valikoimaan tulee uusia tuotteita tai loppunut koko palaa varastoon. Voit perua tilauksen milloin tahansa." },
+    { "type": "text", "id": "button", "label": "Button", "default": "Tilaa uutiskirje" },
+    { "type": "textarea", "id": "consent", "label": "Consent text", "default": "Haluan saada Kylpymaailman uutiskirjeen sähköpostiini. Voin perua suostumukseni milloin tahansa jokaisessa viestissä olevasta linkistä." },
+    { "type": "text", "id": "success", "label": "Success message", "default": "Melkein valmista. Vahvista tilaus sähköpostiisi lähetetystä linkistä." }
+  ]
+}
+{% endschema %}

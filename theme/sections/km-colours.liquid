@@ -1,0 +1,48 @@
+{%- comment -%}
+  Colour index: every colour in the catalogue as a swatch that opens the products available in it.
+  Colours come from the products (metafield custom.swatches); each colour is also a product tag.
+{%- endcomment -%}
+{%- liquid
+  assign seen = '|'
+  assign count = 0
+-%}
+<section class="tw-section km-colours" id="varit">
+  <div class="tw-wrap">
+    <div class="km-colours__head">
+      <h2 class="tw-h2">{{ section.settings.heading }}</h2>
+      <p class="tw-muted">{{ section.settings.text }}</p>
+    </div>
+    <ul class="km-colours__grid" role="list">
+      {%- for p in collections.all.products -%}
+        {%- assign rows = p.metafields.custom.swatches.value | split: ';' -%}
+        {%- for row in rows -%}
+          {%- assign part = row | split: '|' -%}
+          {%- assign key = part[0] | append: '|' -%}
+          {%- assign probe = '|' | append: key -%}
+          {%- unless seen contains probe -%}
+            {%- assign seen = seen | append: key -%}
+            {%- assign n = 0 -%}
+            {%- for q in collections.all.products -%}{%- if q.tags contains part[0] -%}{%- assign n = n | plus: 1 -%}{%- endif -%}{%- endfor -%}
+            <li>
+              <a class="km-colour" href="/collections/all/{{ part[0] | handle }}" style="--c: {{ part[1] }}">
+                <span class="km-colour__chip" aria-hidden="true"></span>
+                <span class="km-colour__name">{{ part[0] }}</span>
+                <span class="km-colour__n">{{ n }} {% if n == 1 %}tuote{% else %}tuotetta{% endif %}</span>
+              </a>
+            </li>
+          {%- endunless -%}
+        {%- endfor -%}
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Colour index",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Valitse väri" },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Näet heti, mitä kussakin sävyssä on saatavilla." }
+  ]
+}
+{% endschema %}

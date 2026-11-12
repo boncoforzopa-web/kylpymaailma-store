@@ -1,0 +1,15 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement": {
+      "type": "tw-announcement",
+      "settings": { "text": "Ilmainen toimitus Suomeen | 14 päivän peruuttamisoikeus | Pituus valitaan senttimetreinä" }
+    },
+    "header": {
+      "type": "tw-header",
+      "settings": { "menu": "paavalikko", "search_placeholder": "Hae tuotetta, esim. abaya" }
+    }
+  },
+  "order": ["announcement", "header"]
+}

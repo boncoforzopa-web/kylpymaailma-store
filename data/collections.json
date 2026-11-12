@@ -1,0 +1,92 @@
+[
+ {
+  "id": "gid://shopify/Collection/9300000000001",
+  "legacyResourceId": "9300000000001",
+  "handle": "hijabit",
+  "title": "Hijabit",
+  "descriptionHtml": "<p>Pehmeät hijabit jokaiseen päivään.</p>",
+  "sortOrder": "MANUAL",
+  "templateSuffix": null,
+  "updatedAt": "2026-11-12T12:00:00Z",
+  "seo": {
+   "title": null,
+   "description": null
+  },
+  "image": null,
+  "productsCount": {
+   "count": 1
+  }
+ },
+ {
+  "id": "gid://shopify/Collection/9300000000002",
+  "legacyResourceId": "9300000000002",
+  "handle": "khimarit",
+  "title": "Khimarit",
+  "descriptionHtml": "<p>Yksi- ja kaksikerroksiset khimarit, joita ei tarvitse silittää.</p>",
+  "sortOrder": "MANUAL",
+  "templateSuffix": null,
+  "updatedAt": "2026-11-12T12:00:00Z",
+  "seo": {
+   "title": null,
+   "description": null
+  },
+  "image": null,
+  "productsCount": {
+   "count": 2
+  }
+ },
+ {
+  "id": "gid://shopify/Collection/9300000000003",
+  "legacyResourceId": "9300000000003",
+  "handle": "abayat",
+  "title": "Abayat",
+  "descriptionHtml": "<p>Avoimet abayat ja abayat kiinteällä hijabilla, pituus senttimetreinä.</p>",
+  "sortOrder": "MANUAL",
+  "templateSuffix": null,
+  "updatedAt": "2026-11-12T12:00:00Z",
+  "seo": {
+   "title": null,
+   "description": null
+  },
+  "image": null,
+  "productsCount": {
+   "count": 4
+  }
+ },
+ {
+  "id": "gid://shopify/Collection/9300000000004",
+  "legacyResourceId": "9300000000004",
+  "handle": "mekot",
+  "title": "Mekot",
+  "descriptionHtml": "<p>Pitkät, peittävät mekot.</p>",
+  "sortOrder": "MANUAL",
+  "templateSuffix": null,
+  "updatedAt": "2026-11-12T12:00:00Z",
+  "seo": {
+   "title": null,
+   "description": null
+  },
+  "image": null,
+  "productsCount": {
+   "count": 1
+  }
+ },
+ {
+  "id": "gid://shopify/Collection/9300000000005",
+  "legacyResourceId": "9300000000005",
+  "handle": "ramadan",
+  "title": "Ramadan-mallisto",
+  "descriptionHtml": "<p>Kevyet ja peittävät asut rukoukseen, iftar-iltoihin ja jokaiseen päivään.</p>",
+  "sortOrder": "MANUAL",
+  "templateSuffix": null,
+  "updatedAt": "2026-11-12T12:00:00Z",
+  "seo": {
+   "title": null,
+   "description": null
+  },
+  "image": null,
+  "productsCount": {
+   "count": 7
+  }
+ }
+]

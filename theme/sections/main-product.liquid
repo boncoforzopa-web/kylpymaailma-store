@@ -1,0 +1,186 @@
+{%- liquid
+  assign current = product.selected_or_first_available_variant
+  assign low = false
+  if current.inventory_management == 'shopify' and current.inventory_quantity > 0 and current.inventory_quantity <= settings.low_stock_threshold
+    assign low = true
+  endif
+  assign atc_label = 'Lisää ostoskoriin'
+  assign swatches = product.metafields.custom.swatches.value | split: ';'
+-%}
+
+<section class="tw-pdp km-pdp" data-product data-section="{{ section.id }}">
+  <div class="tw-wrap">
+    <nav class="tw-crumbs" aria-label="Murupolku">
+      <a href="{{ routes.root_url }}">Etusivu</a><span aria-hidden="true">/</span>
+      {%- if collection -%}<a href="{{ collection.url }}">{{ collection.title }}</a><span aria-hidden="true">/</span>{%- elsif product.collections.size > 0 -%}<a href="{{ product.collections.first.url }}">{{ product.collections.first.title }}</a><span aria-hidden="true">/</span>{%- endif -%}
+      <span aria-current="page">{{ product.title }}</span>
+    </nav>
+
+    <div class="tw-pdp__grid">
+      <div class="tw-gallery" data-gallery>
+        <div class="tw-gallery__main">
+          <ul class="tw-gallery__track" data-gallery-track role="list">
+            {%- for media in product.media -%}
+              <li class="tw-gallery__slide" data-media-id="{{ media.id }}">
+                {%- if forloop.first -%}{%- assign ld = 'eager' -%}{%- else -%}{%- assign ld = 'lazy' -%}{%- endif -%}
+                <button type="button" class="tw-gallery__zoom" data-zoom="{{ media | image_url: width: 2400 }}" aria-label="Suurenna kuva {{ forloop.index }}">
+                  <span class="tw-gallery__frame">
+                    {{ media | image_url: width: 1400 | image_tag:
+                      loading: ld,
+                      widths: '480, 640, 800',
+                      sizes: '(min-width: 990px) 46vw, 100vw',
+                      alt: media.alt | default: product.title
+                    }}
+                  </span>
+                </button>
+              </li>
+            {%- endfor -%}
+          </ul>
+        </div>
+        {%- if product.media.size > 1 -%}
+          <ul class="tw-gallery__thumbs" role="list">
+            {%- for media in product.media -%}
+              <li>
+                <button type="button" class="tw-gallery__thumb{% if forloop.first %} is-active{% endif %}" data-thumb="{{ forloop.index0 }}" aria-label="Näytä kuva {{ forloop.index }}"{% if forloop.first %} aria-current="true"{% endif %}>
+                  {{ media.preview_image | image_url: width: 200 | image_tag: loading: 'lazy', alt: '' }}
+                </button>
+              </li>
+            {%- endfor -%}
+          </ul>
+        {%- endif -%}
+      </div>
+
+      <div class="tw-pdp__info">
+        <div class="tw-pdp__sticky">
+          <h1 class="tw-pdp__title">{{ product.title }}</h1>
+
+          <div class="tw-pdp__price" data-pdp-price>
+            {% render 'tw-price', product: product, variant: current, show_tax: true %}
+          </div>
+
+          {%- form 'product', product, id: 'tw-product-form', class: 'tw-pdp__form', data-product-form: '', novalidate: 'novalidate' -%}
+            <input type="hidden" name="id" value="{{ current.id }}" data-variant-input>
+
+            {%- unless product.has_only_default_variant -%}
+              {%- for option in product.options_with_values -%}
+                {%- assign oi = forloop.index0 -%}
+                <fieldset class="tw-opt{% if option.name == 'Väri' %} km-opt--colour{% endif %}">
+                  <legend>{{ option.name }}: <span data-opt-label="{{ oi }}">{{ option.selected_value }}</span></legend>
+                  <div class="tw-opt__values">
+                    {%- for value in option.values -%}
+                      {%- assign hex = '' -%}
+                      {%- if option.name == 'Väri' -%}
+                        {%- for row in swatches -%}{%- assign part = row | split: '|' -%}{%- if part[0] == value -%}{%- assign hex = part[1] -%}{%- endif -%}{%- endfor -%}
+                      {%- endif -%}
+                      <label class="tw-opt__pill{% if hex != '' %} km-swatch{% endif %}"{% if hex != '' %} style="--c: {{ hex }}" title="{{ value | escape }}"{% endif %}>
+                        <input type="radio" name="tw-opt-{{ oi }}" value="{{ value | escape }}" data-option-index="{{ oi }}"{% if option.selected_value == value %} checked{% endif %}>
+                        <span>{% if hex != '' %}<span class="visually-hidden">{{ value }}</span>{% else %}{{ value }}{% endif %}</span>
+                      </label>
+                    {%- endfor -%}
+                  </div>
+                </fieldset>
+              {%- endfor -%}
+              <script type="application/json" data-variants>{{ product.variants | json }}</script>
+            {%- endunless -%}
+
+            <p class="tw-stock{% if current.available == false %} tw-stock--out{% elsif low %} tw-stock--low{% endif %}" data-pdp-stock data-low="{{ settings.low_stock_threshold }}" data-delivery="{{ settings.delivery_time | escape }}">
+              <span class="tw-stock__dot" aria-hidden="true"></span>
+              <span data-pdp-stock-text>
+                {%- if current.available == false -%}
+                  Tämä vaihtoehto on loppunut varastosta
+                {%- elsif low -%}
+                  Varastossa enää {{ current.inventory_quantity }} kpl
+                {%- else -%}
+                  Varastossa · toimitus {{ settings.delivery_time }}
+                {%- endif -%}
+              </span>
+            </p>
+
+            <div class="tw-pdp__buy">
+              <div class="tw-qty tw-qty--lg" data-qty>
+                <button type="button" data-qty-minus aria-label="Vähennä määrää">{% render 'tw-icon', name: 'minus', size: 18 %}</button>
+                {%- liquid
+                  assign q_max = 10
+                  if current.inventory_management == 'shopify' and current.inventory_policy == 'deny' and current.inventory_quantity < 10
+                    assign q_max = current.inventory_quantity | at_least: 1
+                  endif
+                -%}
+                <input type="number" name="quantity" value="1" min="1" max="{{ q_max }}" inputmode="numeric" aria-label="Määrä">
+                <button type="button" data-qty-plus aria-label="Lisää määrää">{% render 'tw-icon', name: 'plus', size: 18 %}</button>
+              </div>
+              <button type="submit" name="add" class="tw-btn tw-btn--gold tw-btn--lg tw-pdp__atc" data-atc data-label="{{ atc_label }}"{% unless current.available %} disabled{% endunless %}>
+                <span data-atc-text>{% if current.available %}{{ atc_label }}{% else %}Loppu varastosta{% endif %}</span>
+              </button>
+            </div>
+            <div class="tw-pdp__errors tw-error" role="alert" data-form-error hidden></div>
+          {%- endform -%}
+          <div data-bis-wrap{% if current.available %} hidden{% endif %}>{% render 'tw-back-in-stock', variant: current, product: product %}</div>
+
+          <ul class="tw-pdp__trust" role="list">
+            <li>{% render 'tw-icon', name: 'truck', size: 18 %}<span>Ilmainen toimitus</span></li>
+            <li>{% render 'tw-icon', name: 'return', size: 18 %}<span>{{ settings.return_window | default: '14 päivää' }} peruuttamisoikeus</span></li>
+            <li>{% render 'tw-icon', name: 'lock', size: 18 %}<span>Turvallinen maksu</span></li>
+          </ul>
+
+          <div class="km-details">
+            <details class="km-detail" open>
+              <summary>Kuvaus</summary>
+              <div class="tw-rte">
+                {{ product.description }}
+                <dl class="tw-specs">
+                  {%- if product.metafields.custom.material.value != blank -%}<div><dt>Materiaali</dt><dd>{{ product.metafields.custom.material.value }}</dd></div>{%- endif -%}
+                  {%- if product.metafields.custom.care.value != blank -%}<div><dt>Hoito-ohje</dt><dd>{{ product.metafields.custom.care.value }}</dd></div>{%- endif -%}
+                  {%- if product.metafields.custom.origin.value != blank -%}<div><dt>Valmistus</dt><dd>{{ product.metafields.custom.origin.value }}</dd></div>{%- endif -%}
+                  {%- if current.sku != blank -%}<div><dt>Tuotenumero</dt><dd data-pdp-sku>{{ current.sku }}</dd></div>{%- endif -%}
+                </dl>
+              </div>
+            </details>
+            {%- if product.metafields.custom.size_guide.value != blank -%}
+              <details class="km-detail"{% if product.options.size > 1 %} open{% endif %}>
+                <summary>Kokotaulukko</summary>
+                <div class="tw-rte km-sizes-wrap">
+                  {{ product.metafields.custom.size_guide.value }}
+                  <p class="tw-small tw-muted">Mitat on otettu tasolle asetetusta vaatteesta. 1–2 cm:n poikkeamat ovat mahdollisia.</p>
+                </div>
+              </details>
+            {%- endif -%}
+            <details class="km-detail">
+              <summary>Toimitus ja palautus</summary>
+              <div class="tw-rte">
+                <p><strong>Toimitusaika:</strong> {{ settings.delivery_time }}. {{ settings.shipping_estimate }}</p>
+                <p><strong>Peruuttamisoikeus:</strong> voit peruuttaa tilauksen {{ settings.return_window | default: '14 päivää' }} kuluessa tuotteen vastaanottamisesta syytä ilmoittamatta. Palautettavan tuotteen tulee olla käyttämätön.</p>
+                <p>
+                  {%- if settings.shipping_page != blank -%}<a href="{{ settings.shipping_page.url }}">Toimitus ja maksu</a>{%- endif -%}
+                  {%- if settings.withdrawal_page != blank %} · <a href="{{ settings.withdrawal_page.url }}">Peruutus ja palautus</a>{%- endif -%}
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tw-stickyatc" data-sticky-atc aria-hidden="true">
+    <div class="tw-stickyatc__info">
+      <p class="tw-stickyatc__title">{{ product.title }}</p>
+      <p class="tw-stickyatc__price" data-sticky-price>{{ current.price | money_without_currency | strip | append: ' €' }}</p>
+    </div>
+    <button type="button" class="tw-btn tw-btn--gold" data-sticky-trigger tabindex="-1"{% unless current.available %} disabled{% endunless %}>
+      <span>{% if current.available %}{{ atc_label }}{% else %}Loppu varastosta{% endif %}</span>
+    </button>
+  </div>
+
+  <dialog class="tw-lightbox" data-lightbox aria-label="Kuva">
+    <button type="button" class="tw-iconbtn tw-iconbtn--glass tw-lightbox__close" data-close aria-label="Sulje">{% render 'tw-icon', name: 'close', size: 22 %}</button>
+    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1600" height="1600" alt="{{ product.title | escape }}" data-lightbox-img>
+  </dialog>
+</section>
+
+{% schema %}
+{
+  "name": "Product page",
+  "settings": [],
+  "enabled_on": { "templates": ["product"] }
+}
+{% endschema %}

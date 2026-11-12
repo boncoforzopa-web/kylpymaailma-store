@@ -1,0 +1,33 @@
+{
+  "current": {
+    "brand_name": "Kylpymaailma",
+    "wordmark": "Kylpymaailma",
+    "tagline": "Hijabit, khimarit ja abayat",
+    "favicon": "shopify://shop_images/favicon.png",
+    "low_stock_threshold": 3,
+    "delivery_time": "3–7 arkipäivää",
+    "tax_note": "sis. alv 25,5 %, ilmainen toimitus",
+    "shipping_page": "toimitus-ja-maksu",
+    "withdrawal_page": "peruutus-ja-palautus",
+    "privacy_page": "tietosuoja",
+    "imprint_page": "yritystiedot",
+    "free_shipping_threshold": 0,
+    "enable_quick_add": true,
+    "enable_bottom_nav": true,
+    "cookie_banner": true,
+    "legal_name": "",
+    "legal_representative": "",
+    "business_address": "",
+    "contact_email": "asiakaspalvelu@kylpymaailma.com",
+    "contact_phone": "",
+    "vat_number": "",
+    "register_info": "",
+    "returns_address": "",
+    "return_window": "14 päivää",
+    "shipping_estimate": "Toimitus on ilmainen kaikkiin tilauksiin Suomessa.",
+    "sections": {
+      "tw-cart-drawer": { "type": "tw-cart-drawer", "settings": {} }
+    },
+    "content_for_index": []
+  }
+}

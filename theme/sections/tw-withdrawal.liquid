@@ -1,0 +1,34 @@
+<section class="tw-section tw-contact">
+  <div class="tw-wrap tw-contact__layout">
+    <div>
+      <h1 class="tw-h1">{{ page.title }}</h1>
+      <div class="tw-rte tw-muted">{{ page.content }}</div>
+      <ul class="tw-contact__info" role="list">
+        <li>{% render 'tw-icon', name: 'return', size: 20 %}<div><p class="tw-small tw-muted">Peruuttamisaika</p><p>14 päivää tuotteen vastaanottamisesta</p></div></li>
+        {%- if settings.withdrawal_page != blank -%}<li>{% render 'tw-icon', name: 'shield', size: 20 %}<div><p class="tw-small tw-muted">Ohjeet</p><a href="{{ settings.withdrawal_page.url }}">Peruutus ja palautus</a></div></li>{%- endif -%}
+      </ul>
+    </div>
+    <div class="tw-contact__card">
+      {%- form 'contact', id: 'tw-withdrawal-form' -%}
+        {%- if form.posted_successfully? -%}
+          <p class="tw-success" role="status">{% render 'tw-icon', name: 'check', size: 18 %} Peruutusilmoituksesi on vastaanotettu ({{ 'now' | date: '%-d.%-m.%Y klo %H.%M' }}). Lähetämme vahvistuksen sähköpostiisi.</p>
+        {%- else -%}
+          {%- if form.errors -%}<div class="tw-error" role="alert">Tarkista antamasi tiedot.</div>{%- endif -%}
+          <input type="hidden" name="contact[Asia]" value="PERUUTUSILMOITUS – verkkolomake">
+          <div class="tw-field-row">
+            <div class="tw-field"><label for="WName">Etu- ja sukunimi *</label><input id="WName" type="text" name="contact[name]" autocomplete="name" required></div>
+            <div class="tw-field"><label for="WEmail">Sähköposti vahvistusta varten *</label><input id="WEmail" type="email" name="contact[email]" autocomplete="email" required></div>
+          </div>
+          <div class="tw-field-row">
+            <div class="tw-field"><label for="WOrder">Tilausnumero *</label><input id="WOrder" type="text" name="contact[Tilausnumero]" placeholder="#1001" required></div>
+            <div class="tw-field"><label for="WDate">Tilattu / vastaanotettu</label><input id="WDate" type="text" name="contact[Tilattu / vastaanotettu]" placeholder="pp.kk.vvvv"></div>
+          </div>
+          <div class="tw-field"><label for="WItems">Mitkä tuotteet haluat peruuttaa?</label><textarea id="WItems" name="contact[Tuotteet]" rows="3" placeholder="Jätä tyhjäksi, jos peruutat koko tilauksen"></textarea></div>
+          <input type="hidden" name="contact[body]" value="Ilmoitan, että haluan peruuttaa tekemäni sopimuksen, joka koskee edellä mainittujen tavaroiden ostoa.">
+          <p class="tw-small tw-muted">Painamalla ”Lähetä peruutusilmoitus” ilmoitat peruuttavasi edellä mainitun sopimuksen.{% if settings.privacy_page != blank %} Tietojen käsittelystä kerrotaan <a href="{{ settings.privacy_page.url }}">tietosuojaselosteessa</a>.{% endif %}</p>
+          <button type="submit" class="tw-btn tw-btn--gold tw-btn--lg tw-btn--block">Lähetä peruutusilmoitus</button>
+        {%- endif -%}
+      {%- endform -%}
+    </div>
+  </div>
+</section>

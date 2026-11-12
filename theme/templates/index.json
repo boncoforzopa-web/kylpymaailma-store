@@ -1,0 +1,79 @@
+{
+  "sections": {
+    "hero": {
+      "type": "km-hero",
+      "settings": {
+        "heading": "Peittävää ja kevyttä, omaan pituuteen.",
+        "subheading": "Hijabit, khimarit ja abayat arkeen, rukoukseen ja juhlaan. Abayan ja mekon pituus valitaan senttimetreinä oman pituutesi mukaan.",
+        "cta1_label": "Katso valikoima",
+        "cta1_link": "/collections/all",
+        "cta2_label": "Miten valitsen pituuden?",
+        "cta2_link": "#pituus",
+        "product_1": "hijab-premium-jersey",
+        "product_2": "abaya-nida"
+      }
+    },
+    "cats": {
+      "type": "km-categories",
+      "settings": { "heading": "Kategoriat" },
+      "blocks": {
+        "c1": { "type": "tile", "settings": { "collection": "hijabit" } },
+        "c2": { "type": "tile", "settings": { "collection": "khimarit" } },
+        "c3": { "type": "tile", "settings": { "collection": "abayat", "product": "open-abaya-linen" } },
+        "c4": { "type": "tile", "settings": { "collection": "mekot" } }
+      },
+      "block_order": ["c1", "c2", "c3", "c4"]
+    },
+    "colours": {
+      "type": "km-colours",
+      "settings": {
+        "heading": "Valitse väri",
+        "text": "Näet heti, mitä tuotteita kussakin sävyssä on."
+      }
+    },
+    "all": {
+      "type": "tw-products",
+      "settings": { "anchor": "valikoima", "heading": "Koko valikoima", "collection": "all", "link_label": "Kaikki tuotteet", "limit": 8, "columns": "4" }
+    },
+    "fit": {
+      "type": "km-fit",
+      "settings": {
+        "heading": "Pituus valitaan senttimetreinä",
+        "text": "Avoimet abayat ja pellavamekko tehdään neljässä pituudessa. Valitse pituus oman pituutesi mukaan, niin helma asettuu nilkan korkeudelle. Tarkat mitat löydät jokaisen tuotteen kokotaulukosta.",
+        "link_label": "Katso abayat",
+        "link": "/collections/abayat"
+      },
+      "blocks": {
+        "r1": { "type": "row", "settings": { "height": "158–163 cm", "length": "138 cm" } },
+        "r2": { "type": "row", "settings": { "height": "164–169 cm", "length": "143 cm" } },
+        "r3": { "type": "row", "settings": { "height": "170–175 cm", "length": "148 cm" } },
+        "r4": { "type": "row", "settings": { "height": "176 cm tai pidempi", "length": "153 cm" } }
+      },
+      "block_order": ["r1", "r2", "r3", "r4"]
+    },
+    "trust": {
+      "type": "tw-trust",
+      "blocks": {
+        "t1": { "type": "item", "settings": { "icon": "truck", "title": "Ilmainen toimitus", "text": "Kaikkiin tilauksiin Suomessa" } },
+        "t2": { "type": "item", "settings": { "icon": "return", "title": "14 päivän peruuttamisoikeus", "text": "Tuotteen vastaanottamisesta" } },
+        "t3": { "type": "item", "settings": { "icon": "lock", "title": "Turvallinen maksu", "text": "Kortti, Apple Pay ja Google Pay" } }
+      },
+      "block_order": ["t1", "t2", "t3"]
+    },
+    "faq": {
+      "type": "tw-faq",
+      "settings": { "heading": "Usein kysyttyä", "cta_label": "Kysy meiltä", "cta_link": "/pages/ota-yhteytta", "open_first": true },
+      "blocks": {
+        "q1": { "type": "qa", "settings": { "question": "Miten valitsen abayan tai mekon pituuden?", "answer": "<p>Pituus ilmoitetaan senttimetreinä olkapäästä helmaan. Valitse pituus oman pituutesi mukaan: 158–163 cm → 138 cm, 164–169 cm → 143 cm, 170–175 cm → 148 cm ja 176 cm tai pidempi → 153 cm. Tarkat mitat ovat jokaisen tuotteen kokotaulukossa.</p>" } },
+        "q2": { "type": "qa", "settings": { "question": "Ovatko hijabit ja khimarit yhtä kokoa?", "answer": "<p>Kyllä. Jerseyhijab on 180 × 75 cm. Yksikerroksinen khimar on edestä 115 cm ja takaa 135 cm, kaksikerroksinen edestä 100 cm ja takaa 130 cm.</p>" } },
+        "q3": { "type": "qa", "settings": { "question": "Kuinka nopeasti tilaus toimitetaan?", "answer": "<p>Arvioitu toimitusaika on 3–7 arkipäivää. Saat seurantakoodin sähköpostiisi, kun paketti lähtee matkaan. Toimitus on ilmainen.</p>" } },
+        "q4": { "type": "qa", "settings": { "question": "Voinko palauttaa tuotteen?", "answer": "<p>Kyllä. Sinulla on 14 päivän peruuttamisoikeus siitä päivästä, jona vastaanotat tilauksen. Ilmoita peruutuksesta <a href=\"/pages/peruuttamislomake\">peruuttamislomakkeella</a> tai sähköpostilla. Ohjeet löydät sivulta <a href=\"/pages/peruutus-ja-palautus\">Peruutus ja palautus</a>.</p>" } },
+        "q5": { "type": "qa", "settings": { "question": "Miten tuotteet pestään?", "answer": "<p>Abayat, mekot ja khimarit pestään 30 asteessa ja kuivataan ripustettuna. Jerseyhijabin voi pestä 40 asteessa. Pesuohje on jokaisen tuotteen tiedoissa.</p>" } },
+        "q6": { "type": "qa", "settings": { "question": "Mitä maksutapoja voin käyttää?", "answer": "<p>Voit maksaa pankki- tai luottokortilla (Visa, Mastercard, American Express) sekä Apple Paylla ja Google Paylla. Maksut käsittelee Stripe, emmekä tallenna korttitietojasi.</p>" } }
+      },
+      "block_order": ["q1", "q2", "q3", "q4", "q5", "q6"]
+    },
+    "newsletter": { "type": "tw-newsletter", "settings": {} }
+  },
+  "order": ["hero", "cats", "colours", "all", "fit", "trust", "faq", "newsletter"]
+}

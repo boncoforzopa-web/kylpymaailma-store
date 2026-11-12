@@ -1,0 +1,68 @@
+{%- if request.page_type == 'index' -%}
+  {%- capture search_target -%}{{ request.origin }}/search?q={search_term_string}{%- endcapture -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "OnlineStore",
+      "name": {{ settings.brand_name | json }},
+      "url": {{ request.origin | json }}
+      {%- if settings.contact_email != blank -%},"email": {{ settings.contact_email | json }}{%- endif -%}
+      {%- if settings.contact_phone != blank -%},"telephone": {{ settings.contact_phone | json }}{%- endif -%}
+      {%- if settings.business_address != blank -%},"address": {{ settings.business_address | strip_newlines | json }}{%- endif -%}
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": {{ settings.brand_name | json }},
+      "url": {{ request.origin | json }},
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {{ search_target | json }},
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+{%- endif -%}
+
+{%- if request.page_type == 'product' -%}
+  {%- assign current_variant = product.selected_or_first_available_variant -%}
+  {%- assign schema_price = current_variant.price | divided_by: 100.0 -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": {{ product.title | json }},
+      "url": {{ request.origin | append: product.url | json }},
+      "description": {{ product.description | strip_html | strip | json }}
+      {%- if product.featured_image -%},"image": [{{ product.featured_image | image_url: width: 1600 | prepend: 'https:' | json }}]{%- endif -%}
+      {%- if current_variant.sku != blank -%},"sku": {{ current_variant.sku | json }}{%- endif -%}
+      {%- if current_variant.barcode != blank -%},"gtin": {{ current_variant.barcode | json }}{%- endif -%}
+      ,"offers": {
+        "@type": "Offer",
+        "url": {{ request.origin | append: current_variant.url | json }},
+        "priceCurrency": {{ cart.currency.iso_code | json }},
+        "price": {{ schema_price | json }},
+        "availability": "https://schema.org/{% if current_variant.available %}InStock{% else %}OutOfStock{% endif %}",
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": { "@type": "Organization", "name": {{ settings.brand_name | json }} }
+      }
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Etusivu", "item": {{ request.origin | json }} },
+        {%- if collection -%}
+        { "@type": "ListItem", "position": 2, "name": {{ collection.title | json }}, "item": {{ request.origin | append: collection.url | json }} },
+        { "@type": "ListItem", "position": 3, "name": {{ product.title | json }}, "item": {{ request.origin | append: product.url | json }} }
+        {%- else -%}
+        { "@type": "ListItem", "position": 2, "name": {{ product.title | json }}, "item": {{ request.origin | append: product.url | json }} }
+        {%- endif -%}
+      ]
+    }
+  </script>
+{%- endif -%}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="no-js" lang="fi" data-mode="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="theme-color" content="#F5F6F3">
+    {%- if settings.favicon != blank -%}<link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 64, height: 64 }}">{%- endif -%}
+    <link rel="preload" href="{{ 'hedvig-letters-serif-latin-400-normal.woff2' | asset_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ 'schibsted-grotesk-latin-wght-normal.woff2' | asset_url }}" as="font" type="font/woff2" crossorigin>
+    <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+    <title>{{ page_title }} – {{ settings.brand_name }}</title>
+    {% render 'css-variables' %}
+    {{ content_for_header }}
+    {{ 'tw.css' | asset_url | stylesheet_tag }}
+    {{ 'km.css' | asset_url | stylesheet_tag }}
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="{{ 'tw-extras.js' | asset_url }}" defer></script>
+    <script src="{{ 'tw-checkout.js' | asset_url }}" defer></script>
+  </head>
+  <body class="tw-body template-checkout">
+    <header class="tw-co-head">
+      <div class="tw-wrap tw-co-head__inner">
+        <a href="{{ routes.cart_url }}" class="tw-co-head__back">{% render 'tw-icon', name: 'arrow-left', size: 18 %}<span>Ostoskori</span></a>
+        {% render 'tw-logo' %}
+        <span class="tw-co-head__secure">{% render 'tw-icon', name: 'lock', size: 14 %} Turvallinen kassa</span>
+      </div>
+    </header>
+    <main id="MainContent" class="tw-main tw-co-main" role="main">
+      {{ content_for_layout }}
+    </main>
+    <footer class="tw-co-foot">
+      <div class="tw-wrap tw-co-foot__inner">
+        <ul class="tw-payicons tw-co-foot__pay" role="list">
+          {%- assign pays = 'visa,master,american_express,apple_pay,google_pay' | split: ',' -%}
+          {%- for type in pays -%}<li>{{ type | payment_type_svg_tag: class: 'tw-payicon' }}</li>{%- endfor -%}
+        </ul>
+        <nav class="tw-co-foot__links" aria-label="Ehdot">
+          <a href="{{ paths.terms }}">Toimitusehdot</a><a href="{{ paths.withdrawal }}">Peruutus ja palautus</a><a href="{{ paths.privacy }}">Tietosuoja</a><a href="{{ paths.imprint }}">Yritystiedot</a><a href="{{ paths.shipping }}">Toimitus ja maksu</a>
+        </nav>
+        <p class="tw-small tw-muted">© {{ 'now' | date: '%Y' }} {{ settings.brand_name }}. Hinnat euroina, sis. alv {{ vat_label }}. Ilmainen toimitus.</p>
+      </div>
+    </footer>
+    <div class="tw-toast" role="status" aria-live="polite" data-toast></div>
+  </body>
+</html>

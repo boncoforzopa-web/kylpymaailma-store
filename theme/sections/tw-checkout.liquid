@@ -1,0 +1,87 @@
+{%- comment -%} Checkout: contact + address in our own fields, Stripe Payment Element for the payment. {%- endcomment -%}
+<section class="tw-co" data-checkout data-pk="{{ checkout.publishable_key }}" data-amount="{{ cart.total_price }}" data-return="{{ checkout.return_url }}" data-pm="{{ checkout.payment_method_types }}">
+  <div class="tw-wrap tw-co__layout">
+
+    <form class="tw-co__form" id="tw-checkout-form" novalidate>
+      <details class="tw-co__mobile-summary">
+        <summary><span>{% render 'tw-icon', name: 'box', size: 18 %} Näytä tilauksen yhteenveto</span><strong>{{ cart.total_price | money_without_currency | strip | append: ' €' }}</strong></summary>
+        <div class="tw-co__mobile-summary-body" data-mobile-summary></div>
+      </details>
+
+      <section class="tw-co__step">
+        <header class="tw-co__step-head"><span class="tw-co__num">1</span><div><h2 class="tw-h3">Yhteystiedot</h2><p class="tw-small tw-muted">Tilausvahvistusta ja lähetyksen seurantaa varten.</p></div></header>
+        <div class="tw-field"><label for="co-email">Sähköpostiosoite</label><input id="co-email" name="email" type="email" required autocomplete="email" inputmode="email" placeholder="nimi@esimerkki.fi" maxlength="200"></div>
+        <label class="tw-check tw-co__opt"><input type="checkbox" name="newsletter" value="1"><span class="tw-check__box" aria-hidden="true">{% render 'tw-icon', name: 'check', size: 14 %}</span><span class="tw-small">Haluan uutiskirjeen sähköpostiini (uudet tuotteet ja täydennykset, peruttavissa milloin tahansa)</span></label>
+      </section>
+
+      <section class="tw-co__step">
+        <header class="tw-co__step-head"><span class="tw-co__num">2</span><div><h2 class="tw-h3">Toimitusosoite</h2><p class="tw-small tw-muted">Toimitamme Suomeen. Toimitus on ilmainen.</p></div></header>
+        <div class="tw-field-row">
+          <div class="tw-field"><label for="co-first">Etunimi</label><input id="co-first" name="firstName" required autocomplete="given-name" maxlength="60"></div>
+          <div class="tw-field"><label for="co-last">Sukunimi</label><input id="co-last" name="lastName" required autocomplete="family-name" maxlength="60"></div>
+        </div>
+        <div class="tw-field"><label for="co-street">Katuosoite</label><input id="co-street" name="street" required autocomplete="address-line1" maxlength="160"></div>
+        <div class="tw-field"><label for="co-street2">Osoitteen lisätieto <span class="tw-muted">(valinnainen)</span></label><input id="co-street2" name="street2" autocomplete="address-line2" maxlength="120" placeholder="esim. c/o tai yrityksen nimi"></div>
+        <div class="tw-field-row tw-co__row-plz">
+          <div class="tw-field"><label for="co-zip">Postinumero</label><input id="co-zip" name="postalCode" required inputmode="numeric" pattern="\d{5}" title="Viisinumeroinen postinumero" maxlength="5" autocomplete="postal-code"></div>
+          <div class="tw-field"><label for="co-city">Postitoimipaikka</label><input id="co-city" name="city" required autocomplete="address-level2" maxlength="80"></div>
+        </div>
+        <div class="tw-field"><label for="co-country">Maa</label><input id="co-country" value="Suomi" readonly aria-readonly="true" class="tw-co__readonly"></div>
+        <div class="tw-field"><label for="co-phone">Puhelinnumero <span class="tw-muted">(valinnainen, kuljetusliikkeen ilmoituksia varten)</span></label><input id="co-phone" name="phone" type="tel" autocomplete="tel" maxlength="40"></div>
+      </section>
+
+      <section class="tw-co__step">
+        <header class="tw-co__step-head"><span class="tw-co__num">3</span><div><h2 class="tw-h3">Maksu</h2><p class="tw-small tw-muted">Kortti, Apple Pay ja Google Pay{% if checkout.payment_method_types contains 'mobilepay' %}, MobilePay{% endif %}{% if checkout.payment_method_types contains 'klarna' %}, Klarna{% endif %}{% if checkout.payment_method_types contains 'paypal' %}, PayPal{% endif %}. Ei lisämaksuja.</p></div></header>
+        <div class="tw-co__pay">
+          <div class="tw-co__pay-head"><span>{% render 'tw-icon', name: 'lock', size: 16 %} <b>Turvallinen maksu</b> <span class="tw-muted tw-small">Maksutiedot käsittelee Stripe</span></span>
+            <ul class="tw-payicons" role="list">{%- assign pays = 'visa,master,american_express,apple_pay,google_pay' | split: ',' -%}{%- for type in pays -%}<li>{{ type | payment_type_svg_tag: class: 'tw-payicon' }}</li>{%- endfor -%}</ul>
+          </div>
+          <div class="tw-co__pay-body">
+            <div class="tw-co__skeleton" data-pay-skeleton aria-hidden="true"><span></span><span></span><span></span></div>
+            <div id="tw-payment-element" hidden></div>
+            <p class="tw-error" data-pay-error hidden></p>
+          </div>
+        </div>
+      </section>
+
+      <p class="tw-error" data-co-error role="alert" hidden></p>
+
+      <section class="tw-co__submit">
+        <button type="submit" class="tw-btn tw-btn--gold tw-btn--lg tw-btn--block" data-co-submit>
+          <span data-co-label>Tilaa ja maksa {{ cart.total_price | money_without_currency | strip | append: ' €' }}</span>
+          <span data-co-busy hidden>Maksua käsitellään…</span>
+        </button>
+        <p class="tw-co__eta">{% render 'tw-icon', name: 'truck', size: 18 %} Arvioitu toimitus <b>{{ checkout.delivery_window }}</b></p>
+        <p class="tw-small tw-muted">Painamalla ”Tilaa ja maksa” teet sitovan tilauksen ja hyväksyt <a href="{{ paths.terms }}" target="_blank">tilaus- ja toimitusehdot</a>. Lue myös tiedot <a href="{{ paths.withdrawal }}" target="_blank">peruuttamisoikeudesta</a> ja <a href="{{ paths.privacy }}" target="_blank">henkilötietojen käsittelystä</a>.</p>
+      </section>
+    </form>
+
+    <aside class="tw-co__aside">
+      <div class="tw-co__summary" data-summary>
+        <p class="tw-h3">Tilauksesi</p>
+        <ul class="tw-co__items" role="list">
+          {%- for item in cart.items -%}
+            <li class="tw-co__item">
+              <span class="tw-co__thumb">{% if item.image %}{{ item.image | image_url: width: 160 | image_tag: alt: '', widths: '160, 320', sizes: '64px' }}{% endif %}<b class="tw-co__qty">{{ item.quantity }}</b></span>
+              <span class="tw-co__item-body"><a href="{{ item.product.url }}" class="tw-co__item-title">{{ item.product.title }}</a>
+                {%- unless item.product.has_only_default_variant -%}<span class="tw-small tw-muted">{{ item.variant.title }}</span>{%- endunless -%}
+                {%- if item.quantity > 1 -%}<span class="tw-small tw-muted">{{ item.quantity }} × {{ item.price | money_without_currency | strip | append: ' €' }}</span>{%- endif -%}
+              </span>
+              <strong class="tw-co__item-price">{{ item.final_line_price | money_without_currency | strip | append: ' €' }}</strong>
+            </li>
+          {%- endfor -%}
+        </ul>
+        <div class="tw-co__sums">
+          <div class="tw-sumrow"><span>Välisumma</span><span>{{ cart.total_price | money_without_currency | strip | append: ' €' }}</span></div>
+          <div class="tw-sumrow"><span>Toimitus</span><span class="tw-co__free">Ilmainen</span></div>
+          <div class="tw-sumrow tw-co__total"><span>Yhteensä</span><strong>{{ cart.total_price | money_without_currency | strip | append: ' €' }}</strong></div>
+          <p class="tw-small tw-muted">sis. alv {{ checkout.vat_label }} ({{ checkout.vat | money_without_currency | strip | append: ' €' }})</p>
+        </div>
+        <ul class="tw-co__perks" role="list">
+          <li>{% render 'tw-icon', name: 'return', size: 16 %} 14 päivän peruuttamisoikeus</li>
+          <li>{% render 'tw-icon', name: 'mail', size: 16 %} Kysyttävää? <a href="mailto:{{ settings.contact_email }}">{{ settings.contact_email }}</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</section>

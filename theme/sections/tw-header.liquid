@@ -1,0 +1,61 @@
+{%- assign menu = linklists[section.settings.menu] -%}
+<header class="tw-header km-header" data-header>
+  <div class="tw-header__glass">
+    <div class="tw-wrap tw-header__bar">
+      <button type="button" class="tw-iconbtn tw-header__burger" data-open="tw-menu" aria-controls="tw-menu" aria-expanded="false" aria-label="Avaa valikko">
+        {% render 'tw-icon', name: 'menu', size: 22 %}
+      </button>
+
+      {% render 'tw-logo' %}
+
+      {%- if menu.links.size > 0 -%}
+        <nav class="km-nav" aria-label="Päävalikko">
+          <ul class="km-nav__list" role="list">
+            {%- for link in menu.links -%}
+              <li><a href="{{ link.url }}" class="km-nav__link{% if link.active %} is-active{% endif %}"{% if link.active %} aria-current="page"{% endif %}>{{ link.title }}</a></li>
+            {%- endfor -%}
+          </ul>
+        </nav>
+      {%- endif -%}
+
+      <div class="tw-header__actions">
+        <button type="button" class="tw-iconbtn" data-open="tw-search-overlay" aria-label="Avaa haku">
+          {% render 'tw-icon', name: 'search', size: 21 %}
+        </button>
+        <a href="{{ routes.cart_url }}" class="tw-iconbtn tw-cartbtn" data-open="tw-cart" aria-controls="tw-cart" aria-label="Avaa ostoskori, {{ cart.item_count }} tuotetta">
+          {% render 'tw-icon', name: 'bag', size: 21 %}
+          <span class="tw-cartbtn__count{% if cart.item_count == 0 %} is-empty{% endif %}" data-cart-count aria-hidden="true">{{ cart.item_count }}</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<dialog class="tw-drawer tw-drawer--left" id="tw-menu" aria-label="Valikko">
+  <div class="tw-drawer__panel">
+    <div class="tw-drawer__head">
+      {% render 'tw-logo' %}
+      <button type="button" class="tw-iconbtn" data-close aria-label="Sulje valikko">{% render 'tw-icon', name: 'close', size: 22 %}</button>
+    </div>
+    <div class="tw-drawer__body">
+      <ul class="tw-mnav" role="list">
+        {%- for link in menu.links -%}
+          <li style="--i: {{ forloop.index0 }}"><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {%- endfor -%}
+        <li><a href="{{ paths.orderStatus }}">Tilauksen seuranta</a></li>
+        <li><a href="{{ paths.contact }}">Ota yhteyttä</a></li>
+      </ul>
+    </div>
+  </div>
+</dialog>
+
+{% schema %}
+{
+  "name": "Header",
+  "class": "tw-header-section",
+  "settings": [
+    { "type": "link_list", "id": "menu", "label": "Main menu", "default": "paavalikko" },
+    { "type": "text", "id": "search_placeholder", "label": "Search placeholder", "default": "Hae tuotetta" }
+  ]
+}
+{% endschema %}

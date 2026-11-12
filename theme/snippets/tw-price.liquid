@@ -1,0 +1,23 @@
+{%- comment -%} Params: product, variant (optional), show_tax (bool) {%- endcomment -%}
+{%- liquid
+  if variant != blank
+    assign p = variant.price
+    assign cp = variant.compare_at_price
+  else
+    assign p = product.price
+    assign cp = product.compare_at_price
+  endif
+-%}
+<div class="tw-price{% if cp > p %} tw-price--sale{% endif %}" data-price>
+  <span class="tw-price__now">{% if variant == blank and product.price_varies %}alk. {% endif %}{{ p | money_without_currency | strip | append: ' €' }}</span>
+  {%- if cp > p -%}<s class="tw-price__was"><span class="visually-hidden">Aiemmin</span>{{ cp | money_without_currency | strip | append: ' €' }}</s>{%- endif -%}
+  {%- if show_tax -%}
+    <span class="tw-price__tax">
+      {%- if settings.shipping_page != blank -%}
+        sis. alv {{ vat_label }}, <a href="{{ settings.shipping_page.url }}">ilmainen toimitus</a>
+      {%- else -%}
+        {{ settings.tax_note }}
+      {%- endif -%}
+    </span>
+  {%- endif -%}
+</div>

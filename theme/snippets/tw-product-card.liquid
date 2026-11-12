@@ -1,0 +1,30 @@
+{%- comment -%} Params: product, index, heading_level ('h3') {%- endcomment -%}
+{%- liquid
+  assign hl = heading_level | default: 'h3'
+  assign v = product.selected_or_first_available_variant
+-%}
+<article class="km-card">
+  <a href="{{ product.url }}" class="km-card__media" tabindex="-1" aria-hidden="true">
+    {%- if product.featured_media -%}
+      {{ product.featured_media | image_url: width: 800 | image_tag:
+        loading: 'lazy',
+        widths: '320, 480, 640, 800',
+        sizes: '(min-width: 1100px) 300px, (min-width: 750px) 33vw, 50vw',
+        alt: '',
+        class: 'km-card__img'
+      }}
+    {%- endif -%}
+    {%- if product.available == false -%}
+      <span class="km-card__flag">Loppu varastosta</span>
+    {%- elsif product.compare_at_price > product.price -%}
+      <span class="km-card__flag km-card__flag--sale">−{{ product.compare_at_price | minus: product.price | times: 100 | divided_by: product.compare_at_price }} %</span>
+    {%- endif -%}
+  </a>
+  <div class="km-card__body">
+    <{{ hl }} class="km-card__title"><a href="{{ product.url }}" class="tw-card__link">{{ product.title }}</a></{{ hl }}>
+    <div class="km-card__row">
+      {% render 'tw-price', product: product %}
+      {% render 'km-swatches', product: product, limit: 6 %}
+    </div>
+  </div>
+</article>

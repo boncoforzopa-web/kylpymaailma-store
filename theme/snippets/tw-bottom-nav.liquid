@@ -1,0 +1,6 @@
+<nav class="tw-bottomnav" aria-label="Pikavalikko">
+  <a href="{{ routes.root_url }}"{% if request.page_type == 'index' %} aria-current="page"{% endif %}>{% render 'tw-icon', name: 'home', size: 22 %}<span>Etusivu</span></a>
+  <a href="{{ routes.all_products_collection_url }}"{% if request.page_type == 'collection' or request.page_type == 'list-collections' %} aria-current="page"{% endif %}>{% render 'tw-icon', name: 'grid', size: 22 %}<span>Tuotteet</span></a>
+  <button type="button" data-open="tw-search-overlay">{% render 'tw-icon', name: 'search', size: 22 %}<span>Haku</span></button>
+  <a href="{{ routes.cart_url }}" data-open="tw-cart">{% render 'tw-icon', name: 'bag', size: 22 %}<span>Ostoskori</span><b class="tw-bottomnav__badge{% if cart.item_count == 0 %} is-empty{% endif %}" data-cart-count>{{ cart.item_count }}</b></a>
+</nav>

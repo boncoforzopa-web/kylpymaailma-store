@@ -1,0 +1,63 @@
+<footer class="tw-footer km-footer">
+  <div class="tw-wrap">
+    <div class="tw-footer__top">
+      <div class="tw-footer__brand">
+        {% render 'tw-logo' %}
+        <p class="tw-muted tw-small">{{ section.settings.about }}</p>
+        {%- if settings.social_instagram != blank or settings.social_tiktok != blank -%}
+        <ul class="tw-social" role="list">
+          {%- if settings.social_instagram != blank -%}<li><a href="{{ settings.social_instagram }}" target="_blank" rel="noopener" aria-label="Instagram">{% render 'tw-icon', name: 'instagram', size: 20 %}</a></li>{%- endif -%}
+          {%- if settings.social_tiktok != blank -%}<li><a href="{{ settings.social_tiktok }}" target="_blank" rel="noopener" aria-label="TikTok">{% render 'tw-icon', name: 'tiktok', size: 20 %}</a></li>{%- endif -%}
+        </ul>
+        {%- endif -%}
+      </div>
+
+      {%- assign cols = 'menu_shop,menu_help,menu_legal' | split: ',' -%}
+      {%- assign titles = section.settings.title_shop | append: '|' | append: section.settings.title_help | append: '|' | append: section.settings.title_legal | split: '|' -%}
+      {%- for col in cols -%}
+        {%- assign m = linklists[section.settings[col]] -%}
+        <nav class="tw-footer__col" aria-label="{{ titles[forloop.index0] | escape }}">
+          <p class="tw-footer__title">{{ titles[forloop.index0] }}</p>
+          <ul role="list">
+            {%- for link in m.links -%}
+              <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {%- endfor -%}
+            {%- if col == 'menu_legal' and settings.cookie_banner -%}
+              <li><button type="button" class="tw-linkbtn" data-cookie-open>Evästeasetukset</button></li>
+            {%- endif -%}
+          </ul>
+        </nav>
+      {%- endfor -%}
+    </div>
+
+    <div class="tw-footer__pay">
+      <p class="tw-footer__title">Maksutavat</p>
+      <ul class="tw-payicons" role="list">
+        {%- for type in shop.enabled_payment_types -%}
+          <li>{{ type | payment_type_svg_tag: class: 'tw-payicon' }}</li>
+        {%- endfor -%}
+      </ul>
+    </div>
+
+    <div class="tw-footer__legal">
+      <div class="tw-footer__bottom">
+        <p>© {{ 'now' | date: '%Y' }} {{ settings.brand_name }}{% if settings.legal_name != blank %}, {{ settings.legal_name }}{% endif %}. Hinnat euroina, sis. alv {{ vat_label }}.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "Footer",
+  "settings": [
+    { "type": "link_list", "id": "menu_shop", "label": "Menu: shop" },
+    { "type": "link_list", "id": "menu_help", "label": "Menu: help" },
+    { "type": "link_list", "id": "menu_legal", "label": "Menu: legal" },
+    { "type": "text", "id": "title_shop", "label": "Title: shop", "default": "Kauppa" },
+    { "type": "text", "id": "title_help", "label": "Title: help", "default": "Asiakaspalvelu" },
+    { "type": "text", "id": "title_legal", "label": "Title: legal", "default": "Ehdot" },
+    { "type": "textarea", "id": "about", "label": "About text" }
+  ]
+}
+{% endschema %}

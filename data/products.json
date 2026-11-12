@@ -1,0 +1,2648 @@
+[
+ {
+  "id": "9200000000001",
+  "handle": "hijab-premium-jersey",
+  "title": "Premium-jerseyhijab",
+  "status": "active",
+  "vendor": "Kylpymaailma",
+  "product_type": "Hijab",
+  "category": "Apparel & Accessories > Clothing",
+  "tags": [
+   "Hijab",
+   "Mokka",
+   "Hiekka",
+   "Luunvalkoinen",
+   "Salvia",
+   "Espresso",
+   "Pilvi",
+   "Myrsky"
+  ],
+  "description_html": "<p>Pehmeä ja kevyesti joustava jerseyhijab, jonka paino saa kankaan laskeutumaan kauniisti. Koko on 180 × 75 cm, joten kangasta riittää jokaiseen sidontatyyliin – tiukasti kasvojen ympärille tai väljästi hartioille. Rauhallinen perushijab, joka sopii yhtä hyvin töihin kuin illanviettoon. Saatavana seitsemässä hillityssä sävyssä.</p><ul><li>94 % polyesteriä, 6 % elastaania</li><li>Paino noin 150 g</li><li>Koko 180 × 75 cm (yksi koko)</li><li>Pehmeä ja kevyesti joustava</li><li>7 väriä</li></ul>",
+  "seo_title": "Premium-jerseyhijab, 180 × 75 cm, 7 väriä",
+  "seo_description": "Pehmeä ja kevyesti joustava jerseyhijab, jonka paino saa kankaan laskeutumaan kauniisti. Koko on 180 × 75 cm, joten kangasta riittää jokaiseen sidontatyyliin – tiukasti kasvojen ympärille tai väljästi hartioille. Rauhallinen perushijab, joka sopii yhtä hyvin töihin kuin illanviettoon. Saatavana seit",
+  "url": "/products/hijab-premium-jersey",
+  "template_suffix": null,
+  "created_at": "2026-11-12T12:00:00Z",
+  "updated_at": "2026-11-12T12:00:00Z",
+  "published_at": "2026-11-12T12:00:00Z",
+  "total_inventory": 105,
+  "options": [
+   {
+    "name": "Väri",
+    "values": [
+     "Mokka",
+     "Hiekka",
+     "Luunvalkoinen",
+     "Salvia",
+     "Espresso",
+     "Pilvi",
+     "Myrsky"
+    ]
+   }
+  ],
+  "collections": [
+   "hijabit"
+  ],
+  "release_date": null,
+  "metafields": {
+   "custom.material": "94 % polyesteri, 6 % elastaani",
+   "custom.care": "Konepesu 40 °C, kuivaus ilmassa",
+   "custom.origin": "Suunniteltu Alankomaissa, kudottu Turkissa",
+   "custom.size_guide": "<table class=\"km-sizes\"><thead><tr><th scope=\"col\">Koko</th><th scope=\"col\">Leveys</th><th scope=\"col\">Pituus</th></tr></thead><tbody><tr><th scope=\"row\">Yksi koko</th><td>75 cm</td><td>180 cm</td></tr></tbody></table>",
+   "custom.swatches": "Mokka|#8B6F5E;Hiekka|#D2C0A5;Luunvalkoinen|#E3DACB;Salvia|#A3AD95;Espresso|#4A372E;Pilvi|#D9DBDD;Myrsky|#6C7480",
+   "global.title_tag": "Premium-jerseyhijab, 180 × 75 cm, 7 väriä"
+  },
+  "images": [
+   {
+    "position": 1,
+    "src": "",
+    "local": "images/hijab-premium-jersey/01.jpg",
+    "alt": "Premium-jerseyhijab",
+    "width": 612,
+    "height": 614
+   }
+  ],
+  "variants": [
+   {
+    "id": "4200000001001",
+    "title": "Mokka",
+    "sku": "RIHA-PJ-MOCHA-OS",
+    "price": "14.99",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 15,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 150,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Mokka"
+    },
+    "colour_hex": "#8B6F5E"
+   },
+   {
+    "id": "4200000001002",
+    "title": "Hiekka",
+    "sku": "RIHA-PJ-SAND-OS",
+    "price": "14.99",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 15,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 150,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Hiekka"
+    },
+    "colour_hex": "#D2C0A5"
+   },
+   {
+    "id": "4200000001003",
+    "title": "Luunvalkoinen",
+    "sku": "RIHA-PJ-DBONE-OS",
+    "price": "14.99",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 15,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 150,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Luunvalkoinen"
+    },
+    "colour_hex": "#E3DACB"
+   },
+   {
+    "id": "4200000001004",
+    "title": "Salvia",
+    "sku": "RIHA-PJ-SAGE-OS",
+    "price": "14.99",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 15,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 150,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Salvia"
+    },
+    "colour_hex": "#A3AD95"
+   },
+   {
+    "id": "4200000001005",
+    "title": "Espresso",
+    "sku": "RIHA-PJ-ESPR-OS",
+    "price": "14.99",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 15,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 150,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Espresso"
+    },
+    "colour_hex": "#4A372E"
+   },
+   {
+    "id": "4200000001006",
+    "title": "Pilvi",
+    "sku": "RIHA-PJ-CLOUD-OS",
+    "price": "14.99",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 15,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 150,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Pilvi"
+    },
+    "colour_hex": "#D9DBDD"
+   },
+   {
+    "id": "4200000001007",
+    "title": "Myrsky",
+    "sku": "RIHA-PJ-STORM-OS",
+    "price": "14.99",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 15,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 150,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Myrsky"
+    },
+    "colour_hex": "#6C7480"
+   }
+  ]
+ },
+ {
+  "id": "9200000000002",
+  "handle": "khimar-one-layer",
+  "title": "Yksikerroksinen khimar",
+  "status": "active",
+  "vendor": "Kylpymaailma",
+  "product_type": "Khimar",
+  "category": "Apparel & Accessories > Clothing",
+  "tags": [
+   "Khimar",
+   "Musta",
+   "Kahvi",
+   "Kameli",
+   "Tumma kahvi",
+   "Tummansininen",
+   "Vaaleanharmaa",
+   "Valkoinen"
+  ],
+  "description_html": "<p>Yksikerroksinen khimar rypytetystä polyesteristä peittää rinnan ja on takaa pidempi: 115 cm edestä ja 135 cm takaa. Rypytys on kudottu kankaaseen, joten khimaria ei tarvitse silittää ja se pysyy siistinä. Sopii rukoukseen, ramadaniin ja jokapäiväiseen käyttöön.</p><ul><li>Rypytetty polyesteri, ei tarvitse silittää</li><li>Yksi kerros</li><li>Yksi koko: edestä 115 cm, takaa 135 cm</li><li>Paino noin 390 g</li></ul>",
+  "seo_title": "Yksikerroksinen khimar, silittämätön, 7 väriä",
+  "seo_description": "Yksikerroksinen khimar rypytetystä polyesteristä peittää rinnan ja on takaa pidempi: 115 cm edestä ja 135 cm takaa. Rypytys on kudottu kankaaseen, joten khimaria ei tarvitse silittää ja se pysyy siistinä. Sopii rukoukseen, ramadaniin ja jokapäiväiseen käyttöön.",
+  "url": "/products/khimar-one-layer",
+  "template_suffix": null,
+  "created_at": "2026-11-12T12:00:00Z",
+  "updated_at": "2026-11-12T12:00:00Z",
+  "published_at": "2026-11-12T12:00:00Z",
+  "total_inventory": 60,
+  "options": [
+   {
+    "name": "Väri",
+    "values": [
+     "Musta",
+     "Kahvi",
+     "Kameli",
+     "Tumma kahvi",
+     "Tummansininen",
+     "Vaaleanharmaa",
+     "Valkoinen"
+    ]
+   }
+  ],
+  "collections": [
+   "khimarit",
+   "ramadan"
+  ],
+  "release_date": null,
+  "metafields": {
+   "custom.material": "Rypytetty polyesteri",
+   "custom.care": "Pesu 30 °C, kuivaus ripustettuna",
+   "custom.origin": "Valmistettu Kiinassa",
+   "custom.size_guide": "<table class=\"km-sizes\"><thead><tr><th scope=\"col\">Koko</th><th scope=\"col\">Pituus</th><th scope=\"col\">Pituus takaa</th></tr></thead><tbody><tr><th scope=\"row\">Yksi koko</th><td>115 cm</td><td>135 cm</td></tr></tbody></table>",
+   "custom.swatches": "Musta|#1B1B1D;Kahvi|#6F4E37;Kameli|#B98B5E;Tumma kahvi|#3F2B22;Tummansininen|#1F2A44;Vaaleanharmaa|#C9CBCD;Valkoinen|#F6F5F1",
+   "global.title_tag": "Yksikerroksinen khimar, silittämätön, 7 väriä"
+  },
+  "images": [
+   {
+    "position": 1,
+    "src": "",
+    "local": "images/khimar-one-layer/01.jpg",
+    "alt": "Yksikerroksinen khimar",
+    "width": 800,
+    "height": 1200
+   }
+  ],
+  "variants": [
+   {
+    "id": "4200000002001",
+    "title": "Musta",
+    "sku": "ALS-HJ907-BLACK-OS",
+    "price": "24.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 13,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 390,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000002002",
+    "title": "Kahvi",
+    "sku": "ALS-HJ907-COFFEE-OS",
+    "price": "24.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 12,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 390,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Kahvi"
+    },
+    "colour_hex": "#6F4E37"
+   },
+   {
+    "id": "4200000002003",
+    "title": "Kameli",
+    "sku": "ALS-HJ907-KHAKI-OS",
+    "price": "24.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 10,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 390,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Kameli"
+    },
+    "colour_hex": "#B98B5E"
+   },
+   {
+    "id": "4200000002004",
+    "title": "Tumma kahvi",
+    "sku": "ALS-HJ907-DKCOFFEE-OS",
+    "price": "24.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 8,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 390,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tumma kahvi"
+    },
+    "colour_hex": "#3F2B22"
+   },
+   {
+    "id": "4200000002005",
+    "title": "Tummansininen",
+    "sku": "ALS-HJ907-NAVY-OS",
+    "price": "24.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 8,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 390,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tummansininen"
+    },
+    "colour_hex": "#1F2A44"
+   },
+   {
+    "id": "4200000002006",
+    "title": "Vaaleanharmaa",
+    "sku": "ALS-HJ907-LTGRAY-OS",
+    "price": "24.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 6,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 390,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Vaaleanharmaa"
+    },
+    "colour_hex": "#C9CBCD"
+   },
+   {
+    "id": "4200000002007",
+    "title": "Valkoinen",
+    "sku": "ALS-HJ907-WHITE-OS",
+    "price": "24.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 3,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 390,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Valkoinen"
+    },
+    "colour_hex": "#F6F5F1"
+   }
+  ]
+ },
+ {
+  "id": "9200000000003",
+  "handle": "open-abaya-linen",
+  "title": "Avoin pellava-abaya",
+  "status": "active",
+  "vendor": "Kylpymaailma",
+  "product_type": "Abaya",
+  "category": "Apparel & Accessories > Clothing",
+  "tags": [
+   "Abaya",
+   "Musta",
+   "Ruskea",
+   "Beige",
+   "Tummansininen",
+   "Tumma kahvi"
+  ],
+  "description_html": "<p>Avoin pellava-abaya on ilmava kerros, jota käytetään alusmekon tai omien vaatteiden päällä. Pellava hengittää ja tuntuu kevyeltä, joten se sopii lämpimiin päiviin ja ramadaniin. Pituus valitaan senttimetreinä (138–153 cm), jolloin abaya on juuri oman pituutesi mukainen. Yhdistä samansävyiseen khimariin, niin asu on valmis.</p><ul><li>Pellava</li><li>Avoin etuosa</li><li>Pituudet 138, 143, 148 ja 153 cm (M–2XL)</li><li>Kokotaulukko oman pituuden mukaan</li><li>Paino noin 510 g</li></ul>",
+  "seo_title": "Avoin pellava-abaya, pituudet 138–153 cm",
+  "seo_description": "Avoin pellava-abaya on ilmava kerros, jota käytetään alusmekon tai omien vaatteiden päällä. Pellava hengittää ja tuntuu kevyeltä, joten se sopii lämpimiin päiviin ja ramadaniin. Pituus valitaan senttimetreinä (138–153 cm), jolloin abaya on juuri oman pituutesi mukainen. Yhdistä samansävyiseen khimar",
+  "url": "/products/open-abaya-linen",
+  "template_suffix": null,
+  "created_at": "2026-11-12T12:00:00Z",
+  "updated_at": "2026-11-12T12:00:00Z",
+  "published_at": "2026-11-12T12:00:00Z",
+  "total_inventory": 21,
+  "options": [
+   {
+    "name": "Väri",
+    "values": [
+     "Musta",
+     "Ruskea",
+     "Beige",
+     "Tummansininen",
+     "Tumma kahvi"
+    ]
+   },
+   {
+    "name": "Pituus",
+    "values": [
+     "138 cm",
+     "143 cm",
+     "148 cm",
+     "153 cm"
+    ]
+   }
+  ],
+  "collections": [
+   "abayat",
+   "ramadan"
+  ],
+  "release_date": null,
+  "metafields": {
+   "custom.material": "Pellava",
+   "custom.care": "Pesu 30 °C, kuivaus ripustettuna",
+   "custom.origin": "Valmistettu Kiinassa",
+   "custom.size_guide": "<table class=\"km-sizes\"><thead><tr><th scope=\"col\">Koko</th><th scope=\"col\">Rinnanympärys</th><th scope=\"col\">Pituus</th><th scope=\"col\">Hiha</th><th scope=\"col\">Olkapäät</th><th scope=\"col\">Sopii pituudelle</th></tr></thead><tbody><tr><th scope=\"row\">138 cm</th><td>113 cm</td><td>138 cm</td><td>60 cm</td><td>43 cm</td><td>158–163 cm</td></tr><tr><th scope=\"row\">143 cm</th><td>118 cm</td><td>143 cm</td><td>61 cm</td><td>45 cm</td><td>164–169 cm</td></tr><tr><th scope=\"row\">148 cm</th><td>123 cm</td><td>148 cm</td><td>62 cm</td><td>47 cm</td><td>170–175 cm</td></tr><tr><th scope=\"row\">153 cm</th><td>128 cm</td><td>153 cm</td><td>63 cm</td><td>49 cm</td><td>176 cm tai pidempi</td></tr></tbody></table>",
+   "custom.swatches": "Musta|#1B1B1D;Ruskea|#6B4A3A;Beige|#D9C7AE;Tummansininen|#1F2A44;Tumma kahvi|#3F2B22",
+   "global.title_tag": "Avoin pellava-abaya, pituudet 138–153 cm"
+  },
+  "images": [
+   {
+    "position": 1,
+    "src": "",
+    "local": "images/open-abaya-linen/01.jpg",
+    "alt": "Avoin pellava-abaya",
+    "width": 650,
+    "height": 613
+   }
+  ],
+  "variants": [
+   {
+    "id": "4200000003001",
+    "title": "Musta / 138 cm",
+    "sku": "ALS-LR573-BLACK-M",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000003002",
+    "title": "Musta / 143 cm",
+    "sku": "ALS-LR573-BLACK-L",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 2,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000003003",
+    "title": "Musta / 148 cm",
+    "sku": "ALS-LR573-BLACK-XL",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 2,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000003004",
+    "title": "Musta / 153 cm",
+    "sku": "ALS-LR573-BLACK-2XL",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000003005",
+    "title": "Ruskea / 138 cm",
+    "sku": "ALS-LR573-BROWN-M",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Ruskea",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#6B4A3A"
+   },
+   {
+    "id": "4200000003006",
+    "title": "Ruskea / 143 cm",
+    "sku": "ALS-LR573-BROWN-L",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Ruskea",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#6B4A3A"
+   },
+   {
+    "id": "4200000003007",
+    "title": "Ruskea / 148 cm",
+    "sku": "ALS-LR573-BROWN-XL",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Ruskea",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#6B4A3A"
+   },
+   {
+    "id": "4200000003008",
+    "title": "Ruskea / 153 cm",
+    "sku": "ALS-LR573-BROWN-2XL",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Ruskea",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#6B4A3A"
+   },
+   {
+    "id": "4200000003009",
+    "title": "Beige / 138 cm",
+    "sku": "ALS-LR573-BEIGE-M",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Beige",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#D9C7AE"
+   },
+   {
+    "id": "4200000003010",
+    "title": "Beige / 143 cm",
+    "sku": "ALS-LR573-BEIGE-L",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Beige",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#D9C7AE"
+   },
+   {
+    "id": "4200000003011",
+    "title": "Beige / 148 cm",
+    "sku": "ALS-LR573-BEIGE-XL",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Beige",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#D9C7AE"
+   },
+   {
+    "id": "4200000003012",
+    "title": "Beige / 153 cm",
+    "sku": "ALS-LR573-BEIGE-2XL",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Beige",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#D9C7AE"
+   },
+   {
+    "id": "4200000003013",
+    "title": "Tummansininen / 138 cm",
+    "sku": "ALS-LR573-NAVY-M",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tummansininen",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#1F2A44"
+   },
+   {
+    "id": "4200000003014",
+    "title": "Tummansininen / 143 cm",
+    "sku": "ALS-LR573-NAVY-L",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tummansininen",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#1F2A44"
+   },
+   {
+    "id": "4200000003015",
+    "title": "Tummansininen / 148 cm",
+    "sku": "ALS-LR573-NAVY-XL",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tummansininen",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#1F2A44"
+   },
+   {
+    "id": "4200000003016",
+    "title": "Tummansininen / 153 cm",
+    "sku": "ALS-LR573-NAVY-2XL",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tummansininen",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#1F2A44"
+   },
+   {
+    "id": "4200000003017",
+    "title": "Tumma kahvi / 138 cm",
+    "sku": "ALS-LR573-DKCOFFEE-M",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 0,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tumma kahvi",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#3F2B22"
+   },
+   {
+    "id": "4200000003018",
+    "title": "Tumma kahvi / 143 cm",
+    "sku": "ALS-LR573-DKCOFFEE-L",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tumma kahvi",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#3F2B22"
+   },
+   {
+    "id": "4200000003019",
+    "title": "Tumma kahvi / 148 cm",
+    "sku": "ALS-LR573-DKCOFFEE-XL",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tumma kahvi",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#3F2B22"
+   },
+   {
+    "id": "4200000003020",
+    "title": "Tumma kahvi / 153 cm",
+    "sku": "ALS-LR573-DKCOFFEE-2XL",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 510,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tumma kahvi",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#3F2B22"
+   }
+  ]
+ },
+ {
+  "id": "9200000000004",
+  "handle": "khimar-two-layer",
+  "title": "Kaksikerroksinen khimar",
+  "status": "active",
+  "vendor": "Kylpymaailma",
+  "product_type": "Khimar",
+  "category": "Apparel & Accessories > Clothing",
+  "tags": [
+   "Khimar",
+   "Musta",
+   "Kahvi",
+   "Kameli",
+   "Tumma kahvi",
+   "Tummansininen"
+  ],
+  "description_html": "<p>Kaksikerroksisessa khimarissa toinen kangaskerros antaa lisää peittävyyttä. Etuosa on 100 cm ja takaosa 130 cm pitkä, joten rinta ja selkä peittyvät reilusti. Rypytetty polyesteri pysyy kevyenä eikä kaipaa silitysrautaa – käytännöllinen valinta rukoukseen ja matkalle.</p><ul><li>Rypytetty polyesteri, ei tarvitse silittää</li><li>Kaksi kerrosta lisää peittävyyttä</li><li>Yksi koko: edestä 100 cm, takaa 130 cm</li><li>Paino noin 390 g</li></ul>",
+  "seo_title": "Kaksikerroksinen khimar, silittämätön, 5 väriä",
+  "seo_description": "Kaksikerroksisessa khimarissa toinen kangaskerros antaa lisää peittävyyttä. Etuosa on 100 cm ja takaosa 130 cm pitkä, joten rinta ja selkä peittyvät reilusti. Rypytetty polyesteri pysyy kevyenä eikä kaipaa silitysrautaa – käytännöllinen valinta rukoukseen ja matkalle.",
+  "url": "/products/khimar-two-layer",
+  "template_suffix": null,
+  "created_at": "2026-11-12T12:00:00Z",
+  "updated_at": "2026-11-12T12:00:00Z",
+  "published_at": "2026-11-12T12:00:00Z",
+  "total_inventory": 30,
+  "options": [
+   {
+    "name": "Väri",
+    "values": [
+     "Musta",
+     "Kahvi",
+     "Kameli",
+     "Tumma kahvi",
+     "Tummansininen"
+    ]
+   }
+  ],
+  "collections": [
+   "khimarit",
+   "ramadan"
+  ],
+  "release_date": null,
+  "metafields": {
+   "custom.material": "Rypytetty polyesteri",
+   "custom.care": "Pesu 30 °C, kuivaus ripustettuna",
+   "custom.origin": "Valmistettu Kiinassa",
+   "custom.size_guide": "<table class=\"km-sizes\"><thead><tr><th scope=\"col\">Koko</th><th scope=\"col\">Pituus</th><th scope=\"col\">Pituus takaa</th></tr></thead><tbody><tr><th scope=\"row\">Yksi koko</th><td>100 cm</td><td>130 cm</td></tr></tbody></table>",
+   "custom.swatches": "Musta|#1B1B1D;Kahvi|#6F4E37;Kameli|#B98B5E;Tumma kahvi|#3F2B22;Tummansininen|#1F2A44",
+   "global.title_tag": "Kaksikerroksinen khimar, silittämätön, 5 väriä"
+  },
+  "images": [
+   {
+    "position": 1,
+    "src": "",
+    "local": "images/khimar-two-layer/01.jpg",
+    "alt": "Kaksikerroksinen khimar",
+    "width": 753,
+    "height": 729
+   }
+  ],
+  "variants": [
+   {
+    "id": "4200000004001",
+    "title": "Musta",
+    "sku": "ALS-HJ908-BLACK-OS",
+    "price": "29.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 8,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 390,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000004002",
+    "title": "Kahvi",
+    "sku": "ALS-HJ908-COFFEE-OS",
+    "price": "29.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 7,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 390,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Kahvi"
+    },
+    "colour_hex": "#6F4E37"
+   },
+   {
+    "id": "4200000004003",
+    "title": "Kameli",
+    "sku": "ALS-HJ908-KHAKI-OS",
+    "price": "29.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 6,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 390,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Kameli"
+    },
+    "colour_hex": "#B98B5E"
+   },
+   {
+    "id": "4200000004004",
+    "title": "Tumma kahvi",
+    "sku": "ALS-HJ908-DKCOFFEE-OS",
+    "price": "29.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 5,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 390,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tumma kahvi"
+    },
+    "colour_hex": "#3F2B22"
+   },
+   {
+    "id": "4200000004005",
+    "title": "Tummansininen",
+    "sku": "ALS-HJ908-NAVY-OS",
+    "price": "29.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 4,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 390,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tummansininen"
+    },
+    "colour_hex": "#1F2A44"
+   }
+  ]
+ },
+ {
+  "id": "9200000000005",
+  "handle": "closed-dress-linen",
+  "title": "Pitkähihainen pellavamekko",
+  "status": "active",
+  "vendor": "Kylpymaailma",
+  "product_type": "Mekko",
+  "category": "Apparel & Accessories > Clothing",
+  "tags": [
+   "Mekko",
+   "Musta",
+   "Ruskea",
+   "Beige",
+   "Tummansininen",
+   "Tumma kahvi"
+  ],
+  "description_html": "<p>Pitkähihainen pellavamekko, jossa on suora ja rauhallinen linja. Mekko on yksikerroksinen ja edestä umpinainen, joten sitä voi käyttää sellaisenaan ilman erillistä päällyskerrosta. Pituuksia on neljä, 138–153 cm, ja niistä valitaan omaan pituuteen sopiva. Kevyt, hengittävä ja helppo yhdistää khimariin.</p><ul><li>Pellava</li><li>Umpinainen etuosa, pitkät hihat</li><li>Pituudet 138, 143, 148 ja 153 cm (M–2XL)</li><li>Paino noin 420 g</li></ul>",
+  "seo_title": "Pitkähihainen pellavamekko, pituudet 138–153 cm",
+  "seo_description": "Pitkähihainen pellavamekko, jossa on suora ja rauhallinen linja. Mekko on yksikerroksinen ja edestä umpinainen, joten sitä voi käyttää sellaisenaan ilman erillistä päällyskerrosta. Pituuksia on neljä, 138–153 cm, ja niistä valitaan omaan pituuteen sopiva. Kevyt, hengittävä ja helppo yhdistää khimari",
+  "url": "/products/closed-dress-linen",
+  "template_suffix": null,
+  "created_at": "2026-11-12T12:00:00Z",
+  "updated_at": "2026-11-12T12:00:00Z",
+  "published_at": "2026-11-12T12:00:00Z",
+  "total_inventory": 18,
+  "options": [
+   {
+    "name": "Väri",
+    "values": [
+     "Musta",
+     "Ruskea",
+     "Beige",
+     "Tummansininen",
+     "Tumma kahvi"
+    ]
+   },
+   {
+    "name": "Pituus",
+    "values": [
+     "138 cm",
+     "143 cm",
+     "148 cm",
+     "153 cm"
+    ]
+   }
+  ],
+  "collections": [
+   "mekot",
+   "ramadan"
+  ],
+  "release_date": null,
+  "metafields": {
+   "custom.material": "Pellava",
+   "custom.care": "Pesu 30 °C, kuivaus ripustettuna",
+   "custom.origin": "Valmistettu Kiinassa",
+   "custom.size_guide": "<table class=\"km-sizes\"><thead><tr><th scope=\"col\">Koko</th><th scope=\"col\">Rinnanympärys</th><th scope=\"col\">Pituus</th><th scope=\"col\">Hiha</th><th scope=\"col\">Olkapäät</th><th scope=\"col\">Sopii pituudelle</th></tr></thead><tbody><tr><th scope=\"row\">138 cm</th><td>113 cm</td><td>138 cm</td><td>58 cm</td><td>47 cm</td><td>158–163 cm</td></tr><tr><th scope=\"row\">143 cm</th><td>118 cm</td><td>143 cm</td><td>59 cm</td><td>49 cm</td><td>164–169 cm</td></tr><tr><th scope=\"row\">148 cm</th><td>123 cm</td><td>148 cm</td><td>60 cm</td><td>51 cm</td><td>170–175 cm</td></tr><tr><th scope=\"row\">153 cm</th><td>128 cm</td><td>153 cm</td><td>61 cm</td><td>53 cm</td><td>176 cm tai pidempi</td></tr></tbody></table>",
+   "custom.swatches": "Musta|#1B1B1D;Ruskea|#6B4A3A;Beige|#D9C7AE;Tummansininen|#1F2A44;Tumma kahvi|#3F2B22",
+   "global.title_tag": "Pitkähihainen pellavamekko, pituudet 138–153 cm"
+  },
+  "images": [
+   {
+    "position": 1,
+    "src": "",
+    "local": "images/closed-dress-linen/01.jpg",
+    "alt": "Pitkähihainen pellavamekko",
+    "width": 662,
+    "height": 631
+   }
+  ],
+  "variants": [
+   {
+    "id": "4200000005001",
+    "title": "Musta / 138 cm",
+    "sku": "ALS-LR574-BLACK-M",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000005002",
+    "title": "Musta / 143 cm",
+    "sku": "ALS-LR574-BLACK-L",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000005003",
+    "title": "Musta / 148 cm",
+    "sku": "ALS-LR574-BLACK-XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000005004",
+    "title": "Musta / 153 cm",
+    "sku": "ALS-LR574-BLACK-2XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000005005",
+    "title": "Ruskea / 138 cm",
+    "sku": "ALS-LR574-BROWN-M",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Ruskea",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#6B4A3A"
+   },
+   {
+    "id": "4200000005006",
+    "title": "Ruskea / 143 cm",
+    "sku": "ALS-LR574-BROWN-L",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Ruskea",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#6B4A3A"
+   },
+   {
+    "id": "4200000005007",
+    "title": "Ruskea / 148 cm",
+    "sku": "ALS-LR574-BROWN-XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Ruskea",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#6B4A3A"
+   },
+   {
+    "id": "4200000005008",
+    "title": "Ruskea / 153 cm",
+    "sku": "ALS-LR574-BROWN-2XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Ruskea",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#6B4A3A"
+   },
+   {
+    "id": "4200000005009",
+    "title": "Beige / 138 cm",
+    "sku": "ALS-LR574-BEIGE-M",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Beige",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#D9C7AE"
+   },
+   {
+    "id": "4200000005010",
+    "title": "Beige / 143 cm",
+    "sku": "ALS-LR574-BEIGE-L",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Beige",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#D9C7AE"
+   },
+   {
+    "id": "4200000005011",
+    "title": "Beige / 148 cm",
+    "sku": "ALS-LR574-BEIGE-XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Beige",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#D9C7AE"
+   },
+   {
+    "id": "4200000005012",
+    "title": "Beige / 153 cm",
+    "sku": "ALS-LR574-BEIGE-2XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Beige",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#D9C7AE"
+   },
+   {
+    "id": "4200000005013",
+    "title": "Tummansininen / 138 cm",
+    "sku": "ALS-LR574-NAVY-M",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tummansininen",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#1F2A44"
+   },
+   {
+    "id": "4200000005014",
+    "title": "Tummansininen / 143 cm",
+    "sku": "ALS-LR574-NAVY-L",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tummansininen",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#1F2A44"
+   },
+   {
+    "id": "4200000005015",
+    "title": "Tummansininen / 148 cm",
+    "sku": "ALS-LR574-NAVY-XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tummansininen",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#1F2A44"
+   },
+   {
+    "id": "4200000005016",
+    "title": "Tummansininen / 153 cm",
+    "sku": "ALS-LR574-NAVY-2XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tummansininen",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#1F2A44"
+   },
+   {
+    "id": "4200000005017",
+    "title": "Tumma kahvi / 138 cm",
+    "sku": "ALS-LR574-DKCOFFEE-M",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 0,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tumma kahvi",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#3F2B22"
+   },
+   {
+    "id": "4200000005018",
+    "title": "Tumma kahvi / 143 cm",
+    "sku": "ALS-LR574-DKCOFFEE-L",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tumma kahvi",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#3F2B22"
+   },
+   {
+    "id": "4200000005019",
+    "title": "Tumma kahvi / 148 cm",
+    "sku": "ALS-LR574-DKCOFFEE-XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tumma kahvi",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#3F2B22"
+   },
+   {
+    "id": "4200000005020",
+    "title": "Tumma kahvi / 153 cm",
+    "sku": "ALS-LR574-DKCOFFEE-2XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 0,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 420,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tumma kahvi",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#3F2B22"
+   }
+  ]
+ },
+ {
+  "id": "9200000000006",
+  "handle": "abaya-hooded-nida",
+  "title": "Nida-abaya kiinteällä hijabilla",
+  "status": "active",
+  "vendor": "Kylpymaailma",
+  "product_type": "Abaya",
+  "category": "Apparel & Accessories > Clothing",
+  "tags": [
+   "Abaya",
+   "Musta",
+   "Kahvi",
+   "Beige",
+   "Kameli",
+   "Tummansininen",
+   "Harmaa"
+  ],
+  "description_html": "<p>Tässä nida-abayassa hijab on ommeltu kiinni, joten mitään ei tarvitse asetella erikseen: pue päälle ja olet valmis. Nida on mattapintaista kreppikangasta, joka laskeutuu pehmeästi ja pitää muotonsa, joten abaya näyttää aina siistiltä. Kaksi pituutta, 140 ja 148 cm, ja kuusi väriä.</p><ul><li>Nida (mattapintainen kreppi)</li><li>Hijab ommeltu kiinni abayaan</li><li>Pituudet 140 ja 148 cm</li><li>Paino noin 560 g</li></ul>",
+  "seo_title": "Nida-abaya kiinteällä hijabilla, 6 väriä",
+  "seo_description": "Tässä nida-abayassa hijab on ommeltu kiinni, joten mitään ei tarvitse asetella erikseen: pue päälle ja olet valmis. Nida on mattapintaista kreppikangasta, joka laskeutuu pehmeästi ja pitää muotonsa, joten abaya näyttää aina siistiltä. Kaksi pituutta, 140 ja 148 cm, ja kuusi väriä.",
+  "url": "/products/abaya-hooded-nida",
+  "template_suffix": null,
+  "created_at": "2026-11-12T12:00:00Z",
+  "updated_at": "2026-11-12T12:00:00Z",
+  "published_at": "2026-11-12T12:00:00Z",
+  "total_inventory": 58,
+  "options": [
+   {
+    "name": "Väri",
+    "values": [
+     "Musta",
+     "Kahvi",
+     "Beige",
+     "Kameli",
+     "Tummansininen",
+     "Harmaa"
+    ]
+   },
+   {
+    "name": "Pituus",
+    "values": [
+     "140 cm",
+     "148 cm"
+    ]
+   }
+  ],
+  "collections": [
+   "abayat",
+   "ramadan"
+  ],
+  "release_date": null,
+  "metafields": {
+   "custom.material": "Nida",
+   "custom.care": "Pesu 30 °C, kuivaus ripustettuna",
+   "custom.origin": "Valmistettu Kiinassa",
+   "custom.size_guide": "<table class=\"km-sizes\"><thead><tr><th scope=\"col\">Koko</th><th scope=\"col\">Vyötärö</th><th scope=\"col\">Pituus</th><th scope=\"col\">Olka + hiha</th></tr></thead><tbody><tr><th scope=\"row\">140 cm</th><td>137 cm</td><td>140 cm</td><td>70 cm</td></tr><tr><th scope=\"row\">148 cm</th><td>147 cm</td><td>148 cm</td><td>72 cm</td></tr></tbody></table>",
+   "custom.swatches": "Musta|#1B1B1D;Kahvi|#6F4E37;Beige|#D9C7AE;Kameli|#B98B5E;Tummansininen|#1F2A44;Harmaa|#8C8F93",
+   "global.title_tag": "Nida-abaya kiinteällä hijabilla, 6 väriä"
+  },
+  "images": [
+   {
+    "position": 1,
+    "src": "",
+    "local": "images/abaya-hooded-nida/01.jpg",
+    "alt": "Nida-abaya kiinteällä hijabilla",
+    "width": 800,
+    "height": 804
+   }
+  ],
+  "variants": [
+   {
+    "id": "4200000006001",
+    "title": "Musta / 140 cm",
+    "sku": "ALS-LR499-BLACK-SIZE1",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 7,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 560,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "140 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000006002",
+    "title": "Musta / 148 cm",
+    "sku": "ALS-LR499-BLACK-SIZE2",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 7,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 560,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000006003",
+    "title": "Kahvi / 140 cm",
+    "sku": "ALS-LR499-COFFEE-SIZE1",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 6,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 560,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Kahvi",
+     "Pituus": "140 cm"
+    },
+    "colour_hex": "#6F4E37"
+   },
+   {
+    "id": "4200000006004",
+    "title": "Kahvi / 148 cm",
+    "sku": "ALS-LR499-COFFEE-SIZE2",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 6,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 560,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Kahvi",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#6F4E37"
+   },
+   {
+    "id": "4200000006005",
+    "title": "Beige / 140 cm",
+    "sku": "ALS-LR499-BEIGE-SIZE1",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 5,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 560,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Beige",
+     "Pituus": "140 cm"
+    },
+    "colour_hex": "#D9C7AE"
+   },
+   {
+    "id": "4200000006006",
+    "title": "Beige / 148 cm",
+    "sku": "ALS-LR499-BEIGE-SIZE2",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 5,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 560,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Beige",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#D9C7AE"
+   },
+   {
+    "id": "4200000006007",
+    "title": "Kameli / 140 cm",
+    "sku": "ALS-LR499-KHAKI-SIZE1",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 4,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 560,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Kameli",
+     "Pituus": "140 cm"
+    },
+    "colour_hex": "#B98B5E"
+   },
+   {
+    "id": "4200000006008",
+    "title": "Kameli / 148 cm",
+    "sku": "ALS-LR499-KHAKI-SIZE2",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 4,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 560,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Kameli",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#B98B5E"
+   },
+   {
+    "id": "4200000006009",
+    "title": "Tummansininen / 140 cm",
+    "sku": "ALS-LR499-NAVY-SIZE1",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 4,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 560,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tummansininen",
+     "Pituus": "140 cm"
+    },
+    "colour_hex": "#1F2A44"
+   },
+   {
+    "id": "4200000006010",
+    "title": "Tummansininen / 148 cm",
+    "sku": "ALS-LR499-NAVY-SIZE2",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 4,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 560,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tummansininen",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#1F2A44"
+   },
+   {
+    "id": "4200000006011",
+    "title": "Harmaa / 140 cm",
+    "sku": "ALS-LR499-GRAY-SIZE1",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 3,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 560,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Harmaa",
+     "Pituus": "140 cm"
+    },
+    "colour_hex": "#8C8F93"
+   },
+   {
+    "id": "4200000006012",
+    "title": "Harmaa / 148 cm",
+    "sku": "ALS-LR499-GRAY-SIZE2",
+    "price": "59.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 3,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 560,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Harmaa",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#8C8F93"
+   }
+  ]
+ },
+ {
+  "id": "9200000000007",
+  "handle": "abaya-wrinkle-polyester",
+  "title": "Avoin abaya rypytetystä polyesteristä",
+  "status": "active",
+  "vendor": "Kylpymaailma",
+  "product_type": "Abaya",
+  "category": "Apparel & Accessories > Clothing",
+  "tags": [
+   "Abaya",
+   "Musta",
+   "Kahvi",
+   "Kameli",
+   "Tumma kahvi",
+   "Tummansininen",
+   "Vaaleanharmaa"
+  ],
+  "description_html": "<p>Avoin abaya rypytetystä polyesteristä: kankaaseen kudottu rypytys peittää taitokset ja rypyt, ja abaya pysyy kevyenä. Hyvä valinta matkalle ja pitkiin päiviin. Avoimen etuosan ansiosta se on helppo yhdistää omiin vaatteisiin. Neljä pituutta ja kuusi väriä.</p><ul><li>Rypytetty polyesteri, ei rypisty käytössä</li><li>Avoin etuosa</li><li>Pituudet 138, 143, 148 ja 153 cm (M–2XL)</li><li>Paino noin 530 g</li></ul>",
+  "seo_title": "Avoin abaya rypytetystä polyesteristä, 6 väriä",
+  "seo_description": "Avoin abaya rypytetystä polyesteristä: kankaaseen kudottu rypytys peittää taitokset ja rypyt, ja abaya pysyy kevyenä. Hyvä valinta matkalle ja pitkiin päiviin. Avoimen etuosan ansiosta se on helppo yhdistää omiin vaatteisiin. Neljä pituutta ja kuusi väriä.",
+  "url": "/products/abaya-wrinkle-polyester",
+  "template_suffix": null,
+  "created_at": "2026-11-12T12:00:00Z",
+  "updated_at": "2026-11-12T12:00:00Z",
+  "published_at": "2026-11-12T12:00:00Z",
+  "total_inventory": 33,
+  "options": [
+   {
+    "name": "Väri",
+    "values": [
+     "Musta",
+     "Kahvi",
+     "Kameli",
+     "Tumma kahvi",
+     "Tummansininen",
+     "Vaaleanharmaa"
+    ]
+   },
+   {
+    "name": "Pituus",
+    "values": [
+     "138 cm",
+     "143 cm",
+     "148 cm",
+     "153 cm"
+    ]
+   }
+  ],
+  "collections": [
+   "abayat",
+   "ramadan"
+  ],
+  "release_date": null,
+  "metafields": {
+   "custom.material": "Rypytetty polyesteri",
+   "custom.care": "Pesu 30 °C, kuivaus ripustettuna",
+   "custom.origin": "Valmistettu Kiinassa",
+   "custom.size_guide": "<table class=\"km-sizes\"><thead><tr><th scope=\"col\">Koko</th><th scope=\"col\">Rinnanympärys</th><th scope=\"col\">Vyötärö</th><th scope=\"col\">Pituus</th><th scope=\"col\">Hiha</th><th scope=\"col\">Olkapäät</th><th scope=\"col\">Sopii pituudelle</th></tr></thead><tbody><tr><th scope=\"row\">138 cm</th><td>105 cm</td><td>99 cm</td><td>138 cm</td><td>57 cm</td><td>41,5 cm</td><td>158–163 cm</td></tr><tr><th scope=\"row\">143 cm</th><td>110 cm</td><td>104 cm</td><td>143 cm</td><td>58 cm</td><td>43 cm</td><td>164–169 cm</td></tr><tr><th scope=\"row\">148 cm</th><td>115 cm</td><td>109 cm</td><td>148 cm</td><td>59 cm</td><td>44,5 cm</td><td>170–175 cm</td></tr><tr><th scope=\"row\">153 cm</th><td>120 cm</td><td>114 cm</td><td>153 cm</td><td>60 cm</td><td>46 cm</td><td>176 cm tai pidempi</td></tr></tbody></table>",
+   "custom.swatches": "Musta|#1B1B1D;Kahvi|#6F4E37;Kameli|#B98B5E;Tumma kahvi|#3F2B22;Tummansininen|#1F2A44;Vaaleanharmaa|#C9CBCD",
+   "global.title_tag": "Avoin abaya rypytetystä polyesteristä, 6 väriä"
+  },
+  "images": [
+   {
+    "position": 1,
+    "src": "",
+    "local": "images/abaya-wrinkle-polyester/01.jpg",
+    "alt": "Avoin abaya rypytetystä polyesteristä",
+    "width": 800,
+    "height": 1200
+   }
+  ],
+  "variants": [
+   {
+    "id": "4200000007001",
+    "title": "Musta / 138 cm",
+    "sku": "ALS-LR593-BLACK-M",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000007002",
+    "title": "Musta / 143 cm",
+    "sku": "ALS-LR593-BLACK-L",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 2,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000007003",
+    "title": "Musta / 148 cm",
+    "sku": "ALS-LR593-BLACK-XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 2,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000007004",
+    "title": "Musta / 153 cm",
+    "sku": "ALS-LR593-BLACK-2XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 2,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000007005",
+    "title": "Kahvi / 138 cm",
+    "sku": "ALS-LR593-COFFEE-M",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Kahvi",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#6F4E37"
+   },
+   {
+    "id": "4200000007006",
+    "title": "Kahvi / 143 cm",
+    "sku": "ALS-LR593-COFFEE-L",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 2,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Kahvi",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#6F4E37"
+   },
+   {
+    "id": "4200000007007",
+    "title": "Kahvi / 148 cm",
+    "sku": "ALS-LR593-COFFEE-XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 2,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Kahvi",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#6F4E37"
+   },
+   {
+    "id": "4200000007008",
+    "title": "Kahvi / 153 cm",
+    "sku": "ALS-LR593-COFFEE-2XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 2,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Kahvi",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#6F4E37"
+   },
+   {
+    "id": "4200000007009",
+    "title": "Kameli / 138 cm",
+    "sku": "ALS-LR593-KHAKI-M",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Kameli",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#B98B5E"
+   },
+   {
+    "id": "4200000007010",
+    "title": "Kameli / 143 cm",
+    "sku": "ALS-LR593-KHAKI-L",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 2,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Kameli",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#B98B5E"
+   },
+   {
+    "id": "4200000007011",
+    "title": "Kameli / 148 cm",
+    "sku": "ALS-LR593-KHAKI-XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 2,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Kameli",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#B98B5E"
+   },
+   {
+    "id": "4200000007012",
+    "title": "Kameli / 153 cm",
+    "sku": "ALS-LR593-KHAKI-2XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 2,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Kameli",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#B98B5E"
+   },
+   {
+    "id": "4200000007013",
+    "title": "Tumma kahvi / 138 cm",
+    "sku": "ALS-LR593-DKCOFFEE-M",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tumma kahvi",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#3F2B22"
+   },
+   {
+    "id": "4200000007014",
+    "title": "Tumma kahvi / 143 cm",
+    "sku": "ALS-LR593-DKCOFFEE-L",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tumma kahvi",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#3F2B22"
+   },
+   {
+    "id": "4200000007015",
+    "title": "Tumma kahvi / 148 cm",
+    "sku": "ALS-LR593-DKCOFFEE-XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tumma kahvi",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#3F2B22"
+   },
+   {
+    "id": "4200000007016",
+    "title": "Tumma kahvi / 153 cm",
+    "sku": "ALS-LR593-DKCOFFEE-2XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tumma kahvi",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#3F2B22"
+   },
+   {
+    "id": "4200000007017",
+    "title": "Tummansininen / 138 cm",
+    "sku": "ALS-LR593-NAVY-M",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tummansininen",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#1F2A44"
+   },
+   {
+    "id": "4200000007018",
+    "title": "Tummansininen / 143 cm",
+    "sku": "ALS-LR593-NAVY-L",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tummansininen",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#1F2A44"
+   },
+   {
+    "id": "4200000007019",
+    "title": "Tummansininen / 148 cm",
+    "sku": "ALS-LR593-NAVY-XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tummansininen",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#1F2A44"
+   },
+   {
+    "id": "4200000007020",
+    "title": "Tummansininen / 153 cm",
+    "sku": "ALS-LR593-NAVY-2XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Tummansininen",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#1F2A44"
+   },
+   {
+    "id": "4200000007021",
+    "title": "Vaaleanharmaa / 138 cm",
+    "sku": "ALS-LR593-LTGRAY-M",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Vaaleanharmaa",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#C9CBCD"
+   },
+   {
+    "id": "4200000007022",
+    "title": "Vaaleanharmaa / 143 cm",
+    "sku": "ALS-LR593-LTGRAY-L",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Vaaleanharmaa",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#C9CBCD"
+   },
+   {
+    "id": "4200000007023",
+    "title": "Vaaleanharmaa / 148 cm",
+    "sku": "ALS-LR593-LTGRAY-XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Vaaleanharmaa",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#C9CBCD"
+   },
+   {
+    "id": "4200000007024",
+    "title": "Vaaleanharmaa / 153 cm",
+    "sku": "ALS-LR593-LTGRAY-2XL",
+    "price": "49.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 530,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Vaaleanharmaa",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#C9CBCD"
+   }
+  ]
+ },
+ {
+  "id": "9200000000008",
+  "handle": "abaya-nida",
+  "title": "Avoin nida-abaya",
+  "status": "active",
+  "vendor": "Kylpymaailma",
+  "product_type": "Abaya",
+  "category": "Apparel & Accessories > Clothing",
+  "tags": [
+   "Abaya",
+   "Musta",
+   "Ruskea",
+   "Beige",
+   "Harmaa"
+  ],
+  "description_html": "<p>Avoin abaya nidasta, mattapintaisesta krepistä, joka laskeutuu painavasti ja säilyttää suoran, selkeän linjan. Ajaton malli arkeen ja juhlaan. Etuosa on avoin, joten abaya puetaan oman asun päälle. Neljä pituutta ja neljä väriä.</p><ul><li>Nida (mattapintainen kreppi)</li><li>Avoin etuosa</li><li>Pituudet 138, 143, 148 ja 153 cm (M–2XL)</li><li>Paino noin 500 g</li></ul>",
+  "seo_title": "Avoin nida-abaya, pituudet 138–153 cm",
+  "seo_description": "Avoin abaya nidasta, mattapintaisesta krepistä, joka laskeutuu painavasti ja säilyttää suoran, selkeän linjan. Ajaton malli arkeen ja juhlaan. Etuosa on avoin, joten abaya puetaan oman asun päälle. Neljä pituutta ja neljä väriä.",
+  "url": "/products/abaya-nida",
+  "template_suffix": null,
+  "created_at": "2026-11-12T12:00:00Z",
+  "updated_at": "2026-11-12T12:00:00Z",
+  "published_at": "2026-11-12T12:00:00Z",
+  "total_inventory": 22,
+  "options": [
+   {
+    "name": "Väri",
+    "values": [
+     "Musta",
+     "Ruskea",
+     "Beige",
+     "Harmaa"
+    ]
+   },
+   {
+    "name": "Pituus",
+    "values": [
+     "138 cm",
+     "143 cm",
+     "148 cm",
+     "153 cm"
+    ]
+   }
+  ],
+  "collections": [
+   "abayat",
+   "ramadan"
+  ],
+  "release_date": null,
+  "metafields": {
+   "custom.material": "Nida",
+   "custom.care": "Pesu 30 °C, kuivaus ripustettuna",
+   "custom.origin": "Valmistettu Kiinassa",
+   "custom.size_guide": "<table class=\"km-sizes\"><thead><tr><th scope=\"col\">Koko</th><th scope=\"col\">Rinnanympärys</th><th scope=\"col\">Pituus</th><th scope=\"col\">Hiha</th><th scope=\"col\">Sopii pituudelle</th></tr></thead><tbody><tr><th scope=\"row\">138 cm</th><td>107 cm</td><td>138 cm</td><td>62 cm</td><td>158–163 cm</td></tr><tr><th scope=\"row\">143 cm</th><td>112 cm</td><td>143 cm</td><td>62 cm</td><td>164–169 cm</td></tr><tr><th scope=\"row\">148 cm</th><td>117 cm</td><td>148 cm</td><td>62 cm</td><td>170–175 cm</td></tr><tr><th scope=\"row\">153 cm</th><td>122 cm</td><td>153 cm</td><td>62 cm</td><td>176 cm tai pidempi</td></tr></tbody></table>",
+   "custom.swatches": "Musta|#1B1B1D;Ruskea|#6B4A3A;Beige|#D9C7AE;Harmaa|#8C8F93",
+   "global.title_tag": "Avoin nida-abaya, pituudet 138–153 cm"
+  },
+  "images": [
+   {
+    "position": 1,
+    "src": "",
+    "local": "images/abaya-nida/01.jpg",
+    "alt": "Avoin nida-abaya",
+    "width": 800,
+    "height": 1177
+   }
+  ],
+  "variants": [
+   {
+    "id": "4200000008001",
+    "title": "Musta / 138 cm",
+    "sku": "ALS-SLT8883-BLACK-M",
+    "price": "54.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 500,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000008002",
+    "title": "Musta / 143 cm",
+    "sku": "ALS-SLT8883-BLACK-L",
+    "price": "54.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 2,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 500,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000008003",
+    "title": "Musta / 148 cm",
+    "sku": "ALS-SLT8883-BLACK-XL",
+    "price": "54.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 2,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 500,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000008004",
+    "title": "Musta / 153 cm",
+    "sku": "ALS-SLT8883-BLACK-2XL",
+    "price": "54.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 500,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Musta",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#1B1B1D"
+   },
+   {
+    "id": "4200000008005",
+    "title": "Ruskea / 138 cm",
+    "sku": "ALS-SLT8883-BROWN-M",
+    "price": "54.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 500,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Ruskea",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#6B4A3A"
+   },
+   {
+    "id": "4200000008006",
+    "title": "Ruskea / 143 cm",
+    "sku": "ALS-SLT8883-BROWN-L",
+    "price": "54.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 2,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 500,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Ruskea",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#6B4A3A"
+   },
+   {
+    "id": "4200000008007",
+    "title": "Ruskea / 148 cm",
+    "sku": "ALS-SLT8883-BROWN-XL",
+    "price": "54.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 2,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 500,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Ruskea",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#6B4A3A"
+   },
+   {
+    "id": "4200000008008",
+    "title": "Ruskea / 153 cm",
+    "sku": "ALS-SLT8883-BROWN-2XL",
+    "price": "54.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 500,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Ruskea",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#6B4A3A"
+   },
+   {
+    "id": "4200000008009",
+    "title": "Beige / 138 cm",
+    "sku": "ALS-SLT8883-BEIGE-M",
+    "price": "54.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 500,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Beige",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#D9C7AE"
+   },
+   {
+    "id": "4200000008010",
+    "title": "Beige / 143 cm",
+    "sku": "ALS-SLT8883-BEIGE-L",
+    "price": "54.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 2,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 500,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Beige",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#D9C7AE"
+   },
+   {
+    "id": "4200000008011",
+    "title": "Beige / 148 cm",
+    "sku": "ALS-SLT8883-BEIGE-XL",
+    "price": "54.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 2,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 500,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Beige",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#D9C7AE"
+   },
+   {
+    "id": "4200000008012",
+    "title": "Beige / 153 cm",
+    "sku": "ALS-SLT8883-BEIGE-2XL",
+    "price": "54.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 500,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Beige",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#D9C7AE"
+   },
+   {
+    "id": "4200000008013",
+    "title": "Harmaa / 138 cm",
+    "sku": "ALS-SLT8883-GRAY-M",
+    "price": "54.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 500,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Harmaa",
+     "Pituus": "138 cm"
+    },
+    "colour_hex": "#8C8F93"
+   },
+   {
+    "id": "4200000008014",
+    "title": "Harmaa / 143 cm",
+    "sku": "ALS-SLT8883-GRAY-L",
+    "price": "54.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 500,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Harmaa",
+     "Pituus": "143 cm"
+    },
+    "colour_hex": "#8C8F93"
+   },
+   {
+    "id": "4200000008015",
+    "title": "Harmaa / 148 cm",
+    "sku": "ALS-SLT8883-GRAY-XL",
+    "price": "54.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 500,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Harmaa",
+     "Pituus": "148 cm"
+    },
+    "colour_hex": "#8C8F93"
+   },
+   {
+    "id": "4200000008016",
+    "title": "Harmaa / 153 cm",
+    "sku": "ALS-SLT8883-GRAY-2XL",
+    "price": "54.95",
+    "compare_at_price": null,
+    "taxable": true,
+    "inventory_quantity": 1,
+    "inventory_tracked": true,
+    "inventory_policy": "DENY",
+    "requires_shipping": true,
+    "weight": 500,
+    "weight_unit": "GRAMS",
+    "options": {
+     "Väri": "Harmaa",
+     "Pituus": "153 cm"
+    },
+    "colour_hex": "#8C8F93"
+   }
+  ]
+ }
+]

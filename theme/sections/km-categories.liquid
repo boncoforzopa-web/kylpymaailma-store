@@ -1,0 +1,33 @@
+<section class="tw-section km-cats">
+  <div class="tw-wrap">
+    {%- if section.settings.heading != blank -%}<h2 class="tw-h2 km-cats__title">{{ section.settings.heading }}</h2>{%- endif -%}
+    <ul class="km-cats__grid" role="list">
+      {%- for block in section.blocks -%}
+        {%- assign c = block.settings.collection -%}
+        {%- if c == blank or c.all_products_count == 0 -%}{%- continue -%}{%- endif -%}
+        {%- assign pimg = block.settings.product.featured_image -%}
+        {%- unless pimg -%}{%- for p in c.products -%}{%- if p.featured_image -%}{%- assign pimg = p.featured_image -%}{%- break -%}{%- endif -%}{%- endfor -%}{%- endunless -%}
+        <li>
+          <a href="{{ c.url }}" class="km-cat">
+            <span class="km-cat__media">{%- if pimg -%}{{ pimg | image_url: width: 640 | image_tag: loading: 'lazy', widths: '320, 480, 640', sizes: '(min-width: 990px) 24vw, 46vw', alt: '' }}{%- endif -%}</span>
+            <span class="km-cat__name">{{ c.title }}</span>
+            <span class="km-cat__n">{{ c.all_products_count }} {% if c.all_products_count == 1 %}tuote{% else %}tuotetta{% endif %}</span>
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Categories",
+  "settings": [ { "type": "text", "id": "heading", "label": "Heading", "default": "Kategoriat" } ],
+  "blocks": [
+    { "type": "tile", "name": "Category", "settings": [
+      { "type": "collection", "id": "collection", "label": "Collection" },
+      { "type": "product", "id": "product", "label": "Photo from product (optional)" }
+    ] }
+  ]
+}
+{% endschema %}

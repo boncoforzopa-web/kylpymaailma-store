@@ -1,0 +1,21 @@
+<dialog class="tw-drawer tw-drawer--top" id="tw-search-overlay" aria-label="Haku">
+  <div class="tw-drawer__panel">
+    <div class="tw-drawer__head">
+      <p class="tw-drawer__title">Haku</p>
+      <button type="button" class="tw-iconbtn" data-close aria-label="Sulje haku">{% render 'tw-icon', name: 'close', size: 22 %}</button>
+    </div>
+    <div class="tw-drawer__body">
+      <form action="{{ routes.search_url }}" method="get" role="search" class="tw-search tw-search--lg" data-predictive>
+        <label for="tw-search-mobile" class="visually-hidden">Haku</label>
+        <span class="tw-search__icon">{% render 'tw-icon', name: 'search', size: 20 %}</span>
+        <input id="tw-search-mobile" type="search" name="q" placeholder="Hae tuotetta, esim. abaya" autocomplete="off" role="combobox" aria-autocomplete="list" aria-controls="tw-predictive-mobile" aria-expanded="false">
+        <input type="hidden" name="options[prefix]" value="last">
+        <input type="hidden" name="type" value="product">
+        <div class="tw-predictive tw-predictive--static" id="tw-predictive-mobile" data-predictive-results role="listbox" hidden></div>
+      </form>
+      <div class="tw-chips" style="margin-top: 1.25rem">
+        {%- for c in collections -%}<a class="tw-setchip" href="{{ c.url }}">{{ c.title }}</a>{%- endfor -%}
+      </div>
+    </div>
+  </div>
+</dialog>

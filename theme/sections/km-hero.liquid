@@ -1,0 +1,44 @@
+{%- assign p1 = section.settings.product_1 -%}
+{%- assign p2 = section.settings.product_2 -%}
+<section class="km-hero">
+  <div class="tw-wrap km-hero__inner">
+    <div class="km-hero__copy">
+      <h1 class="km-hero__title">{{ section.settings.heading }}</h1>
+      <p class="km-hero__sub">{{ section.settings.subheading }}</p>
+      <div class="km-hero__ctas">
+        <a href="{{ section.settings.cta1_link }}" class="tw-btn tw-btn--gold tw-btn--lg">{{ section.settings.cta1_label }}</a>
+        {%- if section.settings.cta2_label != blank -%}<a href="{{ section.settings.cta2_link }}" class="km-textlink">{{ section.settings.cta2_label }}</a>{%- endif -%}
+      </div>
+    </div>
+    <div class="km-hero__media">
+      {%- if p1 and p1.featured_image -%}
+        <a href="{{ p1.url }}" class="km-hero__img km-hero__img--a">
+          {{ p1.featured_image | image_url: width: 800 | image_tag: loading: 'eager', fetchpriority: 'high', widths: '480, 640, 800', sizes: '(min-width: 990px) 34vw, 62vw', alt: p1.title }}
+          <span class="km-hero__cap">{{ p1.title }} · {{ p1.price | money_without_currency | strip | append: ' €' }}</span>
+        </a>
+      {%- endif -%}
+      {%- if p2 and p2.featured_image -%}
+        <a href="{{ p2.url }}" class="km-hero__img km-hero__img--b">
+          {{ p2.featured_image | image_url: width: 640 | image_tag: loading: 'eager', widths: '320, 480, 640', sizes: '(min-width: 990px) 20vw, 36vw', alt: p2.title }}
+          <span class="km-hero__cap">{{ p2.title }} · {{ p2.price | money_without_currency | strip | append: ' €' }}</span>
+        </a>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Hero",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Peittävää ja kevyttä, omaan pituuteen." },
+    { "type": "textarea", "id": "subheading", "label": "Text" },
+    { "type": "text", "id": "cta1_label", "label": "Button", "default": "Katso valikoima" },
+    { "type": "url", "id": "cta1_link", "label": "Button link", "default": "/collections/all" },
+    { "type": "text", "id": "cta2_label", "label": "Second link" },
+    { "type": "url", "id": "cta2_link", "label": "Second link URL" },
+    { "type": "product", "id": "product_1", "label": "Large photo: product" },
+    { "type": "product", "id": "product_2", "label": "Small photo: product" }
+  ]
+}
+{% endschema %}

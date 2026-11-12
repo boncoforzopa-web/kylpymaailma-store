@@ -1,0 +1,47 @@
+<section class="tw-section tw-contact">
+  <div class="tw-wrap tw-contact__layout">
+    <div>
+      <h1 class="tw-h1">{{ section.settings.heading }}</h1>
+      <p class="tw-muted">{{ section.settings.text }}</p>
+      <ul class="tw-contact__info" role="list">
+        {%- if settings.contact_email != blank -%}<li>{% render 'tw-icon', name: 'mail', size: 20 %}<div><p class="tw-small tw-muted">Sähköposti</p><a href="mailto:{{ settings.contact_email }}">{{ settings.contact_email }}</a></div></li>{%- endif -%}
+        {%- if settings.contact_phone != blank -%}<li>{% render 'tw-icon', name: 'clock', size: 20 %}<div><p class="tw-small tw-muted">Puhelin</p><a href="tel:{{ settings.contact_phone | remove: ' ' }}">{{ settings.contact_phone }}</a></div></li>{%- endif -%}
+        <li>{% render 'tw-icon', name: 'box', size: 20 %}<div><p class="tw-small tw-muted">Tilauksen tila</p><a href="{{ paths.orderStatus }}">Tilauksen seuranta</a></div></li>
+      </ul>
+      {%- if page.content != blank -%}<div class="tw-rte">{{ page.content }}</div>{%- endif -%}
+    </div>
+    <div class="tw-contact__card">
+      {%- form 'contact', id: 'tw-contact-form' -%}
+        {%- if form.posted_successfully? -%}
+          <p class="tw-success" role="status">{% render 'tw-icon', name: 'check', size: 18 %} Kiitos! Viestisi on vastaanotettu. Vastaamme mahdollisimman pian.</p>
+        {%- endif -%}
+        {%- if form.errors -%}<div class="tw-error" role="alert">Tarkista sähköpostiosoite ja viesti.</div>{%- endif -%}
+        <div class="tw-field-row">
+          <div class="tw-field"><label for="ContactName">Nimi</label><input id="ContactName" type="text" name="contact[name]" autocomplete="name" value="{{ form.name }}"></div>
+          <div class="tw-field"><label for="ContactEmail">Sähköposti *</label><input id="ContactEmail" type="email" name="contact[email]" autocomplete="email" required value="{{ form.email }}"></div>
+        </div>
+        <div class="tw-field"><label for="ContactOrder">Tilausnumero (valinnainen)</label><input id="ContactOrder" type="text" name="contact[Tilausnumero]" placeholder="#1001"></div>
+        <div class="tw-field">
+          <label for="ContactTopic">Aihe</label>
+          <select id="ContactTopic" name="contact[Aihe]">
+            <option>Kysymys tuotteesta</option><option>Koko ja pituus</option><option>Toimitus</option><option>Peruutus tai palautus</option><option>Muu asia</option>
+          </select>
+        </div>
+        <div class="tw-field"><label for="ContactBody">Viesti *</label><textarea id="ContactBody" name="contact[body]" rows="6" required>{{ form.body }}</textarea></div>
+        <div class="km-hp" aria-hidden="true"><label>Jätä tyhjäksi <input type="text" name="contact[website]" tabindex="-1" autocomplete="off"></label></div>
+        <p class="tw-small tw-muted">Käytämme tietojasi vain yhteydenottosi käsittelyyn.{% if settings.privacy_page != blank %} Lue lisää <a href="{{ settings.privacy_page.url }}">tietosuojaselosteesta</a>.{% endif %}</p>
+        <button type="submit" class="tw-btn tw-btn--gold tw-btn--lg tw-btn--block">Lähetä viesti</button>
+      {%- endform -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Contact",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Ota yhteyttä" },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Kysy tuotteista, koosta tai tilauksestasi. Vastaamme sähköpostitse." }
+  ]
+}
+{% endschema %}

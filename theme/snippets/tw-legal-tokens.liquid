@@ -1,0 +1,63 @@
+{%- comment -%}
+  Fills the [[TOKENS]] in the legal pages (data/pages.json) from the company details in
+  theme/config/settings_data.json. Anything not filled in yet is shown as a highlighted note.
+{%- endcomment -%}
+{%- liquid
+  assign m1 = '<mark class="tw-missing">[Tieto puuttuu: '
+  assign m2 = ']</mark>'
+
+  if settings.legal_name != blank
+    assign v_firma = settings.legal_name | escape
+  else
+    assign v_firma = m1 | append: 'yrityksen nimi' | append: m2
+  endif
+  if settings.business_address != blank
+    assign v_adresse = settings.business_address | escape | newline_to_br
+  else
+    assign v_adresse = m1 | append: 'osoite' | append: m2
+  endif
+  if settings.contact_email != blank
+    assign v_email = '<a href="mailto:' | append: settings.contact_email | append: '">' | append: settings.contact_email | append: '</a>'
+  else
+    assign v_email = m1 | append: 'sähköposti' | append: m2
+  endif
+  if settings.returns_address != blank
+    assign v_ruecksende = settings.returns_address | escape | newline_to_br
+  else
+    assign v_ruecksende = v_adresse
+  endif
+  if settings.vat_number != blank
+    assign v_ytunnus = settings.vat_number | escape
+  else
+    assign v_ytunnus = m1 | append: 'Y-tunnus' | append: m2
+  endif
+  assign v_tel_line = ''
+  if settings.contact_phone != blank
+    assign v_tel_line = 'Puhelin: ' | append: settings.contact_phone | escape
+  endif
+  assign v_vertreter = ''
+  if settings.legal_representative != blank
+    assign v_vertreter = '<p>Yhteyshenkilö: ' | append: settings.legal_representative | escape | append: '</p>'
+  endif
+  assign v_reg_line = ''
+  if settings.register_info != blank
+    assign v_reg_line = '<p>' | append: settings.register_info | escape | append: '</p>'
+  endif
+  assign v_frist = settings.return_window | default: '14 päivää'
+
+  assign out = content
+  assign out = out | replace: '[[FIRMA]]', v_firma
+  assign out = out | replace: '[[VERTRETER]]', v_vertreter
+  assign out = out | replace: '[[ADRESSE]]', v_adresse
+  assign out = out | replace: '[[EMAIL]]', v_email
+  assign out = out | replace: '[[RUECKSENDEADRESSE]]', v_ruecksende
+  assign out = out | replace: '[[TELEFON_LINE]]', v_tel_line
+  assign out = out | replace: '[[YTUNNUS]]', v_ytunnus
+  assign out = out | replace: '[[REGISTER_BLOCK]]', v_reg_line
+  assign out = out | replace: '[[FRIST]]', v_frist
+  assign out = out | replace: '[[SHOP]]', settings.brand_name
+  assign out = out | replace: '[[DOMAIN]]', shop.domain
+  assign out = out | replace: '[[ALV]]', vat_label
+  assign out = out | replace: '[[TOIMITUSAIKA]]', settings.delivery_time
+  echo out
+-%}

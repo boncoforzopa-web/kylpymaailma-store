@@ -1,0 +1,37 @@
+{
+ "hijabit": [
+  "hijab-premium-jersey"
+ ],
+ "khimarit": [
+  "khimar-one-layer",
+  "khimar-two-layer"
+ ],
+ "abayat": [
+  "open-abaya-linen",
+  "abaya-hooded-nida",
+  "abaya-wrinkle-polyester",
+  "abaya-nida"
+ ],
+ "mekot": [
+  "closed-dress-linen"
+ ],
+ "ramadan": [
+  "khimar-one-layer",
+  "open-abaya-linen",
+  "khimar-two-layer",
+  "closed-dress-linen",
+  "abaya-hooded-nida",
+  "abaya-wrinkle-polyester",
+  "abaya-nida"
+ ],
+ "all": [
+  "hijab-premium-jersey",
+  "khimar-one-layer",
+  "open-abaya-linen",
+  "khimar-two-layer",
+  "closed-dress-linen",
+  "abaya-hooded-nida",
+  "abaya-wrinkle-polyester",
+  "abaya-nida"
+ ]
+}

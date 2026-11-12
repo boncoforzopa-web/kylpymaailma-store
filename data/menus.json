@@ -1,0 +1,162 @@
+[
+ {
+  "id": "gid://shopify/Menu/9500000000001",
+  "handle": "paavalikko",
+  "title": "Päävalikko",
+  "items": [
+   {
+    "title": "Hijabit",
+    "url": "/collections/hijabit",
+    "type": "COLLECTION",
+    "items": []
+   },
+   {
+    "title": "Khimarit",
+    "url": "/collections/khimarit",
+    "type": "COLLECTION",
+    "items": []
+   },
+   {
+    "title": "Abayat",
+    "url": "/collections/abayat",
+    "type": "COLLECTION",
+    "items": []
+   },
+   {
+    "title": "Mekot",
+    "url": "/collections/mekot",
+    "type": "COLLECTION",
+    "items": []
+   },
+   {
+    "title": "Ramadan",
+    "url": "/collections/ramadan",
+    "type": "COLLECTION",
+    "items": []
+   },
+   {
+    "title": "Kaikki tuotteet",
+    "url": "/collections/all",
+    "type": "CATALOG",
+    "items": []
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Menu/9500000000002",
+  "handle": "footer-kauppa",
+  "title": "Kauppa",
+  "items": [
+   {
+    "title": "Kaikki tuotteet",
+    "url": "/collections/all",
+    "type": "HTTP",
+    "items": []
+   },
+   {
+    "title": "Hijabit",
+    "url": "/collections/hijabit",
+    "type": "HTTP",
+    "items": []
+   },
+   {
+    "title": "Khimarit",
+    "url": "/collections/khimarit",
+    "type": "HTTP",
+    "items": []
+   },
+   {
+    "title": "Abayat",
+    "url": "/collections/abayat",
+    "type": "HTTP",
+    "items": []
+   },
+   {
+    "title": "Mekot",
+    "url": "/collections/mekot",
+    "type": "HTTP",
+    "items": []
+   },
+   {
+    "title": "Ramadan-mallisto",
+    "url": "/collections/ramadan",
+    "type": "HTTP",
+    "items": []
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Menu/9500000000003",
+  "handle": "footer-apu",
+  "title": "Asiakaspalvelu",
+  "items": [
+   {
+    "title": "Usein kysyttyä",
+    "url": "/pages/ukk",
+    "type": "HTTP",
+    "items": []
+   },
+   {
+    "title": "Ota yhteyttä",
+    "url": "/pages/ota-yhteytta",
+    "type": "HTTP",
+    "items": []
+   },
+   {
+    "title": "Tilauksen seuranta",
+    "url": "/tilaus",
+    "type": "HTTP",
+    "items": []
+   },
+   {
+    "title": "Toimitus ja maksu",
+    "url": "/pages/toimitus-ja-maksu",
+    "type": "HTTP",
+    "items": []
+   },
+   {
+    "title": "Meistä",
+    "url": "/pages/meista",
+    "type": "HTTP",
+    "items": []
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Menu/9500000000004",
+  "handle": "footer-ehdot",
+  "title": "Ehdot",
+  "items": [
+   {
+    "title": "Tilaus- ja toimitusehdot",
+    "url": "/pages/toimitusehdot",
+    "type": "HTTP",
+    "items": []
+   },
+   {
+    "title": "Peruutus ja palautus",
+    "url": "/pages/peruutus-ja-palautus",
+    "type": "HTTP",
+    "items": []
+   },
+   {
+    "title": "Peruuttamislomake",
+    "url": "/pages/peruuttamislomake",
+    "type": "HTTP",
+    "items": []
+   },
+   {
+    "title": "Tietosuojaseloste",
+    "url": "/pages/tietosuoja",
+    "type": "HTTP",
+    "items": []
+   },
+   {
+    "title": "Yritystiedot",
+    "url": "/pages/yritystiedot",
+    "type": "HTTP",
+    "items": []
+   }
+  ]
+ }
+]

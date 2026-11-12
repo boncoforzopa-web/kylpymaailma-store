@@ -1,0 +1,9 @@
+<nav class="tw-pagination" aria-label="Sivut">
+  {%- if paginate.previous -%}<a href="{{ paginate.previous.url }}" class="tw-iconbtn tw-iconbtn--glass" aria-label="Edellinen sivu" data-filter-link>{% render 'tw-icon', name: 'arrow-left', size: 18 %}</a>{%- endif -%}
+  {%- for part in paginate.parts -%}
+    {%- if part.is_link -%}<a href="{{ part.url }}" data-filter-link>{{ part.title }}</a>
+    {%- elsif part.title == paginate.current_page -%}<span aria-current="page">{{ part.title }}</span>
+    {%- else -%}<span>{{ part.title }}</span>{%- endif -%}
+  {%- endfor -%}
+  {%- if paginate.next -%}<a href="{{ paginate.next.url }}" class="tw-iconbtn tw-iconbtn--glass" aria-label="Seuraava sivu" data-filter-link>{% render 'tw-icon', name: 'arrow-right', size: 18 %}</a>{%- endif -%}
+</nav>

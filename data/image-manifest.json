@@ -1,0 +1,97 @@
+{
+ "hijab-premium-jersey/01.jpg": {
+  "width": 612,
+  "height": 614,
+  "widths": [
+   160,
+   320,
+   480,
+   612
+  ],
+  "base": "hijab-premium-jersey/01"
+ },
+ "khimar-one-layer/01.jpg": {
+  "width": 800,
+  "height": 1200,
+  "widths": [
+   160,
+   320,
+   480,
+   640,
+   800
+  ],
+  "base": "khimar-one-layer/01"
+ },
+ "open-abaya-linen/01.jpg": {
+  "width": 650,
+  "height": 613,
+  "widths": [
+   160,
+   320,
+   480,
+   640,
+   650
+  ],
+  "base": "open-abaya-linen/01"
+ },
+ "khimar-two-layer/01.jpg": {
+  "width": 753,
+  "height": 729,
+  "widths": [
+   160,
+   320,
+   480,
+   640,
+   753
+  ],
+  "base": "khimar-two-layer/01"
+ },
+ "closed-dress-linen/01.jpg": {
+  "width": 662,
+  "height": 631,
+  "widths": [
+   160,
+   320,
+   480,
+   640,
+   662
+  ],
+  "base": "closed-dress-linen/01"
+ },
+ "abaya-hooded-nida/01.jpg": {
+  "width": 800,
+  "height": 804,
+  "widths": [
+   160,
+   320,
+   480,
+   640,
+   800
+  ],
+  "base": "abaya-hooded-nida/01"
+ },
+ "abaya-wrinkle-polyester/01.jpg": {
+  "width": 800,
+  "height": 1200,
+  "widths": [
+   160,
+   320,
+   480,
+   640,
+   800
+  ],
+  "base": "abaya-wrinkle-polyester/01"
+ },
+ "abaya-nida/01.jpg": {
+  "width": 800,
+  "height": 1177,
+  "widths": [
+   160,
+   320,
+   480,
+   640,
+   800
+  ],
+  "base": "abaya-nida/01"
+ }
+}

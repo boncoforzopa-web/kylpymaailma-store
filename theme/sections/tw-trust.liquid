@@ -1,0 +1,28 @@
+<section class="tw-section tw-section--tight km-trust">
+  <div class="tw-wrap">
+    <ul class="km-trust__row" role="list">
+      {%- for block in section.blocks -%}
+        <li class="km-trust__item">
+          <span class="km-trust__icon">{% render 'tw-icon', name: block.settings.icon, size: 22 %}</span>
+          <div>
+            <p class="km-trust__title">{{ block.settings.title }}</p>
+            {%- if block.settings.text != blank -%}<p class="km-trust__text tw-muted">{{ block.settings.text }}</p>{%- endif -%}
+          </div>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Trust row",
+  "blocks": [
+    { "type": "item", "name": "Item", "settings": [
+      { "type": "text", "id": "icon", "label": "Icon (truck, return, lock, shield, box, mail)", "default": "truck" },
+      { "type": "text", "id": "title", "label": "Title", "default": "Ilmainen toimitus" },
+      { "type": "text", "id": "text", "label": "Text" }
+    ] }
+  ]
+}
+{% endschema %}

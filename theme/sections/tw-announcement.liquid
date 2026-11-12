@@ -1,0 +1,15 @@
+{%- assign items = section.settings.text | split: '|' -%}
+<div class="km-announce" role="region" aria-label="Tiedotteet">
+  <ul class="tw-wrap km-announce__list" role="list">
+    {%- for item in items -%}<li>{{ item | strip }}</li>{%- endfor -%}
+  </ul>
+</div>
+
+{% schema %}
+{
+  "name": "Announcement bar",
+  "settings": [
+    { "type": "text", "id": "text", "label": "Text (separate items with |)", "default": "Ilmainen toimitus Suomeen | 14 päivän peruuttamisoikeus" }
+  ]
+}
+{% endschema %}

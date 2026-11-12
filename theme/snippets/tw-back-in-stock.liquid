@@ -1,0 +1,11 @@
+{%- comment -%} Sold out: the customer leaves an e-mail and gets one message once stock is back (admin sets stock > 0). {%- endcomment -%}
+<form class="tw-bis" data-back-in-stock novalidate>
+  <p class="tw-bis__text"><b>Ilmoita, kun tuotetta on taas.</b> Lähetämme yhden viestin, kun ”{{ product.title }}” ({{ variant.title }}) on taas varastossa.</p>
+  <input type="hidden" name="variant_id" value="{{ variant.id }}">
+  <div class="tw-bis__row">
+    <input type="email" name="email" required autocomplete="email" inputmode="email" placeholder="nimi@esimerkki.fi" aria-label="Sähköpostiosoite">
+    <button type="submit" class="tw-btn tw-btn--gold"><span>Tilaa ilmoitus</span></button>
+  </div>
+  <p class="tw-small tw-muted">Ei uutiskirjettä, vain tämä yksi viesti.</p>
+  <p class="tw-bis__msg" role="status" aria-live="polite" hidden></p>
+</form>

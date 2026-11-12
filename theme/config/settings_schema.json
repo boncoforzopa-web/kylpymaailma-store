@@ -1,0 +1,40 @@
+[
+  { "name": "theme_info", "theme_name": "Kylpymaailma", "theme_version": "1.0.0", "theme_author": "Kylpymaailma" },
+  { "name": "Brand", "settings": [
+    { "type": "text", "id": "brand_name", "label": "Brand name", "default": "Kylpymaailma" },
+    { "type": "text", "id": "wordmark", "label": "Wordmark", "default": "Kylpymaailma" },
+    { "type": "text", "id": "tagline", "label": "Tagline", "default": "" },
+    { "type": "image_picker", "id": "favicon", "label": "Favicon" }
+  ] },
+  { "name": "Shop behaviour", "settings": [
+    { "type": "range", "id": "low_stock_threshold", "label": "Low stock from", "min": 1, "max": 10, "step": 1, "default": 3 },
+    { "type": "text", "id": "delivery_time", "label": "Delivery time", "default": "3–7 arkipäivää" },
+    { "type": "text", "id": "tax_note", "label": "Tax note", "default": "sis. alv 25,5 %, ilmainen toimitus" },
+    { "type": "page", "id": "shipping_page", "label": "Shipping page" },
+    { "type": "page", "id": "withdrawal_page", "label": "Withdrawal page" },
+    { "type": "page", "id": "privacy_page", "label": "Privacy page" },
+    { "type": "page", "id": "imprint_page", "label": "Company details page" },
+    { "type": "range", "id": "free_shipping_threshold", "label": "Free shipping from (EUR, 0 = always)", "min": 0, "max": 300, "step": 5, "default": 0 },
+    { "type": "checkbox", "id": "enable_quick_add", "label": "Quick add", "default": true },
+    { "type": "checkbox", "id": "enable_bottom_nav", "label": "Mobile bottom navigation", "default": true },
+    { "type": "checkbox", "id": "cookie_banner", "label": "Cookie banner", "default": true },
+    { "type": "text", "id": "cookie_title", "label": "Cookie title", "default": "Evästeet" },
+    { "type": "textarea", "id": "cookie_text", "label": "Cookie text", "default": "Käytämme välttämättömiä evästeitä, jotta kauppa toimii. Tilastointi- ja markkinointievästeitä käytämme vain suostumuksellasi." }
+  ] },
+  { "name": "Company details", "settings": [
+    { "type": "text", "id": "legal_name", "label": "Company name" },
+    { "type": "text", "id": "legal_representative", "label": "Representative" },
+    { "type": "textarea", "id": "business_address", "label": "Address" },
+    { "type": "text", "id": "contact_email", "label": "E-mail" },
+    { "type": "text", "id": "contact_phone", "label": "Phone" },
+    { "type": "text", "id": "vat_number", "label": "Business ID (Y-tunnus)" },
+    { "type": "text", "id": "register_info", "label": "VAT number / register" },
+    { "type": "textarea", "id": "returns_address", "label": "Returns address" },
+    { "type": "text", "id": "return_window", "label": "Withdrawal period", "default": "14 päivää" },
+    { "type": "textarea", "id": "shipping_estimate", "label": "Shipping note", "default": "Toimitus on ilmainen kaikkiin tilauksiin Suomessa." }
+  ] },
+  { "name": "Social", "settings": [
+    { "type": "text", "id": "social_instagram", "label": "Instagram URL" },
+    { "type": "text", "id": "social_tiktok", "label": "TikTok URL" }
+  ] }
+]

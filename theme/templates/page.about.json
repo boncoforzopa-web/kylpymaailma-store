@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "story": {
+      "type": "km-story",
+      "settings": {
+        "heading": "Peittävää pukeutumista, joka istuu",
+        "text": "<p>Kylpymaailma on verkkokauppa, josta löydät hijabit, khimarit, abayat ja pitkät mekot. Valikoima on pieni ja harkittu: perusmallit, jotka toimivat arjessa, rukouksessa ja juhlassa.</p><p>Tiedämme, että valmisvaatteen pituus on harvoin juuri oikea. Siksi abayoita ja mekkoja on useassa pituudessa, joka valitaan senttimetreinä oman pituuden mukaan, ja jokaisella tuotteella on oma kokotaulukkonsa.</p><p>Kankaat on valittu käyttöä varten: pellava hengittää, nida laskeutuu kauniisti ja rypytettyä polyesteriä ei tarvitse silittää.</p>",
+        "button_label": "Katso valikoima",
+        "button_link": "/collections/all",
+        "product": "open-abaya-linen"
+      }
+    },
+    "trust": {
+      "type": "tw-trust",
+      "blocks": {
+        "t1": { "type": "item", "settings": { "icon": "truck", "title": "Ilmainen toimitus", "text": "Kaikkiin tilauksiin Suomessa" } },
+        "t2": { "type": "item", "settings": { "icon": "return", "title": "14 päivän peruuttamisoikeus", "text": "Tuotteen vastaanottamisesta" } },
+        "t3": { "type": "item", "settings": { "icon": "lock", "title": "Turvallinen maksu", "text": "Kortti, Apple Pay ja Google Pay" } }
+      },
+      "block_order": ["t1", "t2", "t3"]
+    }
+  },
+  "order": ["story", "trust"]
+}

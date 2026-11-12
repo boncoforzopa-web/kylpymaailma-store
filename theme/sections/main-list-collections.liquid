@@ -1,0 +1,20 @@
+<section class="tw-section km-cats">
+  <div class="tw-wrap">
+    <h1 class="tw-h1 km-cats__title">Kategoriat</h1>
+    <ul class="km-cats__grid" role="list">
+      {%- for collection in collections -%}
+        {%- unless collection.products_count == 0 -%}
+        {%- assign pimg = false -%}
+        {%- for p in collection.products -%}{%- if p.featured_image -%}{%- assign pimg = p.featured_image -%}{%- break -%}{%- endif -%}{%- endfor -%}
+        <li>
+          <a href="{{ collection.url }}" class="km-cat">
+            <span class="km-cat__media">{%- if pimg -%}{{ pimg | image_url: width: 640 | image_tag: loading: 'lazy', widths: '320, 480, 640', sizes: '(min-width: 990px) 24vw, 46vw', alt: '' }}{%- endif -%}</span>
+            <span class="km-cat__name">{{ collection.title }}</span>
+            <span class="km-cat__n">{{ collection.products_count }} {% if collection.products_count == 1 %}tuote{% else %}tuotetta{% endif %}</span>
+          </a>
+        </li>
+        {%- endunless -%}
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>

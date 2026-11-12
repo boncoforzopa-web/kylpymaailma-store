@@ -1,0 +1,9 @@
+{
+ "name": "Kylpymaailma",
+ "currencyCode": "EUR",
+ "url": "https://kylpymaailma.com",
+ "primaryDomain": {
+  "url": "https://kylpymaailma.com",
+  "host": "kylpymaailma.com"
+ }
+}

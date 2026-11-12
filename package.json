@@ -1,0 +1,20 @@
+{
+  "name": "kylpymaailma-store",
+  "version": "1.0.0",
+  "description": "Kylpymaailma storefront (kylpymaailma.com)",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "node scripts/dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "liquidjs": "^10.30.1",
+    "stripe": "^17.7.0"
+  },
+  "private": true,
+  "engines": {
+    "node": "22.x"
+  }
+}

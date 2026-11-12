@@ -1,0 +1,35 @@
+<section class="tw-section km-fit" id="pituus">
+  <div class="tw-wrap km-fit__inner">
+    <div class="km-fit__copy">
+      <h2 class="tw-h2">{{ section.settings.heading }}</h2>
+      <p class="tw-muted">{{ section.settings.text }}</p>
+      {%- if section.settings.link_label != blank -%}<a class="km-textlink" href="{{ section.settings.link }}">{{ section.settings.link_label }}</a>{%- endif -%}
+    </div>
+    <table class="km-fit__table">
+      <thead><tr><th scope="col">Oma pituutesi</th><th scope="col">Valitse pituus</th></tr></thead>
+      <tbody>
+        {%- for block in section.blocks -%}
+          <tr><td>{{ block.settings.height }}</td><td><b>{{ block.settings.length }}</b></td></tr>
+        {%- endfor -%}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Length guide",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Pituus valitaan senttimetreinä" },
+    { "type": "textarea", "id": "text", "label": "Text" },
+    { "type": "text", "id": "link_label", "label": "Link label" },
+    { "type": "url", "id": "link", "label": "Link" }
+  ],
+  "blocks": [
+    { "type": "row", "name": "Row", "settings": [
+      { "type": "text", "id": "height", "label": "Body height" },
+      { "type": "text", "id": "length", "label": "Garment length" }
+    ] }
+  ]
+}
+{% endschema %}

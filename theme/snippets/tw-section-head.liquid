@@ -1,0 +1,11 @@
+{%- if heading != blank -%}
+<div class="tw-head{% if center %} tw-head--center{% endif %}">
+  <div>
+    {%- if as_h1 -%}<h1 class="tw-h2">{{ heading }}</h1>{%- else -%}<h2 class="tw-h2">{{ heading }}</h2>{%- endif -%}
+    {%- if text != blank -%}<p class="tw-head__text tw-muted">{{ text }}</p>{%- endif -%}
+  </div>
+  {%- if link != blank and link_label != blank -%}
+    <a href="{{ link }}" class="km-textlink">{{ link_label }}</a>
+  {%- endif -%}
+</div>
+{%- endif -%}

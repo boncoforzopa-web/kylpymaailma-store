@@ -1,0 +1,20 @@
+<section class="tw-section tw-page{% if section.settings.legal_tokens %} tw-page--legal{% endif %}">
+  <div class="tw-wrap tw-page__wrap">
+    <nav class="tw-crumbs" aria-label="Murupolku"><a href="{{ routes.root_url }}">Etusivu</a><span aria-hidden="true">/</span><span aria-current="page">{{ page.title }}</span></nav>
+    <h1 class="tw-h1">{{ page.title }}</h1>
+    <div class="tw-rte tw-page__body">
+      {%- if section.settings.legal_tokens -%}
+        {% render 'tw-legal-tokens', content: page.content %}
+      {%- else -%}
+        {{ page.content }}
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Page",
+  "settings": [ { "type": "checkbox", "id": "legal_tokens", "label": "Fill company details ([[TOKENS]])", "default": false } ]
+}
+{% endschema %}

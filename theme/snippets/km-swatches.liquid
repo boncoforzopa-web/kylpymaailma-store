@@ -1,0 +1,15 @@
+{%- comment -%} Colour dots for a product. Params: product, limit (default 7). Data: metafield custom.swatches = "Name|#hex;Name|#hex" {%- endcomment -%}
+{%- liquid
+  assign rows = product.metafields.custom.swatches.value | split: ';'
+  assign max = limit | default: 7
+  assign rest = rows.size | minus: max
+-%}
+{%- if rows.size > 1 -%}
+  <ul class="km-dots" role="list" aria-label="{{ rows.size }} väriä">
+    {%- for row in rows limit: max -%}
+      {%- assign part = row | split: '|' -%}
+      <li class="km-dot" style="--c: {{ part[1] }}" title="{{ part[0] | escape }}"><span class="visually-hidden">{{ part[0] }}</span></li>
+    {%- endfor -%}
+    {%- if rest > 0 -%}<li class="km-dots__more" aria-hidden="true">+{{ rest }}</li>{%- endif -%}
+  </ul>
+{%- endif -%}

@@ -1,0 +1,8 @@
+{
+  "sections": {
+    "main": { "type": "main-product", "settings": {} },
+    "recos": { "type": "tw-recommendations", "settings": {} },
+    "recent": { "type": "tw-recently-viewed", "settings": {} }
+  },
+  "order": ["main", "recos", "recent"]
+}
